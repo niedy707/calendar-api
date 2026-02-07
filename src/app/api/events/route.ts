@@ -9,97 +9,158 @@ import path from 'path';
 export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
+    const DATA_FILE = path.join(process.cwd(), 'src', 'data', 'events.json');
+    const ARCHIVE_FILE = path.join(process.cwd(), 'src', 'data', 'archived_events.json');
+
     try {
         const { searchParams } = new URL(request.url);
-        // Optional: Support timeMin/timeMax query params
-        const timeMin = searchParams.get('timeMin') || '2025-01-01T00:00:00Z';
+        // Determine "Today" for cutoff
+        // We use system time, but formatted to YYYY-MM-DD to avoid timezone hell if possible, 
+        // or just use ISO string comparison. 
+        // Google uses ISO. Let's use start of today in UTC or safe generic.
+        const now = new Date();
+        const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate()).toISOString(); // Local start of day as ISO
 
-        // 1. Load archived events (Jan 2025 - Nov 2025)
-        let archivedEvents: any[] = [];
-        try {
-            const archivePath = path.join(process.cwd(), 'src', 'data', 'archived_events.json');
-            if (fs.existsSync(archivePath)) {
-                const fileContent = fs.readFileSync(archivePath, 'utf-8');
-                archivedEvents = JSON.parse(fileContent);
+        // 1. Load Local Data (Cache/History)
+        let localEvents: any[] = [];
+        if (fs.existsSync(DATA_FILE)) {
+            try {
+                localEvents = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
+            } catch (e) {
+                console.error('Failed to read events.json', e);
             }
-        } catch (err) {
-            console.error('Failed to load archived events:', err);
         }
 
-        // 2. Auth with Google
-        const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
-        // Handle key formatting
-        const privateKey = CALENDAR_CONFIG.key.replace(/\\n/g, '\n');
+        // 2. Identify History (Frozen) vs Future (to be refreshed)
+        // If local file exists, we keep everything BEFORE today.
+        // If local file DOES NOT exist, we assume we need to fetch from scratch (Dec 1, 2025).
 
-        const auth = new google.auth.GoogleAuth({
-            credentials: {
-                client_email: CALENDAR_CONFIG.email,
-                private_key: privateKey,
-            },
-            scopes: SCOPES,
-        });
+        let historyEvents = [];
+        let timeMinForFetch = '2025-12-01T00:00:00Z'; // Default start for "Live" era
 
-        const calendar = google.calendar({ version: 'v3', auth });
+        if (localEvents.length > 0) {
+            historyEvents = localEvents.filter((e: any) => e.end < startOfToday);
+            timeMinForFetch = startOfToday;
+        } else {
+            // No local cache? Load the static archive (Jan-Nov 2025) as initial history
+            if (fs.existsSync(ARCHIVE_FILE)) {
+                try {
+                    const rawArchive = JSON.parse(fs.readFileSync(ARCHIVE_FILE, 'utf-8'));
+                    // We assume archived_events.json are RAW Google events. 
+                    // We need to process them if we are saving PROCESSED data.
+                    // Wait, the previous code treated them as raw.
+                    // To keep it simple: We will process everything at the end.
+                    // BUT, if we save PROCESSED data to events.json, we can't mix Raw and Processed in logic easily.
+                    // DECISION: events.json will store PROCESSED (Classified) events.
+                    // So if we load ARCHIVE (Raw), we must process it once.
 
-        // 3. Fetch Live Events
-        const response = await calendar.events.list({
-            calendarId: CALENDAR_CONFIG.calendarId,
-            timeMin: '2025-12-01T00:00:00Z', // Live data starts from Dec 2025
-            maxResults: 2500,
-            singleEvents: true,
-            orderBy: 'startTime',
-        });
+                    // Let's defer archive loading to the "Fetch from Google" block to treat it as a source.
+                } catch (e) {
+                    console.error('Failed to read archive', e);
+                }
+            }
+        }
 
-        // 4. Process Events
-        const colorMap: Record<string, string> = {
-            '1': '#a4bdfc', '2': '#46a67a', '3': '#dbadff', '4': '#ff887c',
-            '5': '#fbd75b', '6': '#ffb878', '7': '#46d6db', '8': '#e1e1e1',
-            '9': '#5484ed', '10': '#3d8b3d', '11': '#dc2127',
-        };
+        // 3. Authenticate & Fetch
+        try {
+            const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
+            const privateKey = CALENDAR_CONFIG.key.replace(/\\n/g, '\n');
+            const auth = new google.auth.GoogleAuth({
+                credentials: {
+                    client_email: CALENDAR_CONFIG.email,
+                    private_key: privateKey,
+                },
+                scopes: SCOPES,
+            });
+            const calendar = google.calendar({ version: 'v3', auth });
 
-        const liveEventsRaw = response.data.items || [];
+            // Fetch Live Data
+            const response = await calendar.events.list({
+                calendarId: CALENDAR_CONFIG.calendarId,
+                timeMin: timeMinForFetch,
+                maxResults: 2500,
+                singleEvents: true,
+                orderBy: 'startTime',
+            });
 
-        // Combine all raw events
-        // Note: Archived events structure might differ slightly, but assuming they are Google Event objects
-        const allRawEvents = [...archivedEvents, ...liveEventsRaw];
+            const liveEventsRaw = response.data.items || [];
 
-        // Unique by ID
-        const uniqueEventsMap = new Map();
-        allRawEvents.forEach(e => uniqueEventsMap.set(e.id, e));
-        const uniqueRawEvents = Array.from(uniqueEventsMap.values());
+            // Process Live Events
+            const liveProcessed = processEvents(liveEventsRaw);
 
-        // Transform and Classify
-        const processedEvents = uniqueRawEvents.map((event: any) => {
-            const title = event.summary || 'Müsait Değil';
-            const start = event.start?.dateTime || event.start?.date;
-            const end = event.end?.dateTime || event.end?.date;
-            const colorId = event.colorId;
-            const color = colorId ? colorMap[colorId] : undefined;
+            // If we are initializing (no local file), we also need to process the Archive and include it in History
+            if (localEvents.length === 0 && fs.existsSync(ARCHIVE_FILE)) {
+                const rawArchive = JSON.parse(fs.readFileSync(ARCHIVE_FILE, 'utf-8'));
+                const archiveProcessed = processEvents(rawArchive);
+                historyEvents = [...archiveProcessed];
+            }
 
-            if (!start || !end) return null;
+            // MERGE: History (Frozen) + Live (Fresh)
+            // Use a Map to deduplicate by ID, preferring Live if overlap (though cutoff should prevent most)
+            const mergedMap = new Map();
 
-            // CLASSIFY
-            const category = categorizeEvent(title, color, start, end);
+            // 1. Add History
+            historyEvents.forEach((e: any) => mergedMap.set(e.id, e));
 
-            // FILTER IGNORED
-            if (category === 'ignore') return null;
+            // 2. Add/Overwrite with Live
+            liveProcessed.forEach((e: any) => mergedMap.set(e.id, e));
 
-            return {
-                id: event.id,
-                title: title,
-                start: start,
-                end: end,
-                category: category, // 'surgery' | 'checkup' | 'appointment' | 'blocked'
-                color: color,
-                location: event.location,
-                description: event.description,
-            };
-        }).filter(Boolean); // Remove nulls
+            const finalEvents = Array.from(mergedMap.values());
 
-        return NextResponse.json(processedEvents);
+            // Sort by start date
+            finalEvents.sort((a: any, b: any) => new Date(a.start).getTime() - new Date(b.start).getTime());
+
+            // 4. Save to Cache
+            fs.writeFileSync(DATA_FILE, JSON.stringify(finalEvents, null, 2));
+
+            return NextResponse.json(finalEvents);
+
+        } catch (googleError: any) {
+            console.error('Google API Error (Offline Mode?):', googleError.message);
+
+            // FALLBACK: Return whatever we have in local cache
+            if (localEvents.length > 0) {
+                return NextResponse.json(localEvents);
+            }
+
+            throw googleError; // No cache, no internet -> Die
+        }
 
     } catch (error: any) {
-        console.error('Calendar API Error:', error);
+        console.error('Calendar Service Error:', error);
         return NextResponse.json({ error: 'Failed to fetch events', details: error.message }, { status: 500 });
     }
+}
+
+// Helper to classify/process raw events
+function processEvents(rawEvents: any[]) {
+    const colorMap: Record<string, string> = {
+        '1': '#a4bdfc', '2': '#46a67a', '3': '#dbadff', '4': '#ff887c',
+        '5': '#fbd75b', '6': '#ffb878', '7': '#46d6db', '8': '#e1e1e1',
+        '9': '#5484ed', '10': '#3d8b3d', '11': '#dc2127',
+    };
+
+    return rawEvents.map((event: any) => {
+        const title = event.summary || 'Müsait Değil';
+        const start = event.start?.dateTime || event.start?.date;
+        const end = event.end?.dateTime || event.end?.date;
+        const colorId = event.colorId;
+        const color = colorId ? colorMap[colorId] : undefined;
+
+        if (!start || !end) return null;
+
+        const category = categorizeEvent(title, color, start, end);
+        if (category === 'ignore') return null;
+
+        return {
+            id: event.id,
+            title: title,
+            start: start,
+            end: end,
+            category: category,
+            color: color,
+            location: event.location,
+            description: event.description,
+        };
+    }).filter(Boolean);
 }
