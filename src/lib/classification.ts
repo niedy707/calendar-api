@@ -15,8 +15,18 @@ export function categorizeEvent(
     const lowerTitle = title.toLowerCase();
     const turkishLowerTitle = title.toLocaleLowerCase('tr-TR');
 
+    // BLOCKED: Occupies the calendar but is not a patient event (Busy)
+    // Priority 1: Check blocked keywords regardless of color
+    // Criteria: starts with xxx, izin, kongre, toplantı, off, yokum, cumartesi, pazar
+    const blockedKeywords = ['xxx', 'izin', 'kongre', 'toplantı', 'off', 'yokum', 'cumartesi', 'pazar'];
+
+    if (blockedKeywords.some(keyword => turkishLowerTitle.includes(keyword))) {
+        return 'blocked';
+    }
+
     // IGNORE: Red events, or explicit ignore keywords
-    // Criteria: red color, or starts with: ipt, ert, bilgi, ℹ️, ℹ
+    // Priority 2: Check Ignore criteria
+    // Criteria: red color, or starts with prefixes, OR contains specific ignored phrases
     if (color === '#dc2127' || color === '#DC2127' || color === '11') {
         return 'ignore';
     }
@@ -26,13 +36,10 @@ export function categorizeEvent(
         return 'ignore';
     }
 
-    // BLOCKED: Occupies the calendar but is not a patient event (Busy)
-    // Criteria: starts with xxx, izin, kongre, toplantı, off, yokum, cumartesi, pazar, yok, gitmem
-    const blockedKeywords = ['xxx', 'izin', 'kongre', 'toplantı', 'off', 'yokum', 'cumartesi', 'pazar', 'hasta görebiliriz', 'hasta görme', 'hasta görelim', 'çıkış', 'yok', 'gitmem', 'vizite'];
-
-    // Check if starts with blocked keywords (User said "starts with", but "contains" was used before.
-    if (blockedKeywords.some(keyword => turkishLowerTitle.includes(keyword))) {
-        return 'blocked';
+    // Moved from blocked to ignore list per user request
+    const ignoreKeywords = ['hasta görebiliriz', 'hasta görme', 'hasta görelim', 'çıkış', 'yok', 'gitmem', 'vizite'];
+    if (ignoreKeywords.some(keyword => turkishLowerTitle.includes(keyword))) {
+        return 'ignore';
     }
 
     // SURGERY: starts with 🔪 OR HH:MM/HH.MM time format
