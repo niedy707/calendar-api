@@ -42,30 +42,36 @@ export function categorizeEvent(
         return 'ignore';
     }
 
-    // SURGERY: starts with 🔪 OR HH:MM/HH.MM time format
-    // BUT exclude if it's a time-based appointment note (e.g., "07:15 muayene")
-    if (title.includes('🔪') || turkishLowerTitle.includes('ameliyat') || turkishLowerTitle.includes('surgery')) {
-        return 'surgery';
-    }
-
-    if (/^\d{1,2}[:.]\d{2}/.test(title)) {
-        // If starts with time but contains "muayene", it's an appointment note, not surgery
-        if (turkishLowerTitle.includes('muayene')) {
-            return 'appointment'; // Treated as appointment/exam
-        }
-        return 'surgery';
-    }
-
-    // SURGERY: Duration-based check - if event is 60+ minutes, it's likely a surgery
+    // Calculate duration in minutes if start/end exist
+    let durationMinutes = 0;
     if (start && end) {
         const startDate = typeof start === 'string' ? new Date(start) : start;
         const endDate = typeof end === 'string' ? new Date(end) : end;
-        const durationMinutes = (endDate.getTime() - startDate.getTime()) / (1000 * 60);
+        durationMinutes = (endDate.getTime() - startDate.getTime()) / (1000 * 60);
+    }
 
-        if (durationMinutes >= 60) {
-            if (!turkishLowerTitle.includes('kontrol') && !turkishLowerTitle.includes('muayene')) {
-                return 'surgery';
-            }
+    // SURGERY LOGIC
+    // Constraint: MUST be >= 45 minutes to be a surgery.
+    const isSurgeryCandidate =
+        title.includes('🔪') ||
+        turkishLowerTitle.includes('ameliyat') ||
+        turkishLowerTitle.includes('surgery') ||
+        (/^\d{1,2}[:.]\d{2}/.test(title) && !turkishLowerTitle.includes('muayene')); // Time pattern check
+
+    if (isSurgeryCandidate) {
+        if (durationMinutes >= 45) {
+            return 'surgery';
+        } else {
+            // Even if it says "Ameliyat", if it's 30 mins, treat as appointment per user rule
+            return 'appointment';
+        }
+    }
+
+    // Implicit Surgery by Duration (>= 60 mins)
+    // Only if it doesn't look like a control/exam
+    if (durationMinutes >= 60) {
+        if (!turkishLowerTitle.includes('kontrol') && !turkishLowerTitle.includes('muayene')) {
+            return 'surgery';
         }
     }
 
