@@ -1,0 +1,6154 @@
+[
+  {
+    "id": "s4602cp4ogdoena213g1lu5fos",
+    "title": "Anestezi saniye baykara",
+    "start": "2025-12-01T07:30:00+03:00",
+    "end": "2025-12-01T07:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "25kp00kqpcstv0rml318n4ped4",
+    "title": "08.00🔪 rev Elif Durmaz iy KOSTALI",
+    "start": "2025-12-01T08:30:00+03:00",
+    "end": "2025-12-01T11:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1316",
+    "description": "85k"
+  },
+  {
+    "id": "gdek8kj9cnv92cameoegi3pmuk",
+    "title": "K1 ışıl hamide Atakan",
+    "start": "2025-12-01T11:45:00+03:00",
+    "end": "2025-12-01T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "tj7v2v1r825sq0aoaso9ha6gho",
+    "title": "M iy İrem güzel",
+    "start": "2025-12-01T12:00:00+03:00",
+    "end": "2025-12-01T12:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "mhaedn3hbkk862p5ab3e2hskgo",
+    "title": "m (büşra) zelal bulut",
+    "start": "2025-12-01T12:15:00+03:00",
+    "end": "2025-12-01T12:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "im62db7mp9205h4c9daa891504",
+    "title": "12.00🔪saniye baykara iy KOSTA?",
+    "start": "2025-12-01T13:30:00+03:00",
+    "end": "2025-12-01T15:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1317",
+    "description": "75k"
+  },
+  {
+    "id": "k6n1tkumbe2k7s1vgppsrocc10",
+    "title": "anestezi ebru bozkuş",
+    "start": "2025-12-01T15:15:00+03:00",
+    "end": "2025-12-01T15:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0850apgjcr7db0d2lhvk8f9qao",
+    "title": "k1 Alicja Cichomska",
+    "start": "2025-12-01T15:30:00+03:00",
+    "end": "2025-12-01T15:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hu7ncn9v7lrsdeuu5na9i71t9o",
+    "title": "k1 Marta Malinowska",
+    "start": "2025-12-01T15:45:00+03:00",
+    "end": "2025-12-01T16:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "he36ov7160h0ocbi0ajq0l24sc",
+    "title": "3m songül tekin",
+    "start": "2025-12-01T16:00:00+03:00",
+    "end": "2025-12-01T16:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "u6uurl5ikerub9bq75ectbu9ks",
+    "title": "5m Bahar Akalan",
+    "start": "2025-12-01T16:30:00+03:00",
+    "end": "2025-12-01T16:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "c075grj3h15ice9c6r51mvv0ms",
+    "title": "M iy selman çürük",
+    "start": "2025-12-01T16:45:00+03:00",
+    "end": "2025-12-01T17:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "v4q589kkb44q9pqdtqns7tnnhs",
+    "title": "K1 sebastian covaci",
+    "start": "2025-12-01T17:00:00+03:00",
+    "end": "2025-12-01T17:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "tvaorsmngh6mbukndci8n68fas",
+    "title": "1m Ada sert",
+    "start": "2025-12-01T17:15:00+03:00",
+    "end": "2025-12-01T17:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "p6e21q36n9d93f4hm3kds99gsc",
+    "title": "online öznur bilgin",
+    "start": "2025-12-01T19:30:00+03:00",
+    "end": "2025-12-01T19:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3mv4vnqhdi1tguqkonctrtii90",
+    "title": "Online",
+    "start": "2025-12-01T21:00:00+03:00",
+    "end": "2025-12-01T21:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3rthf8gkit9gfi475t1s1mntbk",
+    "title": "06.00🔪ebru bozkuş iy yaş 23",
+    "start": "2025-12-02T06:45:00+03:00",
+    "end": "2025-12-02T09:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1315",
+    "description": "69k nakit ödeyecek"
+  },
+  {
+    "id": "ld8cg9vnbsag8snvqtslmbknsg",
+    "title": "m iy buse arat tel no 05397445063",
+    "start": "2025-12-02T08:30:00+03:00",
+    "end": "2025-12-02T08:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "dkqr45qes4b1a9i05f3mdu079k",
+    "title": "4m şirin arıtürk",
+    "start": "2025-12-02T08:45:00+03:00",
+    "end": "2025-12-02T09:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "sot14cc36li7deid0qaa60il7g",
+    "title": "4m nafiye türkoğlu",
+    "start": "2025-12-02T08:45:00+03:00",
+    "end": "2025-12-02T09:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ca9srekti9ipfmckre205ccahc",
+    "title": "Op rodriguez ovejero lucıa",
+    "start": "2025-12-02T09:00:00+03:00",
+    "end": "2025-12-02T09:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "nr78d03i1e9nhfcbc210f41va4",
+    "title": "Anestezi Reda Mengi",
+    "start": "2025-12-02T10:00:00+03:00",
+    "end": "2025-12-02T10:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "63mkf62mvhh79t7pna4o0khlc8",
+    "title": "Anestezi Songül doğan",
+    "start": "2025-12-02T10:15:00+03:00",
+    "end": "2025-12-02T10:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1onblqplbstoubnl8tnkveoci4",
+    "title": "09.00🔪selman çürük iy yaş 23",
+    "start": "2025-12-02T10:30:00+03:00",
+    "end": "2025-12-02T13:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1304"
+  },
+  {
+    "id": "pq71gie2jeib5lsgbcclh84c94",
+    "title": "K2 Hilal arslan",
+    "start": "2025-12-02T12:45:00+03:00",
+    "end": "2025-12-02T13:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6jr7gosjp0hl4l0qf9962cio9c",
+    "title": "K2 Elif Çetintaş",
+    "start": "2025-12-02T13:00:00+03:00",
+    "end": "2025-12-02T13:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rtdvpqbnkdmroqd1h7iuiqbfhk",
+    "title": "k efnan sinan şahin",
+    "start": "2025-12-02T13:00:00+03:00",
+    "end": "2025-12-02T13:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "45epk4rgubmabu7o87rp2jctsg",
+    "title": "K Ayşenur Şahin",
+    "start": "2025-12-02T13:15:00+03:00",
+    "end": "2025-12-02T13:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "d0qs56iacg6phi619bulh0agak",
+    "title": "M (aygül) nimet Hasçelik",
+    "start": "2025-12-02T13:30:00+03:00",
+    "end": "2025-12-02T13:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2e93dhvqg585hbf8h48dv35bko",
+    "title": "1m nehir Aliekberova",
+    "start": "2025-12-02T13:45:00+03:00",
+    "end": "2025-12-02T14:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ahucm2co6dmhd51pmh2e17rk98",
+    "title": "k2 esra özden",
+    "start": "2025-12-02T14:00:00+03:00",
+    "end": "2025-12-02T14:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "guh6720truqrsmgc7kpro9ogv4",
+    "title": "M (Büşra) cihan hatunana",
+    "start": "2025-12-02T14:15:00+03:00",
+    "end": "2025-12-02T14:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "dpujelkgaqckbds4o3vuo5nv5c",
+    "title": "M iy Halil İbrahim dağlarkıran",
+    "start": "2025-12-02T14:30:00+03:00",
+    "end": "2025-12-02T14:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "nuv9ofig8aua39973349lr4ads",
+    "title": "15.00🔪rodriguez ovejero lucıa (Medproper)",
+    "start": "2025-12-02T15:15:00+03:00",
+    "end": "2025-12-02T17:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1313",
+    "description": "7 aralık 08.30"
+  },
+  {
+    "id": "8ks7sntg1r2frpbt1sa5t9p33s",
+    "title": "online x4",
+    "start": "2025-12-02T20:00:00+03:00",
+    "end": "2025-12-02T20:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "7jjbchqa3coloqbibg2nje2hs8",
+    "title": "08.00🔪songül doğan iy yaş 22",
+    "start": "2025-12-03T08:30:00+03:00",
+    "end": "2025-12-03T10:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1314",
+    "description": "70k"
+  },
+  {
+    "id": "nu9b6jhs7m8de8l4jlv0qn6cjo",
+    "title": "K1 KOSTIANTYN VARFOLOMIEIEV",
+    "start": "2025-12-03T10:45:00+03:00",
+    "end": "2025-12-03T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "f3s6ugpd65ad78pclln58ta1us",
+    "title": "K Şevval kaya",
+    "start": "2025-12-03T11:00:00+03:00",
+    "end": "2025-12-03T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0uij7u79dag8js4ipntpfm49kg",
+    "title": "11.00🔪halil ibrahim dağlarkıran iy yaş 21",
+    "start": "2025-12-03T11:30:00+03:00",
+    "end": "2025-12-03T13:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1306",
+    "description": "70k\n13 Aralık uçuş yapacak 15.45"
+  },
+  {
+    "id": "7vifek8c8bsbuunkpotl21s3io",
+    "title": "Op brigitta csıbrak",
+    "start": "2025-12-03T13:15:00+03:00",
+    "end": "2025-12-03T13:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "dmv75jlcfpe8egd0tnk7jjv7jo",
+    "title": "k1 funda bayındır",
+    "start": "2025-12-03T13:45:00+03:00",
+    "end": "2025-12-03T14:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "p5j21cg5i4ma4u035p18ti5mlg",
+    "title": "8m Deniz Karakuş",
+    "start": "2025-12-03T14:00:00+03:00",
+    "end": "2025-12-03T14:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "cpt3u9s47aojt0bcvul032u45o",
+    "title": "m (büşra) ilayda nur abaramak",
+    "start": "2025-12-03T14:15:00+03:00",
+    "end": "2025-12-03T14:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rjo4qkbgvehtqihmoqcrdnpsh4",
+    "title": "k1 yağmur ipek",
+    "start": "2025-12-03T14:30:00+03:00",
+    "end": "2025-12-03T14:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "076oejettg1mq88qoan1n6q9vk",
+    "title": "Anestezi Rabia Savukduran",
+    "start": "2025-12-03T14:45:00+03:00",
+    "end": "2025-12-03T15:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "b5niqi4437ri2kfaqtip59kcc8",
+    "title": "3m Sude akgün",
+    "start": "2025-12-03T14:45:00+03:00",
+    "end": "2025-12-03T15:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "gm9u1ke22bje4ohfrbhgjoom70",
+    "title": "15.00🔪reda mengi iy yaş 21",
+    "start": "2025-12-03T15:30:00+03:00",
+    "end": "2025-12-03T18:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1319",
+    "description": "70k<br>--<br><p><b>Reda Mengi</b></p><p>546-150-3362</p><p>21</p><p>öğrenci: diş protez</p><p>hastalı ilaç yok.</p><p>burun op yok, dolgu yok.</p><p>nefes: sorun var.2 tarafta da var.</p><p>—</p><p>Burun uzun, kemerli</p><p>burun ucu büyük, cilt geniş kalın.</p><p>Burun ucu düşük</p><p>septum solda deviye, bil konk a hip var.</p><p>—</p><p>Burun ucu minik olmaz ama şekillendirilir.</p><p><br></p><p><br></p><p>yüze yakışan estetik doğal burun sitiyor.aşırılık istemiyor.</p><p>çok sivri çok kavisli burun istemiyor.</p>"
+  },
+  {
+    "id": "sjdftp71c5uat8p427h0nt4l20",
+    "title": "3m Betül tosun",
+    "start": "2025-12-03T18:00:00+03:00",
+    "end": "2025-12-03T18:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "e3intii79lb1emi8tro0iu01vk",
+    "title": "06.00🔪nazar polat iy yaş 22",
+    "start": "2025-12-04T06:30:00+03:00",
+    "end": "2025-12-04T09:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1217",
+    "description": "65k\n--\nNazar Polat\n533-485-8260\n22\nAcıbadem hemşire.\n—\ngeç op yok.\nhastalık ilaç yok. egzema mevsisel\n—\nnefes sorunu: yok.\n—\nSeptum orta hatta, kaudal septum iyi.\nCilt tipte biraz kalın çok değil.\nBelirgin hump var geniş ve burun ucu sorunları\nLC belirgin sorun yok.\nkosta gerekli değil.\n—\nRutin rino\nhemşire olduğu için indirim ile 65\n \nhasta yüze yakışan estetik hoş bir burun istiyor.\naşırı sivri ve aşırı kaydırak istemiyor.\nburun ucu sivri olmasın ama top gibi de durmasın."
+  },
+  {
+    "id": "padtk43bm58mg4q8lvcmt6m65g",
+    "title": "K2 Cansel Karagöz",
+    "start": "2025-12-04T09:30:00+03:00",
+    "end": "2025-12-04T09:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0g0kig4kcs3tc9nidig8uv704k",
+    "title": "K1 Neslişah Beyza Poşul",
+    "start": "2025-12-04T09:45:00+03:00",
+    "end": "2025-12-04T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2o77k2ibrcijtmt3dp3jllg3f4",
+    "title": "m (büşra) nurseda Şahin",
+    "start": "2025-12-04T10:00:00+03:00",
+    "end": "2025-12-04T10:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hl421gpi0f96oflefqjqv7hshc",
+    "title": "11.00🔪Rabia Savukduran iy REVİZYON yaş 28",
+    "start": "2025-12-04T10:15:00+03:00",
+    "end": "2025-12-04T13:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1302",
+    "description": "85k<br>--<br><p><b>Rabia Savukduran</b></p><p>537-623-6882</p><p>28</p><p>çalışmıyor.</p><p>—</p><p>Hastalık ilaç yok.</p><p>geç op: 2023.08 Sakarya EAH, ATS ya da rino olmuş.</p><p>Dr. taşkın tokat</p><p>-</p><p>nefes: sorun yok.</p><p>-</p><p>Kaudal septum biraz sağda.</p><p>Aks belirgin şekilde sağda.</p><p>Burun ucu desteği biraz zayıf.</p><p>base belirgin şekilde geniş.</p><p>—</p><p>kemik solda yartay sağda dikey. önceki op kemik müdahale yapılmamış.</p><p>—</p><p>Revizyon rino uygundur </p><p>KOSTA kesin gereklidir.</p><p>—</p><p>hasta daha kavisli ve kalkık istiyor düz istemiyor.</p><p>eğrilik gitsin istiyor.</p>"
+  },
+  {
+    "id": "2jmlngr6ja2q3rkt9af0lkhc2s",
+    "title": "Anestezi Yaren Yurtseven",
+    "start": "2025-12-04T11:00:00+03:00",
+    "end": "2025-12-04T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "apidv119m7q2ui5hlr19a0ojv4",
+    "title": "1m Nisanur dümen",
+    "start": "2025-12-04T14:15:00+03:00",
+    "end": "2025-12-04T14:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6jt7j84us0ajpukqqa8tgjtpgc",
+    "title": "15.00🔪brigitta csıbrak (medproper) REVİZYON+UPPER BLEF",
+    "start": "2025-12-04T14:30:00+03:00",
+    "end": "2025-12-04T18:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1313",
+    "description": "9 aralık 14.10"
+  },
+  {
+    "id": "o7br3qtdjf8ladle397ucjcpe8",
+    "title": "K Sümeyye Akşahin",
+    "start": "2025-12-04T14:30:00+03:00",
+    "end": "2025-12-04T14:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "p7jl9ao9dsa6ns32gac7nobdmo",
+    "title": "1,5m Elida kızıldağ",
+    "start": "2025-12-04T14:30:00+03:00",
+    "end": "2025-12-04T14:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "begtm96f00271qs2ke4hpqdfvk",
+    "title": "Online",
+    "start": "2025-12-04T19:30:00+03:00",
+    "end": "2025-12-04T19:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "n5s29c1mldu93spkhl0cnp84oc",
+    "title": "online",
+    "start": "2025-12-04T20:00:00+03:00",
+    "end": "2025-12-04T20:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1fk037qmr0mv6fvkfnnrvqbnj4",
+    "title": "K2 Damla çilingir",
+    "start": "2025-12-06T19:30:00+03:00",
+    "end": "2025-12-06T19:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ueejgaro083qt4li4d4goakn6s",
+    "title": "K2 Sibel Çetin",
+    "start": "2025-12-06T19:45:00+03:00",
+    "end": "2025-12-06T20:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "34rff0vg08nohp9jnh2uvdbsg4",
+    "title": "k1 rodriguez ovejero lucıa",
+    "start": "2025-12-06T20:45:00+03:00",
+    "end": "2025-12-06T21:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "tmrg21gg3vosao0jqp3iq9nedk",
+    "title": "K2 Seda Karakurt",
+    "start": "2025-12-06T21:00:00+03:00",
+    "end": "2025-12-06T21:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2jf2r2rrcgaq895cl1bd69uskd",
+    "title": "k2 yağmur ipek",
+    "start": "2025-12-06T21:15:00+03:00",
+    "end": "2025-12-06T21:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "13kljf5sr5vnvet3g7k6b8v8ts",
+    "title": "online",
+    "start": "2025-12-06T21:30:00+03:00",
+    "end": "2025-12-06T21:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "shlkr37s17jo5cjr2o6ururrvc",
+    "title": "op agata mosiriska",
+    "start": "2025-12-07T20:00:00+03:00",
+    "end": "2025-12-07T20:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "eoimlt14arlph7d6gmr5qaskbg",
+    "title": "05.00🔪Agata Mosińska (medproper) REVİZYON",
+    "start": "2025-12-08T05:00:00+03:00",
+    "end": "2025-12-08T08:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1013",
+    "description": "12 aralık 18.30"
+  },
+  {
+    "id": "5l499o7trlv5uedo00se5146t0",
+    "title": "1m yağmur İriş",
+    "start": "2025-12-08T08:45:00+03:00",
+    "end": "2025-12-08T09:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "spibkq45m8i07k9mbtje3uodrk",
+    "title": "Anestezi Buse arat",
+    "start": "2025-12-08T09:15:00+03:00",
+    "end": "2025-12-08T09:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5l7p8eej4icvofll3a3siaqm2g",
+    "title": "Op angelica capristo",
+    "start": "2025-12-08T09:30:00+03:00",
+    "end": "2025-12-08T10:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "37p3caco1ge9ftukg8bmqgjsvg",
+    "title": "op belgin düzgit",
+    "start": "2025-12-08T10:00:00+03:00",
+    "end": "2025-12-08T10:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "8uh4npo6dvebcd3ntqaamgrmac",
+    "title": "Anestezi Sema güner",
+    "start": "2025-12-08T10:15:00+03:00",
+    "end": "2025-12-08T10:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vrps3o2jmcbsu6ekptuun0fd54",
+    "title": "K1 Elif durmaz",
+    "start": "2025-12-08T10:30:00+03:00",
+    "end": "2025-12-08T10:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vmj4ohkest4jlebdkut7ll5i80",
+    "title": "K1 saniye baykara",
+    "start": "2025-12-08T10:45:00+03:00",
+    "end": "2025-12-08T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "u6tfcelrjafohukq4oela1c4co",
+    "title": "3m yasemin çetinkaya",
+    "start": "2025-12-08T11:00:00+03:00",
+    "end": "2025-12-08T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "osgq3s9evg21h3tf64tksoshtk",
+    "title": "K Saada hanım",
+    "start": "2025-12-08T11:15:00+03:00",
+    "end": "2025-12-08T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jg4o4hafoe2cgktd2972tp15cs",
+    "title": "op banfi szilard",
+    "start": "2025-12-08T11:30:00+03:00",
+    "end": "2025-12-08T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "aeits65efh9bviou6iec2sjl0s",
+    "title": "m (büşra) Nejla Alagöz",
+    "start": "2025-12-08T12:00:00+03:00",
+    "end": "2025-12-08T12:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "so4na58ckf4jv27i6o472veqm0",
+    "title": "M iy Mustafa altuntaş",
+    "start": "2025-12-08T13:30:00+03:00",
+    "end": "2025-12-08T13:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "odbcd5cc6cifh7o7jut1o11g6c",
+    "title": "M iy Ayşe Sümeyye kaya",
+    "start": "2025-12-08T13:45:00+03:00",
+    "end": "2025-12-08T14:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "sa2vo565c4f0k2sr10q6gvisps",
+    "title": "M iy Selin nur Yılmaz",
+    "start": "2025-12-08T14:00:00+03:00",
+    "end": "2025-12-08T14:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "e592ukfmfhoomkhi1nll945124",
+    "title": "m (mesut) zeynep bilgiç",
+    "start": "2025-12-08T14:15:00+03:00",
+    "end": "2025-12-08T14:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "30e86lqcqe0715uosdjlvir0r0",
+    "title": "15.00🔪angelica capristo (Medproper)",
+    "start": "2025-12-08T15:00:00+03:00",
+    "end": "2025-12-08T17:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1008",
+    "description": "12 aralık 11.55"
+  },
+  {
+    "id": "a7raonemjbqi3tu4hp1t4dnm2c",
+    "title": "3m Ekin Şimşek",
+    "start": "2025-12-08T17:30:00+03:00",
+    "end": "2025-12-08T17:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rpdcsmig9iu4l2mbueq37qd7s0",
+    "title": "K2 Elif Çetintaş",
+    "start": "2025-12-08T17:45:00+03:00",
+    "end": "2025-12-08T18:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3c7pbjuck3a3km922ia4dll7a4",
+    "title": "17.30🔪banfi szilard (Medproper) REVİZYON",
+    "start": "2025-12-08T18:00:00+03:00",
+    "end": "2025-12-08T21:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1023",
+    "description": "15 aralık 22.00"
+  },
+  {
+    "id": "oclkeolho7v78mn616j7oo3pbg",
+    "title": "K1 brigitta csıbrak",
+    "start": "2025-12-09T05:45:00+03:00",
+    "end": "2025-12-09T06:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ve5cc50im8c3hbu0fh0gec2v7g",
+    "title": "06.00🔪Buse arat iy yaş 21",
+    "start": "2025-12-09T06:45:00+03:00",
+    "end": "2025-12-09T09:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1309",
+    "description": "70k"
+  },
+  {
+    "id": "muk6ml0097cnugt69oevd0sffc",
+    "title": "K Esra Özden",
+    "start": "2025-12-09T09:00:00+03:00",
+    "end": "2025-12-09T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4sa5okuq76pr7t8hk7tqjd6v7k",
+    "title": "M iy onur kızılkurt",
+    "start": "2025-12-09T09:15:00+03:00",
+    "end": "2025-12-09T09:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "k4db83e218sqf25ovovdmrjg5g",
+    "title": "09.30🔪belgin düzgit (büşra) yaş 49",
+    "start": "2025-12-09T10:00:00+03:00",
+    "end": "2025-12-09T12:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1304",
+    "description": "+90 505 021 53 88"
+  },
+  {
+    "id": "2asi9mddi8sr9b0h876t4pfh34",
+    "title": "Anestezi Hülya köse",
+    "start": "2025-12-09T12:00:00+03:00",
+    "end": "2025-12-09T12:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "i9tluh2jjqjvhs5i4m1tup8b8s",
+    "title": "k1 ebru bozkuş",
+    "start": "2025-12-09T12:15:00+03:00",
+    "end": "2025-12-09T12:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5dqa5unr0i25bpoomglq2pueao",
+    "title": "k1 selman çürük",
+    "start": "2025-12-09T12:30:00+03:00",
+    "end": "2025-12-09T12:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9m8vh07dqddt8b8tbe09l7dupg",
+    "title": "K1 Rabia Savukduran",
+    "start": "2025-12-09T12:45:00+03:00",
+    "end": "2025-12-09T13:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ef52r2lq96cm0gl7vuvgrc3314",
+    "title": "op shefaa ulrika mamdouh mustafa",
+    "start": "2025-12-09T13:00:00+03:00",
+    "end": "2025-12-09T13:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ffau2l9oj8dapl6070ol2q7huc",
+    "title": "m online duygu hanım (muzaffer)",
+    "start": "2025-12-09T13:30:00+03:00",
+    "end": "2025-12-09T13:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2c4r2f2srpt1a3p5oijj9v2l6c",
+    "title": "Anestezi gül tuncil",
+    "start": "2025-12-09T13:45:00+03:00",
+    "end": "2025-12-09T14:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "bcdj5o8n7flh4n9g2m0eekmqeo",
+    "title": "m (büşra) eda akbuga",
+    "start": "2025-12-09T16:00:00+03:00",
+    "end": "2025-12-09T16:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4bf5orhlqbrnd97lq87fr2h6qg",
+    "title": "m iy sevda uluel",
+    "start": "2025-12-09T16:30:00+03:00",
+    "end": "2025-12-09T16:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "oehv4bccbns04o9t56hgak6ilc",
+    "title": "M iy Aysel ismayılzade \n05011590499 REVİZYON",
+    "start": "2025-12-09T17:00:00+03:00",
+    "end": "2025-12-09T17:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "mq7esdak4geccvkcbdjrooonbs",
+    "title": "K bahar Akalan",
+    "start": "2025-12-09T17:15:00+03:00",
+    "end": "2025-12-09T17:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "knhv540cl666j10hhsd77qoap4",
+    "title": "online",
+    "start": "2025-12-09T20:30:00+03:00",
+    "end": "2025-12-09T20:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hjugtqscniul8sbr83lo05fkak",
+    "title": "06.00🔪gül tuncil iy yaş 25",
+    "start": "2025-12-10T07:15:00+03:00",
+    "end": "2025-12-10T09:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1301",
+    "description": "70k"
+  },
+  {
+    "id": "3knhjmqh0pr9fnjukn1nuf9htk",
+    "title": "k1 halil ibrahim dağlarkıran",
+    "start": "2025-12-10T09:15:00+03:00",
+    "end": "2025-12-10T09:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "56ac4sicbsghkktf0309msdbt8",
+    "title": "09.30🔪yaren yurtseven iy yaş 25 /revizyon rino KOSTALI",
+    "start": "2025-12-10T10:00:00+03:00",
+    "end": "2025-12-10T13:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1318"
+  },
+  {
+    "id": "rnfhjmf7i0j9q0npbn2v5ts690",
+    "title": "K2 Elif durmaz",
+    "start": "2025-12-10T12:45:00+03:00",
+    "end": "2025-12-10T13:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5tukqu8tkuu7f9vqqak8j2p56s",
+    "title": "k1 songül doğan",
+    "start": "2025-12-10T13:00:00+03:00",
+    "end": "2025-12-10T13:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "emqi8d1anqolui35cv72o38vk8",
+    "title": "op faruk türkmen",
+    "start": "2025-12-10T13:00:00+03:00",
+    "end": "2025-12-10T13:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "d1d359gk30i6p5cca1tb60g278",
+    "title": "k1 reda mengi",
+    "start": "2025-12-10T13:15:00+03:00",
+    "end": "2025-12-10T13:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "7tquerp5e8s2pigndlha3vmvhk",
+    "title": "13.00🔪shefaa ulrika mamdouh mustafa (medproper)",
+    "start": "2025-12-10T14:15:00+03:00",
+    "end": "2025-12-10T16:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "815",
+    "description": "15.12 19.00"
+  },
+  {
+    "id": "6cun4oh76pnpcu4e134pg27h4o",
+    "title": "K Eyüp Bayansalduz",
+    "start": "2025-12-10T17:00:00+03:00",
+    "end": "2025-12-10T17:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5p4l291rt1tqk1m08aolhs7808",
+    "title": "m Alya Ayten (Duru nun arkadaşı)",
+    "start": "2025-12-10T17:30:00+03:00",
+    "end": "2025-12-10T17:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a",
+    "description": "BAba cem Ayten: ‪+90 533 440 88 88‬"
+  },
+  {
+    "id": "6pcimpveb5ls5l48r5ljcvtvqs",
+    "title": "06.00🔪Hülya köse iy REVİZYON",
+    "start": "2025-12-11T06:50:00+03:00",
+    "end": "2025-12-11T10:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1005",
+    "description": "90k\n\n\nStart 06:50"
+  },
+  {
+    "id": "8rjgbbkam9s036f163ek180lk8",
+    "title": "m iy elif sadat",
+    "start": "2025-12-11T09:45:00+03:00",
+    "end": "2025-12-11T10:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "lv33u7cb0t9uesbh7tvbkiqp2o",
+    "title": "k2 neslişah beyza poşul",
+    "start": "2025-12-11T10:00:00+03:00",
+    "end": "2025-12-11T10:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "gp3jju55olng82nj1r38jh949k",
+    "title": "Anestezi fadime nur Özdemir",
+    "start": "2025-12-11T10:30:00+03:00",
+    "end": "2025-12-11T10:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "tmo7k7g0f5m6dn581frteu3ih8",
+    "title": "K1 nazar Polat",
+    "start": "2025-12-11T10:45:00+03:00",
+    "end": "2025-12-11T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "t0006jfthjbvdjkvufpnotub5o",
+    "title": "op daniel stoyanov",
+    "start": "2025-12-11T11:00:00+03:00",
+    "end": "2025-12-11T11:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "d9jl4omftb411is6r47vdr57po",
+    "title": "m (büşra) azad uçar",
+    "start": "2025-12-11T11:30:00+03:00",
+    "end": "2025-12-11T11:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "31jrg3vuugef0uf1o9p513ltb8",
+    "title": "K2 Rabia Savukduran",
+    "start": "2025-12-11T11:45:00+03:00",
+    "end": "2025-12-11T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "g88eeffu7mlsvvipifog1gle58",
+    "title": "15.00🔪Faruk Türkmen iy yaş 20 KOSTALI",
+    "start": "2025-12-11T14:00:00+03:00",
+    "end": "2025-12-11T16:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "812",
+    "description": "75k"
+  },
+  {
+    "id": "irmskd7se27u4glajl9i00qge4",
+    "title": "18.30🔪daniel stoyanov (Medproper)",
+    "start": "2025-12-11T17:00:00+03:00",
+    "end": "2025-12-11T18:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1313",
+    "description": "Bulgar\n17 aralık"
+  },
+  {
+    "id": "2qp0l16eaobvhkbp4g9c9ms1t4",
+    "title": "‪+49 176 22884077‬",
+    "start": "2025-12-11T18:30:00+03:00",
+    "end": "2025-12-11T18:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a",
+    "description": "1 ay önce rino olmuş, dikiş sorunları varmış, muayene ve gerekirse işlem."
+  },
+  {
+    "id": "7167g95etrc9sjgehujo7d9an4",
+    "title": "6m İlayda sinem Karakaş",
+    "start": "2025-12-11T18:45:00+03:00",
+    "end": "2025-12-11T19:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kkb7lr0vcpo00opckh96v7vle0",
+    "title": "Online Nisanur göral",
+    "start": "2025-12-11T20:30:00+03:00",
+    "end": "2025-12-11T20:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fuo3fi9kehv2osbsq965ks2kl8",
+    "title": "Online",
+    "start": "2025-12-11T20:45:00+03:00",
+    "end": "2025-12-11T21:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "em50ijqdfgoagnni5dqg71pvn0",
+    "title": "anestezi nimet hasçelik",
+    "start": "2025-12-12T08:00:00+03:00",
+    "end": "2025-12-12T08:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "etilii191apo879d950758jg40",
+    "title": "k1 angelica capristo",
+    "start": "2025-12-12T08:30:00+03:00",
+    "end": "2025-12-12T08:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "gvshqkp1nfiptqc8c5sr3o3pq4",
+    "title": "op (büşra) medine yakın",
+    "start": "2025-12-12T08:45:00+03:00",
+    "end": "2025-12-12T09:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5s9d10psck5se0eg83afvdlbj0",
+    "title": "1,5m Ömer Çimen",
+    "start": "2025-12-12T09:15:00+03:00",
+    "end": "2025-12-12T09:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "j7e3kb71gmctsfc6q2ci1lhpq0",
+    "title": "m iy hülya öztepe",
+    "start": "2025-12-12T09:30:00+03:00",
+    "end": "2025-12-12T09:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "no5t7p5cd26aphumehfc7chs10",
+    "title": "m iy deniz efe öztepe",
+    "start": "2025-12-12T09:45:00+03:00",
+    "end": "2025-12-12T10:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "64h7ditvj1c0otisd5n32movq4",
+    "title": "7m Mutlu atagün",
+    "start": "2025-12-12T10:15:00+03:00",
+    "end": "2025-12-12T10:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "q0mclscea8ctti9kg3701nuhqo",
+    "title": "11.00🔪nimet hasçelik (aygül) yaş 39",
+    "start": "2025-12-12T12:00:00+03:00",
+    "end": "2025-12-12T14:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1117",
+    "description": "70k"
+  },
+  {
+    "id": "3hroqerqnl4combf1nbv3oc07c",
+    "title": "k1 agata mosiriska",
+    "start": "2025-12-12T14:00:00+03:00",
+    "end": "2025-12-12T14:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "kargo gönderilecek bu hasta ile, unutma."
+  },
+  {
+    "id": "629h2oihmg6iv82r106m125gs4",
+    "title": "8m Suzan kadıoğlu",
+    "start": "2025-12-12T14:15:00+03:00",
+    "end": "2025-12-12T14:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2r6eo7pfkqf00bjip0ge8v2i1g",
+    "title": "13.30🔪medine yakın (büşra) yaş 21",
+    "start": "2025-12-12T15:10:00+03:00",
+    "end": "2025-12-12T17:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "815",
+    "description": "tel no +90 537 846 95 97"
+  },
+  {
+    "id": "c6h42fhgdg5fherf8rn76u7i7o",
+    "title": "M iy Büşra nur Yeşilşahin",
+    "start": "2025-12-12T17:30:00+03:00",
+    "end": "2025-12-12T17:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "m1d4vsji57j8qefqq000p6ogoo",
+    "title": "M iy yasemin Çınar",
+    "start": "2025-12-12T17:45:00+03:00",
+    "end": "2025-12-12T18:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "e2co512lmvilhmssscu9t11n7k",
+    "title": "K Elif durmaz",
+    "start": "2025-12-13T08:30:00+03:00",
+    "end": "2025-12-13T08:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "b1u2j65bgrgm3mffa7tqfnv0b4",
+    "title": "1,5m Şule aybek",
+    "start": "2025-12-13T09:00:00+03:00",
+    "end": "2025-12-13T09:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ab3019k81j6n3f1ir86aj30hh4",
+    "title": "09.30🔪fadime nur Özdemir iy yaş 19",
+    "start": "2025-12-13T10:00:00+03:00",
+    "end": "2025-12-13T12:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1317",
+    "description": "70k"
+  },
+  {
+    "id": "jlvgdlr7vvajvc1ung4a7h946c",
+    "title": "Anestezi Tuğçe açabuğa",
+    "start": "2025-12-13T11:45:00+03:00",
+    "end": "2025-12-13T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1v3v0lms16c39mt2239cnaof6k",
+    "title": "7m rana şimşek",
+    "start": "2025-12-13T12:00:00+03:00",
+    "end": "2025-12-13T12:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5n58rvpbvld79dn79s2uchhogg",
+    "title": "1,5m Dönay balkır",
+    "start": "2025-12-13T12:30:00+03:00",
+    "end": "2025-12-13T12:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rb9dtl1kaiu4u1sfpbmfa6l2vs",
+    "title": "Anestezi Didem yiğit",
+    "start": "2025-12-13T12:45:00+03:00",
+    "end": "2025-12-13T13:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "on5eal3j16aegaihbpjnd0u01g",
+    "title": "M iy  Halil İbrahim doğan",
+    "start": "2025-12-13T13:00:00+03:00",
+    "end": "2025-12-13T13:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9buqp8r88ngj7fu6gde08f61as",
+    "title": "k2 saniye baykara",
+    "start": "2025-12-13T13:15:00+03:00",
+    "end": "2025-12-13T13:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "g8qdbttpka28n8hmjb4c18imms",
+    "title": "m (mesut) elanur ezer",
+    "start": "2025-12-13T13:45:00+03:00",
+    "end": "2025-12-13T14:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "32tkq7j4tc0r11gpoa8dqbh4m0",
+    "title": "K Rojda Akgül",
+    "start": "2025-12-13T14:00:00+03:00",
+    "end": "2025-12-13T14:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ndjghk69625doa855bl9oatsqs",
+    "title": "K Cansu Demir",
+    "start": "2025-12-13T14:15:00+03:00",
+    "end": "2025-12-13T14:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "q1m7s9a7da4r9220gaeg19qr6g",
+    "title": "1m Figen sürü",
+    "start": "2025-12-13T14:30:00+03:00",
+    "end": "2025-12-13T14:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "tfb5t4fs8k87an696pj5dksa1c",
+    "title": "3m 2x Muhammet bağrıyanık",
+    "start": "2025-12-13T14:45:00+03:00",
+    "end": "2025-12-13T15:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5gh1q22tlc0g0900l99imi4oi4",
+    "title": "3m Yasin gülger",
+    "start": "2025-12-13T15:00:00+03:00",
+    "end": "2025-12-13T15:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6lnf22ofqtl2kql8k8qop6civg",
+    "title": "K Yağmur ipek",
+    "start": "2025-12-13T15:15:00+03:00",
+    "end": "2025-12-13T15:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6446nse453i80loi08534b8ld4",
+    "title": "m (mesut) ilayda bilgin",
+    "start": "2025-12-13T15:30:00+03:00",
+    "end": "2025-12-13T15:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kregs2k427rjb4d6675m2t7hbs",
+    "title": "m (mesut) deniz erelçin",
+    "start": "2025-12-13T15:45:00+03:00",
+    "end": "2025-12-13T16:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "nqoanfevqsko7isfs4t274vak4",
+    "title": "K melek duran",
+    "start": "2025-12-14T08:15:00+03:00",
+    "end": "2025-12-14T08:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "q5mv3utm3mn9lr9jfbsnnat37o",
+    "title": "Op doğa naz Öcal",
+    "start": "2025-12-15T08:30:00+03:00",
+    "end": "2025-12-15T09:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5u9dla9lgja52jeljm6v40din4",
+    "title": "5m İkra Azra Pişirici",
+    "start": "2025-12-15T09:00:00+03:00",
+    "end": "2025-12-15T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vu6e0capqh7fve0g9909idin0c",
+    "title": "oğuz çekim",
+    "start": "2025-12-15T09:15:00+03:00",
+    "end": "2025-12-15T10:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0t1va797hkdkhhteq04vd1itas",
+    "title": "k1 banfi szilard",
+    "start": "2025-12-15T10:30:00+03:00",
+    "end": "2025-12-15T10:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "daivhneq2p4f83nam6j91s0lg4",
+    "title": "Anestezi Ayşe Sümeyye kaya",
+    "start": "2025-12-15T10:45:00+03:00",
+    "end": "2025-12-15T11:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kc0unl12daj6c6cloqu4j4fcog",
+    "title": "1,5m Yusuf tekin",
+    "start": "2025-12-15T11:00:00+03:00",
+    "end": "2025-12-15T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "01ruma7hlgt8nq2gpfud9k6org",
+    "title": "1m Fatma Pelen",
+    "start": "2025-12-15T11:15:00+03:00",
+    "end": "2025-12-15T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "uecm46eujnt7eoma7gjqpu9d1o",
+    "title": "online",
+    "start": "2025-12-15T11:30:00+03:00",
+    "end": "2025-12-15T11:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "65seq4hlubreik2lpe5num6eao",
+    "title": "anestezi rüya uysal",
+    "start": "2025-12-15T11:45:00+03:00",
+    "end": "2025-12-15T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ghpc5tovk24ai5ama1051qailo",
+    "title": "12.00🔪Tuğçe açabuğa iy yaş 23",
+    "start": "2025-12-15T13:00:00+03:00",
+    "end": "2025-12-15T15:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1322",
+    "description": "70k\n\nStart 13:00"
+  },
+  {
+    "id": "us07mpi3er2av95i5ijc826qks",
+    "title": "3m Ayten uzun",
+    "start": "2025-12-15T14:30:00+03:00",
+    "end": "2025-12-15T14:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9g73fje1bkbauu5916pinj5kd4",
+    "title": "6m Elanur yıldırım",
+    "start": "2025-12-15T14:45:00+03:00",
+    "end": "2025-12-15T15:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "as32rgg0uafebukh0f9dfam6pg",
+    "title": "k1 shefaa ulrika mamdouh mustafa",
+    "start": "2025-12-15T15:00:00+03:00",
+    "end": "2025-12-15T15:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "l2jgiqjk4i9kc43kmg9hrt25oo",
+    "title": "14.30🔪Didem yiğit iy yaş 26",
+    "start": "2025-12-15T15:45:00+03:00",
+    "end": "2025-12-15T18:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1307",
+    "description": "70k"
+  },
+  {
+    "id": "efvmbv5uv0lj12jbuc11kdt68g",
+    "title": "K sermin kızılarslan",
+    "start": "2025-12-15T18:15:00+03:00",
+    "end": "2025-12-15T18:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "mm5b46ogt8ceqcdvjkaue5v984",
+    "title": "17.00🔪doğa naz öcal (mesut) yaş 17",
+    "start": "2025-12-15T18:45:00+03:00",
+    "end": "2025-12-15T21:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1313",
+    "description": "+905326835544"
+  },
+  {
+    "id": "3uu19c9vkoghtpvi48ei416c0k",
+    "title": "online",
+    "start": "2025-12-15T22:30:00+03:00",
+    "end": "2025-12-15T22:45:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "qiedeo3rn5mj46rvv6ki3egi5o",
+    "title": "Anestezi Elif taş",
+    "start": "2025-12-16T09:00:00+03:00",
+    "end": "2025-12-16T09:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fd9ppuj3fhtd4rqi47d6kson7c",
+    "title": "m iy ayşegül oğar (baranın kız kardeşi)",
+    "start": "2025-12-16T09:15:00+03:00",
+    "end": "2025-12-16T09:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "n9niqm8orqa8ec86uhse17t1nc",
+    "title": "K1 gül tuncil",
+    "start": "2025-12-16T10:15:00+03:00",
+    "end": "2025-12-16T10:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0jjqhlgdkfng0hq023j6no0rr8",
+    "title": "k1 buse arat",
+    "start": "2025-12-16T10:30:00+03:00",
+    "end": "2025-12-16T10:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "m86ab8m8kdnp7krsiaabun9nj8",
+    "title": "k1 belgin düzgit",
+    "start": "2025-12-16T10:45:00+03:00",
+    "end": "2025-12-16T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ng0fchga2jp08cr7079hh7to0g",
+    "title": "k1 daniel stoyanov",
+    "start": "2025-12-16T11:00:00+03:00",
+    "end": "2025-12-16T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "a74ce4jau27oi8gtd8up031eik",
+    "title": "m iy Hüma azra aksunğur \n05356199672 (aminenin yakını)",
+    "start": "2025-12-16T11:15:00+03:00",
+    "end": "2025-12-16T11:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6u0d3h4cpke3k3kbm2lenirci0",
+    "title": "12.00🔪rüya uysal iy yaş 18",
+    "start": "2025-12-16T13:30:00+03:00",
+    "end": "2025-12-16T16:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1318",
+    "description": "70k"
+  },
+  {
+    "id": "e844dttt5foe4j2phf6gg6dav8",
+    "title": "M iy Sudenur Öztürk",
+    "start": "2025-12-16T15:45:00+03:00",
+    "end": "2025-12-16T16:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "24e6qirc9omrhj11bafkdnadg8",
+    "title": "3m Sudenaz Karagöz",
+    "start": "2025-12-16T16:00:00+03:00",
+    "end": "2025-12-16T16:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "b6v0aihbncrep4t9sve10liffo",
+    "title": "K2 Ebru Bozkuş",
+    "start": "2025-12-16T16:15:00+03:00",
+    "end": "2025-12-16T16:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "gq1amheuk6eq33vo4b29bjdc2k",
+    "title": "K2 selman çürük",
+    "start": "2025-12-16T16:30:00+03:00",
+    "end": "2025-12-16T16:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2aqtfjped92rtmp1kau2kf4i20",
+    "title": "1,5m nazmiye ortaoğlan",
+    "start": "2025-12-16T16:45:00+03:00",
+    "end": "2025-12-16T17:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "e7bpgum12pera4h4rrcd3ntndc",
+    "title": "M iy mevlüde delen",
+    "start": "2025-12-16T17:00:00+03:00",
+    "end": "2025-12-16T17:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rlvlj56o95usdk4omr5bpbdvn8",
+    "title": "M iy Esra Çetinkaya",
+    "start": "2025-12-16T17:15:00+03:00",
+    "end": "2025-12-16T17:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hcd9f7tgj3qjtbl4shsve7uv4c",
+    "title": "K1 yaren Yurtseven",
+    "start": "2025-12-17T11:00:00+03:00",
+    "end": "2025-12-17T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5fk0mjva9n39rtndq0sr9qpqks",
+    "title": "M iy Yüksel Yurtseven REVİZYON",
+    "start": "2025-12-17T11:15:00+03:00",
+    "end": "2025-12-17T11:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0oh6g72c7rh579f4qr0o5dml58",
+    "title": "anestezi deniz efe öztepe",
+    "start": "2025-12-17T11:30:00+03:00",
+    "end": "2025-12-17T11:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "g15g8pgs89qm37tju4bf3c9jp8",
+    "title": "m iy Saime Vayni",
+    "start": "2025-12-17T11:30:00+03:00",
+    "end": "2025-12-17T11:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a",
+    "description": "Saime Vayni<br>553-676-7500<br>--<br>şikayet: Damakta şişlik ve doku<br>dün farketmiş.<br><br>Muayene: <br>Yumuşak damak, sol anterior plika üzerinde &lt;1cm papillom.<br>muhtemelen benign.<br><br>Tedavi: lokal anestezi ile yumuşak damaktan papillom eksizyonu, patoloji gönderilecek."
+  },
+  {
+    "id": "v3ljoqlb40bhkiv9ftmo252up0",
+    "title": "Anestezi Sevda Uluel",
+    "start": "2025-12-17T11:45:00+03:00",
+    "end": "2025-12-17T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "t5vs8prub4cnj8hebrc3sv3dhg",
+    "title": "K2 nazar Polat",
+    "start": "2025-12-17T12:00:00+03:00",
+    "end": "2025-12-17T12:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2bq3njo1ccot419gp29vd2vrrc",
+    "title": "op yara mahmoud",
+    "start": "2025-12-17T12:15:00+03:00",
+    "end": "2025-12-17T12:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "25oqn5mddc4hainfepp43b0v9s",
+    "title": "Anestezi Naime ekmekçi",
+    "start": "2025-12-17T12:45:00+03:00",
+    "end": "2025-12-17T13:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2a94j23t3a4i6jcsaskmvt49qc",
+    "title": "K2 Songül doğan",
+    "start": "2025-12-17T13:00:00+03:00",
+    "end": "2025-12-17T13:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "pk6l2qbadp4ulk4imdoj6vjaig",
+    "title": "M iy Merve doğan",
+    "start": "2025-12-17T13:15:00+03:00",
+    "end": "2025-12-17T13:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rsgnm2srs7ehkq9s96bcfq6fds",
+    "title": "K Elif durmaz",
+    "start": "2025-12-17T13:30:00+03:00",
+    "end": "2025-12-17T13:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ddtpsbiti2cibo9f26dj4tnk90",
+    "title": "K Fatma güzel",
+    "start": "2025-12-17T13:45:00+03:00",
+    "end": "2025-12-17T14:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "774k0nnf6bs6kd3l3gl3frsq84",
+    "title": "15.00🔪Sema nur Güner iy yaş 22",
+    "start": "2025-12-17T14:45:00+03:00",
+    "end": "2025-12-17T16:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1123",
+    "description": "70k"
+  },
+  {
+    "id": "td6c9gng19h6pci6n7msadjdh0",
+    "title": "17.30🔪 yara Mahmoud (Medproper)",
+    "start": "2025-12-17T17:15:00+03:00",
+    "end": "2025-12-17T20:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1307",
+    "description": "21 Aralık dönüş saat 12.20"
+  },
+  {
+    "id": "b20fiff8i178omcuav4drcjc9o",
+    "title": "Online ipek kaya",
+    "start": "2025-12-17T21:00:00+03:00",
+    "end": "2025-12-17T21:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "al2qnr641kmgrq5bh21v1sv8jk",
+    "title": "k1 faruk türkmen",
+    "start": "2025-12-18T08:15:00+03:00",
+    "end": "2025-12-18T08:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0uvtlm7oue9qh25qnh9joolhq0",
+    "title": "1,5m Esma nur Külçür",
+    "start": "2025-12-18T08:45:00+03:00",
+    "end": "2025-12-18T09:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9adohmm9ebdfs1qt1fkq1it1j0",
+    "title": "M Saime vayni",
+    "start": "2025-12-18T09:00:00+03:00",
+    "end": "2025-12-18T09:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2sk4932mumlpuc4pa9cfeq27bc",
+    "title": "op (mesut) ivlea savciuk",
+    "start": "2025-12-18T09:15:00+03:00",
+    "end": "2025-12-18T09:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "20806hsip89cpou18qstga2moc",
+    "title": "k1 hülya köse",
+    "start": "2025-12-18T09:45:00+03:00",
+    "end": "2025-12-18T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4bmcg50qd8lrtbukqj5tanstg4",
+    "title": "10.00🔪deniz efe öztepe iy yaş 20",
+    "start": "2025-12-18T10:45:00+03:00",
+    "end": "2025-12-18T13:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1303"
+  },
+  {
+    "id": "tcuucnv5ui0uripghhquni2oho",
+    "title": "M (Mesut) yağmur birsen",
+    "start": "2025-12-18T13:00:00+03:00",
+    "end": "2025-12-18T13:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ac5j225g0rkl1h0jncdg9fkbp8",
+    "title": "12.30🔪Ayşe Sümeyye kaya iy yaş 23",
+    "start": "2025-12-18T14:00:00+03:00",
+    "end": "2025-12-18T16:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1306",
+    "description": "70k"
+  },
+  {
+    "id": "rilu572e30minou5johp862f40",
+    "title": "m (mesut) aşkın bey",
+    "start": "2025-12-18T16:15:00+03:00",
+    "end": "2025-12-18T16:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "g006gl3hbvrisullf3o6vj6aqg",
+    "title": "K Selman çürük",
+    "start": "2025-12-18T16:30:00+03:00",
+    "end": "2025-12-18T16:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ng4lpiu53f359ohdj8nps57n2c",
+    "title": "6m Emre Aslan Medi",
+    "start": "2025-12-18T16:30:00+03:00",
+    "end": "2025-12-18T16:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "smisub02qb6ph21etsuahemkp0",
+    "title": "K Rabia Savukduran",
+    "start": "2025-12-18T16:30:00+03:00",
+    "end": "2025-12-18T16:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jq55dlsu0c88cjvrq7kg1edtrc",
+    "title": "15.00🔪 ivlea savciuk (mesut) ORTAK VAKA",
+    "start": "2025-12-18T16:45:00+03:00",
+    "end": "2025-12-18T18:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1321"
+  },
+  {
+    "id": "3mslfvv7gce1cta0u9sat5cshk",
+    "title": "M (Emre yıldır) metin üzüm",
+    "start": "2025-12-18T19:00:00+03:00",
+    "end": "2025-12-18T19:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "o3tipkbtr6e0idvcnnkhnt5f3k",
+    "title": "online",
+    "start": "2025-12-18T20:30:00+03:00",
+    "end": "2025-12-18T20:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "sudnmoq5ei0428cl21stjob4e0",
+    "title": "online",
+    "start": "2025-12-18T20:45:00+03:00",
+    "end": "2025-12-18T21:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9jtf7q4hovonldskdhtahodi70",
+    "title": "08.00🔪naime ekmekçi iy yaş 22",
+    "start": "2025-12-19T08:30:00+03:00",
+    "end": "2025-12-19T10:20:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1107",
+    "description": "70k"
+  },
+  {
+    "id": "5gbh81bro3mcffnjq671vv3jck",
+    "title": "anestezi ilayda nur abaramak",
+    "start": "2025-12-19T10:15:00+03:00",
+    "end": "2025-12-19T10:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6cjm5h3ooro63llk2cr8b1n49k",
+    "title": "Anestezi Mustafa altuntaş",
+    "start": "2025-12-19T10:30:00+03:00",
+    "end": "2025-12-19T10:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "7ad3b9fandshmv7begkk9obqc4",
+    "title": "11.00🔪Sevda Uluel iy yaş 30",
+    "start": "2025-12-19T11:15:00+03:00",
+    "end": "2025-12-19T13:55:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1311",
+    "description": "70k"
+  },
+  {
+    "id": "83et2nkhrlk9v8ikjg9nq38lg4",
+    "title": "k1 medine yakın",
+    "start": "2025-12-19T14:15:00+03:00",
+    "end": "2025-12-19T14:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kio7sjqu6di2blu6hvoffdhq8o",
+    "title": "M iy Kübra akca",
+    "start": "2025-12-19T14:30:00+03:00",
+    "end": "2025-12-19T14:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "04vsnhi3ah2qie6hctofbp3md8",
+    "title": "13.30🔪İlayda bilgin (Mesut) yaş 17",
+    "start": "2025-12-19T15:00:00+03:00",
+    "end": "2025-12-19T18:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1304"
+  },
+  {
+    "id": "3vqq4cf5isotnnkelaus0c44h4",
+    "title": "M iy Ceren Özen şeker",
+    "start": "2025-12-19T18:00:00+03:00",
+    "end": "2025-12-19T18:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "v2g0ln94eo3jar0hsc8and9vso",
+    "title": "K Kaan üründiker",
+    "start": "2025-12-19T18:15:00+03:00",
+    "end": "2025-12-19T18:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9ks9p84e6f8lcmomdk20411pes",
+    "title": "3m Emircan uncu",
+    "start": "2025-12-19T18:30:00+03:00",
+    "end": "2025-12-19T18:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ushpcuutaiq8ub5gd190405t1c",
+    "title": "anestezi cansu demir",
+    "start": "2025-12-19T21:00:00+03:00",
+    "end": "2025-12-19T21:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "e4lkb1lpm6eeb5f0453621mo1o",
+    "title": "k1 fadime nur özdemir",
+    "start": "2025-12-20T08:30:00+03:00",
+    "end": "2025-12-20T08:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "j4r5qbeijgmelghjh104l34bg8",
+    "title": "09.00🔪ilayda nur abaramak (büşra) yaş 22",
+    "start": "2025-12-20T09:45:00+03:00",
+    "end": "2025-12-20T12:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1314"
+  },
+  {
+    "id": "vlf5rm02bgsalmeth3vefkfhgg",
+    "title": "k1 nimet hasçelik",
+    "start": "2025-12-20T12:30:00+03:00",
+    "end": "2025-12-20T12:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "f0fa4i3ffhpfuu0anfbha3qfmg",
+    "title": "K1 yara mahmoud",
+    "start": "2025-12-20T12:45:00+03:00",
+    "end": "2025-12-20T13:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "8v4766m31rdvhro7ssbo8uefi0",
+    "title": "11.30🔪cansel eken (mesut)",
+    "start": "2025-12-20T13:45:00+03:00",
+    "end": "2025-12-20T16:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1306",
+    "description": "ödeme alındı"
+  },
+  {
+    "id": "rbarou8ll3mijvlmnvdtde08g0",
+    "title": "2m gizem kulan",
+    "start": "2025-12-20T16:15:00+03:00",
+    "end": "2025-12-20T16:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3ouu31gj15hhinvulih33lcr1o",
+    "title": "1,5m Esra Çelik",
+    "start": "2025-12-20T16:45:00+03:00",
+    "end": "2025-12-20T17:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5uq1nflln09e4a920e0193k7ni",
+    "title": "k Ahmet Turus",
+    "start": "2025-12-20T17:00:00+03:00",
+    "end": "2025-12-20T17:15:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "o4e3vre1on7q1vtnb45p6losjc",
+    "title": "K İbrahim Turus",
+    "start": "2025-12-20T17:00:00+03:00",
+    "end": "2025-12-20T17:15:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "r74m5hh9kv917h9r8crfkrlaqg",
+    "title": "10m Duygu Akbulut",
+    "start": "2025-12-20T17:00:00+03:00",
+    "end": "2025-12-20T17:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3a8cbpgu9egev7vfos5ck7cqd8",
+    "title": "9m Ruken başkan",
+    "start": "2025-12-20T17:15:00+03:00",
+    "end": "2025-12-20T17:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "81pff1v9gb2ptprnoe0bh4qq48",
+    "title": "M iy adem cihan soylu",
+    "start": "2025-12-20T17:30:00+03:00",
+    "end": "2025-12-20T17:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hfornj7vf23j8r5ekvt7j59os8",
+    "title": "m (büşra) online",
+    "start": "2025-12-20T17:45:00+03:00",
+    "end": "2025-12-20T18:00:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "b9t63kma76uqreuj5bnr66jkc0",
+    "title": "K selman çürük",
+    "start": "2025-12-21T11:00:00+03:00",
+    "end": "2025-12-21T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hasifq6uvuduhlv6r0tljbslq0",
+    "title": "K1 Tuğçe açabuğa",
+    "start": "2025-12-22T08:30:00+03:00",
+    "end": "2025-12-22T08:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "nh8vrtajsojiiihguvraej9b88",
+    "title": "Anestezi Sudenur Öztürk",
+    "start": "2025-12-22T08:45:00+03:00",
+    "end": "2025-12-22T09:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9shcaljft4vmni36fnhllqjj4o",
+    "title": "K1 Didem yiğit",
+    "start": "2025-12-22T09:15:00+03:00",
+    "end": "2025-12-22T09:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1ftn32solhot11l0uiqk4t5oq4",
+    "title": "K1 doğa naz Öcal",
+    "start": "2025-12-22T10:45:00+03:00",
+    "end": "2025-12-22T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jc2a5iafs4vgunf2svoi62lac8",
+    "title": "11.00🔪cansu demir iy liplift yaş 22",
+    "start": "2025-12-22T11:15:00+03:00",
+    "end": "2025-12-22T12:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1311"
+  },
+  {
+    "id": "5jiung1gkf5pvkdbvtg4ghuk1s",
+    "title": "M iy berfin Aydın 17 yaş (banne baba onamı yok.)",
+    "start": "2025-12-22T12:15:00+03:00",
+    "end": "2025-12-22T12:30:00+03:00",
+    "category": "blocked",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2d4gjs5bhigbbtrnjnq93kb6bk",
+    "title": "13.00🔪Sudenur Öztürk iy yaş 20",
+    "start": "2025-12-22T12:45:00+03:00",
+    "end": "2025-12-22T16:10:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1322",
+    "description": "70k ödeme alındı"
+  },
+  {
+    "id": "d6g8qh4rhrk2kag8363b7a91h4",
+    "title": "M iy Ömer rıza uca",
+    "start": "2025-12-22T15:30:00+03:00",
+    "end": "2025-12-22T15:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vla6pqvm0n8hsrsioqlpb7e5g8",
+    "title": "2m eren kulan",
+    "start": "2025-12-22T15:45:00+03:00",
+    "end": "2025-12-22T16:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "l9ejh3k44ktqvesna0vi7vm1t4",
+    "title": "elanın babası aşkın bey",
+    "start": "2025-12-22T16:00:00+03:00",
+    "end": "2025-12-22T16:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "n6ndef4v94hnak4gqouma3lmcg",
+    "title": "m  iy göksel bey tel no 05076686831",
+    "start": "2025-12-22T17:15:00+03:00",
+    "end": "2025-12-22T17:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "crfpngir2vtf3208p64cijojv0",
+    "title": "m online Yadigar güngör (emre yıldır)",
+    "start": "2025-12-22T19:45:00+03:00",
+    "end": "2025-12-22T20:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "nqbabjnajjqhsf4ij8k6i4873g",
+    "title": "anestezi ela nur ezer",
+    "start": "2025-12-23T11:45:00+03:00",
+    "end": "2025-12-23T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hq044ld30kscso5jf4368vmmt0",
+    "title": "1m Esra Özden",
+    "start": "2025-12-23T13:00:00+03:00",
+    "end": "2025-12-23T13:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3ij78u8edavbkeeojrr9e63u1c",
+    "title": "14.00🔪Mustafa altuntaş iy KOSTALI+OTOPLASTİ yaş 37",
+    "start": "2025-12-23T15:30:00+03:00",
+    "end": "2025-12-23T19:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1115",
+    "description": "65+35 ödeme alındı"
+  },
+  {
+    "id": "f3ub4lor3lc76040h10bft57qo",
+    "title": "k1 rüya uysal",
+    "start": "2025-12-23T19:30:00+03:00",
+    "end": "2025-12-23T19:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kvj0d2dhd5mo57qgcrvtpc4fjk",
+    "title": "17.30🔪ela nur ezer (Mesut) yaş 17",
+    "start": "2025-12-23T19:45:00+03:00",
+    "end": "2025-12-23T22:25:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1113"
+  },
+  {
+    "id": "3qtn9dkf5auf23avgh4qb4ikdo",
+    "title": "Op evelyn beatriz sılva duran",
+    "start": "2025-12-24T09:00:00+03:00",
+    "end": "2025-12-24T09:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hhsr867kvtef01d188aoq3d8ns",
+    "title": "anestezi kübra akca",
+    "start": "2025-12-24T09:45:00+03:00",
+    "end": "2025-12-24T10:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jej7rat4mlp9ltepmqfp2pum84",
+    "title": "K2 yaren Yurtseven",
+    "start": "2025-12-24T10:00:00+03:00",
+    "end": "2025-12-24T10:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "v8c5h1vqsbci40t7j88bdi7248",
+    "title": "K1 Sema nur güner",
+    "start": "2025-12-24T10:15:00+03:00",
+    "end": "2025-12-24T10:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "bpd31eesshtr7s0b07hptju028",
+    "title": "K2 gül tuncil",
+    "start": "2025-12-24T10:30:00+03:00",
+    "end": "2025-12-24T10:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "s65m3km4jd1dcq20mvkakite2k",
+    "title": "k2 hülya köse",
+    "start": "2025-12-24T10:45:00+03:00",
+    "end": "2025-12-24T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5us84en3c52n4767pumr6s9ipg",
+    "title": "M iy Emine Poşul \n0 (536) 432 20 85",
+    "start": "2025-12-24T11:00:00+03:00",
+    "end": "2025-12-24T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "l6qlv976vg0808vitgc02pt1tc",
+    "title": "k1 deniz efe öztepe",
+    "start": "2025-12-24T11:15:00+03:00",
+    "end": "2025-12-24T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6em2tgbf6n1iielaun9n7lm9ag",
+    "title": "anestezi aysel bakırhan",
+    "start": "2025-12-24T11:45:00+03:00",
+    "end": "2025-12-24T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ue56tj54p7qdi4ubbkaubmk1e4",
+    "title": "12.00🔪kübra akca iy yaş 18",
+    "start": "2025-12-24T12:30:00+03:00",
+    "end": "2025-12-24T14:50:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "820",
+    "description": "70k kk"
+  },
+  {
+    "id": "npghqa02d70qf6fjjanm9rk1lc",
+    "title": "1,5m Kader utanç",
+    "start": "2025-12-24T14:15:00+03:00",
+    "end": "2025-12-24T14:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2rlis9k4f0bqchb5m41rnjpisc",
+    "title": "1,5m Berçem durmuş",
+    "start": "2025-12-24T14:30:00+03:00",
+    "end": "2025-12-24T14:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "109eu611l8att8n21f81vd9j68",
+    "title": "3m Tuğçe karasu",
+    "start": "2025-12-24T14:45:00+03:00",
+    "end": "2025-12-24T15:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "o0n3tb3t1gtla91b8lq93a1pts",
+    "title": "14.30🔪evelyn beatriz sılva duran (Medproper)",
+    "start": "2025-12-24T15:45:00+03:00",
+    "end": "2025-12-24T17:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1105",
+    "description": "30 aralık 14.00 dönüş \nispanyolca"
+  },
+  {
+    "id": "tbro1due1cqeppagibe7on65j4",
+    "title": "3m naci can kahveci",
+    "start": "2025-12-24T17:45:00+03:00",
+    "end": "2025-12-24T18:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "g7ifu4qcj185bbhlvam2qv8u1o",
+    "title": "06.00🔪elif taş iy KOSTALI yaş 19",
+    "start": "2025-12-25T06:45:00+03:00",
+    "end": "2025-12-25T09:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1302",
+    "description": "75k ödeme alındı"
+  },
+  {
+    "id": "3j9gcr2ublkir1778r51fqgdpo",
+    "title": "Anestezi zelal bulut",
+    "start": "2025-12-25T09:30:00+03:00",
+    "end": "2025-12-25T09:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ud2mml8d8dbpfpht7r6g4if95g",
+    "title": "k1 ayşe sümeyye kaya",
+    "start": "2025-12-25T09:45:00+03:00",
+    "end": "2025-12-25T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "umpu4p8bjri9di7ba60os394lg",
+    "title": "Anestezi Eyüp Bayansalduz",
+    "start": "2025-12-25T10:00:00+03:00",
+    "end": "2025-12-25T10:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "7gr20aq1k9iv58pq8me49fblcs",
+    "title": "10.30🔪aysel bakırhan (muzaffer) yaş 37",
+    "start": "2025-12-25T10:15:00+03:00",
+    "end": "2025-12-25T13:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1323",
+    "description": "+90 532 255 67 96"
+  },
+  {
+    "id": "rbqjc9888u6m5336kmdqbbb1k0",
+    "title": "K2 Faruk Türkmen",
+    "start": "2025-12-25T13:00:00+03:00",
+    "end": "2025-12-25T13:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fbqqh6hpsdoapoe4b0ld5lsvqo",
+    "title": "Anestezi Zeynep bilgiç",
+    "start": "2025-12-26T06:15:00+03:00",
+    "end": "2025-12-26T06:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "8nb36m4sp5nt2dkeuibt8a8eso",
+    "title": "06.00🔪zelal bulut (büşra) yaş 20",
+    "start": "2025-12-26T06:30:00+03:00",
+    "end": "2025-12-26T09:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1311"
+  },
+  {
+    "id": "a9bcfbls213bila0b1gibktur0",
+    "title": "k1 naime ekmekçi",
+    "start": "2025-12-26T09:00:00+03:00",
+    "end": "2025-12-26T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "g70lnjvapfatcn8c51u86b4bek",
+    "title": "k1 ivlea savciuk",
+    "start": "2025-12-26T09:30:00+03:00",
+    "end": "2025-12-26T09:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "pn9tj6j31rlti0ppsmg4v8vmv0",
+    "title": "anestezi onur kızılkurt",
+    "start": "2025-12-26T09:45:00+03:00",
+    "end": "2025-12-26T10:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "asgpb1frgsbrevn5kk489f3ps0",
+    "title": "09.00🔪eyüp bayansalduz iy REVİZYON yaş 18",
+    "start": "2025-12-26T10:00:00+03:00",
+    "end": "2025-12-26T11:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1319",
+    "description": "30k"
+  },
+  {
+    "id": "02vc5au4n567k6oipd63iiqdbo",
+    "title": "K2 Medine yakın",
+    "start": "2025-12-26T11:45:00+03:00",
+    "end": "2025-12-26T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "o8vm34guve5lbcvmo1quls33ss",
+    "title": "k1 sevda uluel",
+    "start": "2025-12-26T11:45:00+03:00",
+    "end": "2025-12-26T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "j35lkmq0pekimiasmf18s283eo",
+    "title": "m iy gurbet kurkutata",
+    "start": "2025-12-26T12:00:00+03:00",
+    "end": "2025-12-26T12:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3g428r9pfbra5f50h3q1hsbfdg",
+    "title": "m iy şükran kurkutata",
+    "start": "2025-12-26T12:15:00+03:00",
+    "end": "2025-12-26T12:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rkt5p34j4bsrtm38pg9qlqgssg",
+    "title": "11.00🔪zeynep bilgiç (mesut) yaş 23",
+    "start": "2025-12-26T13:00:00+03:00",
+    "end": "2025-12-26T16:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1303"
+  },
+  {
+    "id": "hp2n0b193qgg9sll15spsomp98",
+    "title": "k selman çürük",
+    "start": "2025-12-26T16:00:00+03:00",
+    "end": "2025-12-26T16:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fjlk7c8iopt4o5srrrft4b0j20",
+    "title": "K Elif durmaz",
+    "start": "2025-12-26T16:15:00+03:00",
+    "end": "2025-12-26T16:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fme7s0t92qq1477in2l53713r0",
+    "title": "M iy savaş Akdeniz",
+    "start": "2025-12-26T16:30:00+03:00",
+    "end": "2025-12-26T16:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rm020usgjjqnjbgn9riqcjtn0g",
+    "title": "k mustafa altuntaş",
+    "start": "2025-12-26T17:00:00+03:00",
+    "end": "2025-12-26T17:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "s2b635j13012isuc9fnl87fhrs",
+    "title": "k1 cansel eken",
+    "start": "2025-12-27T09:00:00+03:00",
+    "end": "2025-12-27T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "b0q8bg4guhl0dctnc9f0prohn8",
+    "title": "M iy Büşra ataman",
+    "start": "2025-12-27T09:15:00+03:00",
+    "end": "2025-12-27T09:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "gnm0t0pr1ar7vc0d3u8b6mi6e8",
+    "title": "k1 ilayda nur abaramak",
+    "start": "2025-12-27T09:30:00+03:00",
+    "end": "2025-12-27T09:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0hvi53a3gppsl409q05jp3dmss",
+    "title": "k1 ilayda bilgin",
+    "start": "2025-12-27T09:45:00+03:00",
+    "end": "2025-12-27T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "h87qge2t5sprhuc7hrqpq5ln3c",
+    "title": "M iy melek kavak",
+    "start": "2025-12-27T10:00:00+03:00",
+    "end": "2025-12-27T10:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jo51g4l29ojlbj6dsimj9rmm1s",
+    "title": "Anestezi Esra Çiçek",
+    "start": "2025-12-27T10:30:00+03:00",
+    "end": "2025-12-27T10:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "lvjqi1jb4q5rf9j82a87tfru6o",
+    "title": "K2 fadime nur Özdemir",
+    "start": "2025-12-27T11:00:00+03:00",
+    "end": "2025-12-27T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "leui42j77lqkfct5k6er5e7dek",
+    "title": "M iy Neval demir",
+    "start": "2025-12-27T11:15:00+03:00",
+    "end": "2025-12-27T11:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "tda2mimt1p469lgbj168ullvms",
+    "title": "K Aysun Bozkurt",
+    "start": "2025-12-27T11:30:00+03:00",
+    "end": "2025-12-27T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jq0i15s3g51l99fgnuucvgsbic",
+    "title": "M iy Güldeste Kutbay tel no 05362359168",
+    "start": "2025-12-27T11:45:00+03:00",
+    "end": "2025-12-27T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "djid765trkbv7ker0iphudgjs8",
+    "title": "6m remziye kaya",
+    "start": "2025-12-27T12:15:00+03:00",
+    "end": "2025-12-27T12:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3b8g7us3utq8i3h8k2ru5ptdl4",
+    "title": "2m Sude pınar akgün",
+    "start": "2025-12-27T12:30:00+03:00",
+    "end": "2025-12-27T12:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9bh7tleu12tttbdl4lprc902q4",
+    "title": "K2 Nimet Hasçelik",
+    "start": "2025-12-27T13:00:00+03:00",
+    "end": "2025-12-27T13:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ljg9hlk3i9luru7ujs6bhbstc0",
+    "title": "M iy Adem cihan soylu",
+    "start": "2025-12-27T13:15:00+03:00",
+    "end": "2025-12-27T13:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "47rp2hl1rp3ia46jkts8shc9ef",
+    "title": "2x opd (Hassan)",
+    "start": "2025-12-27T17:00:00+03:00",
+    "end": "2025-12-27T17:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1meu76q3r6dg9iqo75h484vr6c",
+    "title": "Anestezi Ayşegül oğar",
+    "start": "2025-12-29T07:45:00+03:00",
+    "end": "2025-12-29T08:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "d1rqln9c9sugg7jeb4guhtp91k",
+    "title": "K2 Mustafa altuntaş",
+    "start": "2025-12-29T08:15:00+03:00",
+    "end": "2025-12-29T08:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "n4i5jhpkme6j0og44jqt5nmqe8",
+    "title": "08.00🔪Esra çiçek iy yaş 26",
+    "start": "2025-12-29T08:45:00+03:00",
+    "end": "2025-12-29T10:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1317",
+    "description": "70k-20k ödedi"
+  },
+  {
+    "id": "d8galjgo4bk7tudqrpolv6qjv0",
+    "title": "Anestezi Hamza tuncel",
+    "start": "2025-12-29T10:15:00+03:00",
+    "end": "2025-12-29T10:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jj25a69089t55ll05bk6l8k0vo",
+    "title": "1m Hilal arslan",
+    "start": "2025-12-29T10:30:00+03:00",
+    "end": "2025-12-29T10:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ptkerbreigtu8elmnki9re1124",
+    "title": "k1 sudenur öztürk",
+    "start": "2025-12-29T10:45:00+03:00",
+    "end": "2025-12-29T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vikusckgj07e210r9ed3d5a7v8",
+    "title": "k1 cansu demir",
+    "start": "2025-12-29T11:00:00+03:00",
+    "end": "2025-12-29T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ma06hqjjk953jmj6knen6iqp3g",
+    "title": "11.00🔪Ayşegül oğar iy yaş 18",
+    "start": "2025-12-29T11:45:00+03:00",
+    "end": "2025-12-29T13:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "811",
+    "description": "60k"
+  },
+  {
+    "id": "7jfcenrvf9cl4m7r4mhgsl26cg",
+    "title": "K2 doğa naz Öçal",
+    "start": "2025-12-29T13:45:00+03:00",
+    "end": "2025-12-29T14:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vc33d9bf3uglpsq32ra2url3dc",
+    "title": "K3 Belgin Düzgit",
+    "start": "2025-12-29T14:15:00+03:00",
+    "end": "2025-12-29T14:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6mdf8vvg2905u9osguel4eaesc",
+    "title": "14.00🔪Onur kızılkurt iy yaş 26 KOSTALI",
+    "start": "2025-12-29T14:30:00+03:00",
+    "end": "2025-12-29T17:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1303",
+    "description": "75k\n\n**KOSTA KESİN**"
+  },
+  {
+    "id": "v2rc5lll4t849gdjsk1kvb7c1c",
+    "title": "K2 Reda Mengi",
+    "start": "2025-12-29T14:30:00+03:00",
+    "end": "2025-12-29T14:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "pc47buflf6caep18r9smj3m29k",
+    "title": "K esin gül kılınç",
+    "start": "2025-12-29T17:45:00+03:00",
+    "end": "2025-12-29T18:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "l2j5udbjbou78b26ocmiual4j4",
+    "title": "m iy gülşen ışıldar",
+    "start": "2025-12-29T18:00:00+03:00",
+    "end": "2025-12-29T18:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "p9t5chf5970fjnghhv9ro0cnq8",
+    "title": "M iy Furkan Duruk 551 629 87 09",
+    "start": "2025-12-29T18:45:00+03:00",
+    "end": "2025-12-29T19:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ecekpfipu20n6vpfucebssb220",
+    "title": "Anestezi yağmur birsen",
+    "start": "2025-12-30T07:45:00+03:00",
+    "end": "2025-12-30T08:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "aqqkhsfl2ir8bq9i3gnmf36fmk",
+    "title": "K1 evelyn beatriz sılva duran",
+    "start": "2025-12-30T08:00:00+03:00",
+    "end": "2025-12-30T08:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "o6e61bhe1pmd1rj2kekfv0v2co",
+    "title": "08.00🔪Hamza tuncel iy KOSTALI yaş 29",
+    "start": "2025-12-30T08:00:00+03:00",
+    "end": "2025-12-30T11:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1122",
+    "description": "80k"
+  },
+  {
+    "id": "vru8ka1ji344ag1ilq3buokaeg",
+    "title": "K2 Sema nur güner",
+    "start": "2025-12-30T11:30:00+03:00",
+    "end": "2025-12-30T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1a44i76vl4mnsd5upapdnnrifc",
+    "title": "k2 deniz efe öztepe",
+    "start": "2025-12-30T11:45:00+03:00",
+    "end": "2025-12-30T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "20ona1tv74c2i4vt2enmo887g8",
+    "title": "Op Burak bolat",
+    "start": "2025-12-30T12:00:00+03:00",
+    "end": "2025-12-30T12:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3lftk5dnvips44qooeadreqi5s",
+    "title": "12.00🔪yağmur birsen (mesut) yaş 20",
+    "start": "2025-12-30T12:15:00+03:00",
+    "end": "2025-12-30T14:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1104"
+  },
+  {
+    "id": "of008hu5230buu1r8b10ppv8q8",
+    "title": "k1 ela nur ezer",
+    "start": "2025-12-30T14:30:00+03:00",
+    "end": "2025-12-30T14:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "uv76f5i34b99iekeh7no7pjoa4",
+    "title": "M iy meltem hazlıpınar",
+    "start": "2025-12-30T14:45:00+03:00",
+    "end": "2025-12-30T15:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "re2ehui7g3979i40kh8545mefk",
+    "title": "15.00🔪Emine Poşul iy yaş 54",
+    "start": "2025-12-30T15:15:00+03:00",
+    "end": "2025-12-30T17:55:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1301",
+    "description": "70k"
+  },
+  {
+    "id": "vt2g8o3e0sr0m5molo5uu1r97o",
+    "title": "M iy selvi Simay gündü",
+    "start": "2025-12-30T17:15:00+03:00",
+    "end": "2025-12-30T17:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kh775ivqqh0ie7m8fu6aat7ihg",
+    "title": "1,5m Emine Özdemir",
+    "start": "2025-12-30T17:45:00+03:00",
+    "end": "2025-12-30T18:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kdj8k76p1mdqk1i7c4lptb1p9c",
+    "title": "K2 Tuğçe açabuğa",
+    "start": "2025-12-30T18:00:00+03:00",
+    "end": "2025-12-30T18:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "g5es5kmqv02an270mvdrbq5ubc",
+    "title": "m (mesut) caner yatmaz",
+    "start": "2025-12-30T18:15:00+03:00",
+    "end": "2025-12-30T18:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "umd8912qljkla76aqc3864pv28",
+    "title": "K2 Rüya uysal",
+    "start": "2025-12-30T18:30:00+03:00",
+    "end": "2025-12-30T18:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "mf52tjtalkel962kf27lrvdi1c",
+    "title": "K nisanur dümen",
+    "start": "2025-12-31T08:30:00+03:00",
+    "end": "2025-12-31T08:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1afrrlkuubfhlqdmojh0kf4c6o",
+    "title": "k1 elif taş",
+    "start": "2025-12-31T09:00:00+03:00",
+    "end": "2025-12-31T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3fhv9rd5ku46bhj1klfjmhhm90",
+    "title": "İşlem İlknur güler",
+    "start": "2025-12-31T09:30:00+03:00",
+    "end": "2025-12-31T10:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0esqc68o7ljmf20c4f5knp1v5o",
+    "title": "K1 Ayşegül oğar",
+    "start": "2025-12-31T10:00:00+03:00",
+    "end": "2025-12-31T10:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "58skj338pdrecinc5is8t2fl08",
+    "title": "k1 aysel bakırhan",
+    "start": "2025-12-31T10:30:00+03:00",
+    "end": "2025-12-31T10:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vieldje0e3eotl1ta43n82crhg",
+    "title": "K1 Kübra akca",
+    "start": "2025-12-31T10:45:00+03:00",
+    "end": "2025-12-31T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "53aopoun71pd646h6v7uq5fj24",
+    "title": "k1 zeynep bilgiç",
+    "start": "2026-01-02T09:30:00+03:00",
+    "end": "2026-01-02T09:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3l7dh0aongio34pgupb4nr43cg",
+    "title": "K2 Naime ekmekçi",
+    "start": "2026-01-02T09:45:00+03:00",
+    "end": "2026-01-02T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "8qaq27rl239jqlt7kovl83noag",
+    "title": "op-Anestezi Saime adiyaman",
+    "start": "2026-01-02T10:30:00+03:00",
+    "end": "2026-01-02T10:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "d26kpgrkk3lb3ou2m44f5k10ig",
+    "title": "K2 Sevda Uluel",
+    "start": "2026-01-02T10:30:00+03:00",
+    "end": "2026-01-02T10:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4rgstpugkfkpvbiaipfoilfkmc",
+    "title": "k2 ayşe sümeyye kaya",
+    "start": "2026-01-02T11:00:00+03:00",
+    "end": "2026-01-02T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kfdkqipsl0ffm4el7qts6ltqq4",
+    "title": "1m Rabia Savukduran",
+    "start": "2026-01-02T11:15:00+03:00",
+    "end": "2026-01-02T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "a3el9nbcbm51qlccbcdcibmegk",
+    "title": "K2 Funda bayındır",
+    "start": "2026-01-02T11:30:00+03:00",
+    "end": "2026-01-02T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9uvsamoq216005trpjgcbajbf4",
+    "title": "12.00🔪melek kavak KOSTALI iy yaş 24",
+    "start": "2026-01-02T11:45:00+03:00",
+    "end": "2026-01-02T14:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1007",
+    "description": "70k-30k ödedi"
+  },
+  {
+    "id": "ajttec9h7fknkft0h3vu52tngo",
+    "title": "k1 eyüp bayansalduz",
+    "start": "2026-01-02T14:15:00+03:00",
+    "end": "2026-01-02T14:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2p5vraps91sh90rnlpd1lgl0ro",
+    "title": "k1 zelal bulut",
+    "start": "2026-01-02T14:30:00+03:00",
+    "end": "2026-01-02T14:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "j2cii1mq1emjvbba50m77f70og",
+    "title": "15.30🔪Saime Adiyaman iy yaş 37",
+    "start": "2026-01-02T15:15:00+03:00",
+    "end": "2026-01-02T17:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1012",
+    "description": "70k"
+  },
+  {
+    "id": "kukkj3eod32sum3hvbif5u8814",
+    "title": "3m Ecrin naz atamer",
+    "start": "2026-01-02T17:30:00+03:00",
+    "end": "2026-01-02T17:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4604a64s0o8gmseloedng5ud24",
+    "title": "Anestezi Adem Cihan Soylu",
+    "start": "2026-01-03T07:30:00+03:00",
+    "end": "2026-01-03T07:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "uk6nr4jfl62jivmsffu8u9lamc",
+    "title": "08.00🔪adem cihan soylu iy yaş 24",
+    "start": "2026-01-03T08:45:00+03:00",
+    "end": "2026-01-03T11:20:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1122",
+    "description": "70k ödeme alındı"
+  },
+  {
+    "id": "umurdr7tb5kh1o0fhukke8q9t0",
+    "title": "M iy özge Yılmaz",
+    "start": "2026-01-03T11:00:00+03:00",
+    "end": "2026-01-03T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "k060850ehrio2ltc87rdcqpm8s",
+    "title": "K2 İlayda bilgin",
+    "start": "2026-01-03T11:15:00+03:00",
+    "end": "2026-01-03T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "m0m6nt6av7gtu4ogu4lufg6b7k",
+    "title": "K2 Cansel eken",
+    "start": "2026-01-03T11:30:00+03:00",
+    "end": "2026-01-03T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "b3td151qr7pa9a2k94rktcurhs",
+    "title": "k semra kahraman",
+    "start": "2026-01-03T11:45:00+03:00",
+    "end": "2026-01-03T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ph56ac7dbu4taeji51ebkl1t84",
+    "title": "1,5m Cansel Karagöz",
+    "start": "2026-01-03T12:00:00+03:00",
+    "end": "2026-01-03T12:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jcah1i63eb9j4b96dmgp6jeg3c",
+    "title": "K2 Didem yiğit",
+    "start": "2026-01-03T12:15:00+03:00",
+    "end": "2026-01-03T12:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "oelu02qolh4s4ec7eqcma9ve7g",
+    "title": "K1 Hamza tuncel",
+    "start": "2026-01-03T12:30:00+03:00",
+    "end": "2026-01-03T12:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fdoqhcdukprk3uijgmrsupmbh8",
+    "title": "K2 İlayda nur abaramak",
+    "start": "2026-01-03T12:45:00+03:00",
+    "end": "2026-01-03T13:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "udnarocddrdj0euerdonciqbcc",
+    "title": "M iy Mehmet arda Erdoğan tel no 5395809512",
+    "start": "2026-01-03T13:00:00+03:00",
+    "end": "2026-01-03T13:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vddcb11vosqkb95hmjofi3b49c",
+    "title": "3m Bahar Akalan",
+    "start": "2026-01-04T08:00:00+03:00",
+    "end": "2026-01-04T08:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "d85d1qkl7n0hpqvvomoc404plk",
+    "title": "K2 Mustafa altuntaş",
+    "start": "2026-01-05T08:30:00+03:00",
+    "end": "2026-01-05T08:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "eldkhtjm024heghodsdjkrdt3c",
+    "title": "K1 Esra çiçek",
+    "start": "2026-01-05T09:00:00+03:00",
+    "end": "2026-01-05T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "g75ed8sbcgkqcj00j6s67l8jbs",
+    "title": "K1 onur kızılkurt",
+    "start": "2026-01-05T09:15:00+03:00",
+    "end": "2026-01-05T09:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rdsvvpomc7v5tld6p4rm2ccolg",
+    "title": "1m ebru Bozkuş",
+    "start": "2026-01-05T09:30:00+03:00",
+    "end": "2026-01-05T09:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "j7rmrjgcloeehcl18g39jkbfm4",
+    "title": "1m songül doğan",
+    "start": "2026-01-05T09:45:00+03:00",
+    "end": "2026-01-05T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "j3bv2cbkme56m8sjedvvft4geo",
+    "title": "K Sema nur güner",
+    "start": "2026-01-05T10:00:00+03:00",
+    "end": "2026-01-05T10:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ipvn3cl0rivjbe6qqmgdbluq9o",
+    "title": "M iy dilek katar",
+    "start": "2026-01-05T10:15:00+03:00",
+    "end": "2026-01-05T10:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "h480sc83mo8kh2shftmt3np8e4",
+    "title": "k2 sudenur öztürk",
+    "start": "2026-01-05T10:30:00+03:00",
+    "end": "2026-01-05T10:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "70q84t28sbrimldt5kbufjq4g4",
+    "title": "K Ayşegül oğar",
+    "start": "2026-01-05T10:45:00+03:00",
+    "end": "2026-01-05T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "uo6febobhk1t9ic32o5nk2tbf4",
+    "title": "Kontrol ! Arya",
+    "start": "2026-01-05T11:00:00+03:00",
+    "end": "2026-01-05T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "k255qjtptu2ggo88j4u0tobqac",
+    "title": "Op-Anestezi Nisanur göral",
+    "start": "2026-01-05T19:00:00+03:00",
+    "end": "2026-01-05T19:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "usvnlq2dued022gqs07fuebvl0",
+    "title": "K2 Aysel bakırhan",
+    "start": "2026-01-06T09:45:00+03:00",
+    "end": "2026-01-06T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hnoh5en7ffjp6sp8me4c7eo7r4",
+    "title": "op svitlana mykolaivna",
+    "start": "2026-01-06T10:00:00+03:00",
+    "end": "2026-01-06T10:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "sc55jo7lt7kngm05m2t611tvl8",
+    "title": "m (büşra) sarah dimashki",
+    "start": "2026-01-06T10:30:00+03:00",
+    "end": "2026-01-06T10:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jlvh7upmataslhnc4hmtef598k",
+    "title": "k1 emine poşul",
+    "start": "2026-01-06T10:45:00+03:00",
+    "end": "2026-01-06T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "t993bk2mi0suetr9afkqi7oq4o",
+    "title": "10m Neşe eroğlu",
+    "start": "2026-01-06T11:15:00+03:00",
+    "end": "2026-01-06T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4rfk06pnoja193qrgjgpldp6qk",
+    "title": "M (Emre yıldır) aslı erden",
+    "start": "2026-01-06T11:45:00+03:00",
+    "end": "2026-01-06T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jp7ej065d3ragpfd3abmtnf0og",
+    "title": "M (Emre yıldır) Gamze delikkaya",
+    "start": "2026-01-06T12:00:00+03:00",
+    "end": "2026-01-06T12:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "cbfe1g2eob2nk660ddt5l7krks",
+    "title": "k1 yağmur birsen",
+    "start": "2026-01-06T12:15:00+03:00",
+    "end": "2026-01-06T12:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jc8c6mobsmpfeagglqcfj9j8jo",
+    "title": "13.00🔪Nisanur Göral iy REVİZYON yaş 24",
+    "start": "2026-01-06T13:45:00+03:00",
+    "end": "2026-01-06T17:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "902",
+    "description": "90k ödeme alındı iban \n13 Ocak dönüş 17.40"
+  },
+  {
+    "id": "vk81u1453hftgee0dop5t1qc4g",
+    "title": "Anestezi selvi Simay gündü",
+    "start": "2026-01-06T16:45:00+03:00",
+    "end": "2026-01-06T17:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vkp7tppbr8g13cvivq7ad8bhp0",
+    "title": "m (emre yıldır) nur hanım REVİZYON 506 230 37 60",
+    "start": "2026-01-06T17:00:00+03:00",
+    "end": "2026-01-06T17:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "09ioklki4l4k7vm6e0tj9r252p",
+    "title": "k Onur Kızılkurt",
+    "start": "2026-01-06T17:15:00+03:00",
+    "end": "2026-01-06T17:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "nim6qqsb1lge06273ep58per7o",
+    "title": "m (emre yıldır) nazlı hanım 534 815 36 39",
+    "start": "2026-01-06T17:30:00+03:00",
+    "end": "2026-01-06T17:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hjdbu8k5ifi4018siluta1q998",
+    "title": "M iy Azra melek Erşik",
+    "start": "2026-01-06T17:45:00+03:00",
+    "end": "2026-01-06T18:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "q84oup48oi0s7osi6b4d51niuk",
+    "title": "m iy afranur erşik",
+    "start": "2026-01-06T18:00:00+03:00",
+    "end": "2026-01-06T18:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rmfm1kkgtenpf1thn4p5uhtg28",
+    "title": "M online (Emre yıldır) gülbahar hanım",
+    "start": "2026-01-06T20:30:00+03:00",
+    "end": "2026-01-06T20:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1bj4kq3t55l1b93bsvnjs9j9e4",
+    "title": "Anestezi Büşra ataman",
+    "start": "2026-01-07T09:30:00+03:00",
+    "end": "2026-01-07T09:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1mj55gdqsft3oapgbloh9tc528",
+    "title": "m (büşra) serap şahan demir",
+    "start": "2026-01-07T11:00:00+03:00",
+    "end": "2026-01-07T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "egmsq7ai54b3h9sratr9v8otjc",
+    "title": "m (büşra) şevval soydan +90 530 318 50 04",
+    "start": "2026-01-07T11:30:00+03:00",
+    "end": "2026-01-07T11:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2knhf584v6p71b54bf7lf0ptu0",
+    "title": "12.00🔪Burak Bolat iy REVİZYON yaş 28",
+    "start": "2026-01-07T13:30:00+03:00",
+    "end": "2026-01-07T16:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1309",
+    "description": "80k-40k kapora alındı ödeme yapıldı"
+  },
+  {
+    "id": "7b65sv33simlff28ap53siuhe0",
+    "title": "K2 ela nur ezer",
+    "start": "2026-01-07T16:45:00+03:00",
+    "end": "2026-01-07T17:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ati85fhqct43b83ejg0djifueo",
+    "title": "M iy şeyda erdem",
+    "start": "2026-01-07T17:00:00+03:00",
+    "end": "2026-01-07T17:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "v2phischcbqhdvqik2ne18vhg8",
+    "title": "1,5m elif Çetintaş",
+    "start": "2026-01-07T17:15:00+03:00",
+    "end": "2026-01-07T17:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "7cjf4ih6ob2d6bcccl36svgu0k",
+    "title": "08.00🔪Büşra ataman iy yaş 17",
+    "start": "2026-01-08T09:00:00+03:00",
+    "end": "2026-01-08T11:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1107",
+    "description": "75k"
+  },
+  {
+    "id": "rcoj3onveofvskfn2t03h1d6rc",
+    "title": "K2 Kübra akca",
+    "start": "2026-01-08T11:30:00+03:00",
+    "end": "2026-01-08T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "imgbq3go876stc9l5jb8pa82n8",
+    "title": "Op nurıa maria",
+    "start": "2026-01-09T09:30:00+03:00",
+    "end": "2026-01-09T10:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "8f8qorno3kudfsdh23kcc2ae5g",
+    "title": "K2 Zeynep bilgiç",
+    "start": "2026-01-09T10:00:00+03:00",
+    "end": "2026-01-09T10:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "n7r2pi89amfefkf17n09u7jn4o",
+    "title": "k1 adem cihan soylu",
+    "start": "2026-01-09T10:30:00+03:00",
+    "end": "2026-01-09T10:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ovb0bvi901cbialc5u8703s4oc",
+    "title": "K1 Saime adiyaman",
+    "start": "2026-01-09T10:45:00+03:00",
+    "end": "2026-01-09T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "gdom45lm9r6ucg17n0s8l0u4jo",
+    "title": "anestezi azad uçar",
+    "start": "2026-01-09T11:00:00+03:00",
+    "end": "2026-01-09T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "robtg4l3dl5d6vngek1agb355s",
+    "title": "11.30🔪selvi Simay gündü iy yaş 19",
+    "start": "2026-01-09T12:30:00+03:00",
+    "end": "2026-01-09T14:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1104",
+    "description": "80k"
+  },
+  {
+    "id": "br24sk2mvunith1gnv90egndck",
+    "title": "K2 Eyüp Bayansalduz",
+    "start": "2026-01-09T14:30:00+03:00",
+    "end": "2026-01-09T14:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kinmnla8boev2ht3dqtg30383g",
+    "title": "M iy Semanur incir",
+    "start": "2026-01-09T14:45:00+03:00",
+    "end": "2026-01-09T15:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "apb8niblu35kgekou1n5fcsed0",
+    "title": "M iy Gülşen ışıldar",
+    "start": "2026-01-09T15:00:00+03:00",
+    "end": "2026-01-09T15:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "7d3rk568ge18k4mdt7kvbklmkg",
+    "title": "m iy rana hanım",
+    "start": "2026-01-09T15:15:00+03:00",
+    "end": "2026-01-09T15:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1lri89t8jp8pq1422odidm0f7c",
+    "title": "14.00🔪nurıa maria (medproper)",
+    "start": "2026-01-09T15:30:00+03:00",
+    "end": "2026-01-09T17:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1116",
+    "description": "ispanyol\n16 Ocak 11.25"
+  },
+  {
+    "id": "dhlkqird7mfk86fcoaqqjgg3i4",
+    "title": "Anestezi nuriye Yalçın",
+    "start": "2026-01-09T15:45:00+03:00",
+    "end": "2026-01-09T16:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0buqs25e6v1smmsvuqv09ivfc4",
+    "title": "online",
+    "start": "2026-01-09T18:30:00+03:00",
+    "end": "2026-01-09T18:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rsr8brh0m700j668jhmubglaf8",
+    "title": "K1 melek kavak-hb+",
+    "start": "2026-01-10T09:00:00+03:00",
+    "end": "2026-01-10T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "l29ngqrcs05kvf68vfdnr1j5c8",
+    "title": "m iy mehmet purçak",
+    "start": "2026-01-10T10:45:00+03:00",
+    "end": "2026-01-10T11:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "oc58t4k2nu3g5hj9rb3rtmd4lk",
+    "title": "2,5m Şule aybek",
+    "start": "2026-01-10T11:00:00+03:00",
+    "end": "2026-01-10T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "q94h8tak4u8ht87virh532lnbg",
+    "title": "K Zeynep Şengün",
+    "start": "2026-01-10T11:15:00+03:00",
+    "end": "2026-01-10T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "o17jmch7481tahuqv0m2anlc9o",
+    "title": "K Hamza tuncel",
+    "start": "2026-01-10T11:30:00+03:00",
+    "end": "2026-01-10T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "m9cjpmvs1jd7637k66tasq26uc",
+    "title": "1m saniye baykara",
+    "start": "2026-01-10T11:45:00+03:00",
+    "end": "2026-01-10T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3oi6to9pl8k9e9asis6c2fn8e4",
+    "title": "M iy Elvan arslan",
+    "start": "2026-01-10T12:00:00+03:00",
+    "end": "2026-01-10T12:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jqbbjlrqtpsiagln7m5r53dqbo",
+    "title": "12.30🔪azad uçar (büşra) yaş 21",
+    "start": "2026-01-10T12:45:00+03:00",
+    "end": "2026-01-10T15:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1022",
+    "description": "+90 546 799 26 56"
+  },
+  {
+    "id": "lv6v9h5qa9phpss9l4mlmdkktk",
+    "title": "1,5m Seda Karakurt",
+    "start": "2026-01-10T15:00:00+03:00",
+    "end": "2026-01-10T15:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "j3qkk2fh0hketdkjah3v48onqg",
+    "title": "1,5m yağmur ipek",
+    "start": "2026-01-10T15:15:00+03:00",
+    "end": "2026-01-10T15:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "inpoqsj0u5q2b3t1cp7075h0ik",
+    "title": "m online (yeşim) özer aykaç",
+    "start": "2026-01-10T15:30:00+03:00",
+    "end": "2026-01-10T15:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "bl0eldas0susd4hqugdf86sqoc",
+    "title": "K Elif durmaz",
+    "start": "2026-01-10T15:45:00+03:00",
+    "end": "2026-01-10T16:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "nccmm9a80avevocper2k4u0u00",
+    "title": "M iy Şeyma Bostancı ",
+    "start": "2026-01-10T16:00:00+03:00",
+    "end": "2026-01-10T16:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9eem55p3ahq8954rssold1k8gk",
+    "title": "online",
+    "start": "2026-01-10T21:00:00+03:00",
+    "end": "2026-01-10T21:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "lnqf6vvjlbibkh4657avb1gipo",
+    "title": "K2 Elif taş",
+    "start": "2026-01-11T09:00:00+03:00",
+    "end": "2026-01-11T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "et9anv5asslvqm08obb3ulbs00",
+    "title": "K1 Nisanur Göral",
+    "start": "2026-01-12T07:30:00+03:00",
+    "end": "2026-01-12T07:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "67o27mvkjmls3bpet08u6muor0",
+    "title": "08.00🔪nuriye yalçın (Emre yıldır) yaş 23 REVİZYON+tonsillektomi",
+    "start": "2026-01-12T08:45:00+03:00",
+    "end": "2026-01-12T12:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1321",
+    "description": "süre 4 saat"
+  },
+  {
+    "id": "54c2rkmnrqdkl2a3ir8qjnj5go",
+    "title": "anestezi serap şahan demir",
+    "start": "2026-01-12T11:30:00+03:00",
+    "end": "2026-01-12T11:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "plclip006uv2bsjbc1lhv04co0",
+    "title": "op anestezi derya salih",
+    "start": "2026-01-12T11:45:00+03:00",
+    "end": "2026-01-12T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ttv60q7olge56ckbmnm97pkf8g",
+    "title": "Op kozak aniko renata",
+    "start": "2026-01-12T12:00:00+03:00",
+    "end": "2026-01-12T12:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "s44phukakhfn48dd3uq39l1ecg",
+    "title": "K2 yağmur birsen",
+    "start": "2026-01-12T12:30:00+03:00",
+    "end": "2026-01-12T12:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ho72kh0aijl8u2e403hmvtq9a4",
+    "title": "12.00🔪Gülşen ışıldar iy yaş 35",
+    "start": "2026-01-12T14:00:00+03:00",
+    "end": "2026-01-12T16:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1302",
+    "description": "80k-50k ödeme alındı"
+  },
+  {
+    "id": "7nuqqc5me8g3l1jfqmmb8q0po8",
+    "title": "K2 Esra çiçek",
+    "start": "2026-01-12T16:30:00+03:00",
+    "end": "2026-01-12T16:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3uno46kgjob4kclqmlhp0359qk",
+    "title": "online (büşra) rojda akpolat",
+    "start": "2026-01-12T20:30:00+03:00",
+    "end": "2026-01-12T20:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "n7drj6j7lblltl2m1to6ue9sls",
+    "title": "anestezi derya salih",
+    "start": "2026-01-13T07:30:00+03:00",
+    "end": "2026-01-13T07:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "8v30cap0bb784pb7bpjftk0ks4",
+    "title": "K1 Burak bolat",
+    "start": "2026-01-13T07:45:00+03:00",
+    "end": "2026-01-13T08:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "09clsugcte7qctluut9c43r4gk",
+    "title": "08.00🔪serap şahan demir (büşra) yaş 36",
+    "start": "2026-01-13T08:45:00+03:00",
+    "end": "2026-01-13T11:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1105",
+    "description": "+90 541 221 61 25\nerken istiyor aml ı\n--\nhastanın her şeyi tam\nödemesi eksik(59k)"
+  },
+  {
+    "id": "68duq64juthp0am3t94do54c18",
+    "title": "3m Ceren Mengüş",
+    "start": "2026-01-13T11:00:00+03:00",
+    "end": "2026-01-13T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6edbakufqcdj9qsr55nfns7l3a",
+    "title": "k Nisanur göral",
+    "start": "2026-01-13T11:00:00+03:00",
+    "end": "2026-01-13T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ade3dvmral514ga12m9tn7ju1k",
+    "title": "K2 Ayşegül oğar",
+    "start": "2026-01-13T11:15:00+03:00",
+    "end": "2026-01-13T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "8q7mdv33s0tpifse0n6kghapoc",
+    "title": "10.30🔪derya salih (büşra) yaş 37",
+    "start": "2026-01-13T11:45:00+03:00",
+    "end": "2026-01-13T14:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1120",
+    "description": "+90 541 556 17 54\nhastanın anestezi muayenesi eksik"
+  },
+  {
+    "id": "bupkdehfv70a6n9unmodsc12b0",
+    "title": "k2 onur kızılkurt",
+    "start": "2026-01-13T14:00:00+03:00",
+    "end": "2026-01-13T14:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "be0sqbsk7jm2hlfavf4f2coh88",
+    "title": "M iy safiye Aslan",
+    "start": "2026-01-13T14:15:00+03:00",
+    "end": "2026-01-13T14:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "occ9lclo754cgisl4mu1l19e18",
+    "title": "M iy beste iğde",
+    "start": "2026-01-13T14:30:00+03:00",
+    "end": "2026-01-13T14:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4md24a80uhqtg6se83pdk3uhg0",
+    "title": "1,5m Gül tuncil",
+    "start": "2026-01-13T14:45:00+03:00",
+    "end": "2026-01-13T15:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3aj48uvvjgj3466il4bhpjgt3k",
+    "title": "Op Elisabeta Ivasiuc",
+    "start": "2026-01-14T09:00:00+03:00",
+    "end": "2026-01-14T09:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "mgbl3vt52ue03in84tvae68mck",
+    "title": "🔪 Elisabeta Ivasiuc (medproper)",
+    "start": "2026-01-14T12:45:00+03:00",
+    "end": "2026-01-14T15:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1314",
+    "description": "rusça"
+  },
+  {
+    "id": "s9spup2rhdiap1av7780lm3otc",
+    "title": "op-anestezi (büşra) sümeyra barışan",
+    "start": "2026-01-14T15:15:00+03:00",
+    "end": "2026-01-14T15:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "53njpgdqh6j5b0orichq2tcs4o",
+    "title": "k miyesser acar",
+    "start": "2026-01-14T16:00:00+03:00",
+    "end": "2026-01-14T16:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4us3rmuesa0uh8sb6cfrir49ss",
+    "title": "K ümit bayraktar",
+    "start": "2026-01-14T16:45:00+03:00",
+    "end": "2026-01-14T17:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1o0ob6m5vrv434kv1on37p1ljp",
+    "title": "m Tuğba Hupal (büşra)",
+    "start": "2026-01-14T17:30:00+03:00",
+    "end": "2026-01-14T17:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a",
+    "description": "35 yaş +90 531 868 17 11"
+  },
+  {
+    "id": "1l6sp6sgal77cenud2b1bnvgj0",
+    "title": "anestezi mehmet arda erdoğan",
+    "start": "2026-01-15T09:15:00+03:00",
+    "end": "2026-01-15T09:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "qnlu3t171e98qj2k7ckdu7f418",
+    "title": "M Aleyna taşar",
+    "start": "2026-01-15T10:00:00+03:00",
+    "end": "2026-01-15T10:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "pcjcdurkjgan7q8pmkrc1bp584",
+    "title": "K1 nurıa maria",
+    "start": "2026-01-15T10:15:00+03:00",
+    "end": "2026-01-15T10:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "sdt6k6eqe026p1icbgi32dl8no",
+    "title": "k1 büşra ataman",
+    "start": "2026-01-15T10:45:00+03:00",
+    "end": "2026-01-15T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fr8a6ho1182b3bbjkaus7mj8f8",
+    "title": "1m Neslişah Beyza Poşul",
+    "start": "2026-01-15T11:15:00+03:00",
+    "end": "2026-01-15T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "17k0ei1q6af5j0tkk16lhlqb6g",
+    "title": "m Perihan Gençaslan",
+    "start": "2026-01-15T13:00:00+03:00",
+    "end": "2026-01-15T13:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "k9rk2ammljh1k6t24rr16m4ecs",
+    "title": "12.00🔪sümeyra barışan (büşra) yaş 25",
+    "start": "2026-01-15T13:30:00+03:00",
+    "end": "2026-01-15T15:50:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1311",
+    "description": "tel no +90 541 112 64 22\n\ntetkikleri verdi, onamlar verildi. \nAmeliyat günü mutlaka kontrol edilecek."
+  },
+  {
+    "id": "2vrifa4cfenl05vetl2esqckos",
+    "title": "K1 selvi Simay gündü",
+    "start": "2026-01-15T16:00:00+03:00",
+    "end": "2026-01-15T16:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "439hi8g5g715nm1u9tb883rpuq",
+    "title": "m Sunay Uçak [µp]",
+    "start": "2026-01-15T16:15:00+03:00",
+    "end": "2026-01-15T16:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "772bbacms868n1nt513p78i3ke",
+    "title": "14.30🔪 Safiye Aslan iy",
+    "start": "2026-01-15T16:30:00+03:00",
+    "end": "2026-01-15T19:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "description": "fiyat: 85k\nAnestezi aynı gün sabah erken yapılacak.\nÜcret bilgisi verildi. \nÖdeme: nakit"
+  },
+  {
+    "id": "s5fnqvk57pm0919v30t6093s5c",
+    "title": "Anestezi Enes koç",
+    "start": "2026-01-16T08:30:00+03:00",
+    "end": "2026-01-16T08:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fm34v0t1s1c4hmmf001b4p5r7c",
+    "title": "anestezi furkan duruk",
+    "start": "2026-01-16T09:00:00+03:00",
+    "end": "2026-01-16T09:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9no672req0bmotvltnmp6u3qm0",
+    "title": "🔪perihan gençaslan (mesut) yaş 26",
+    "start": "2026-01-16T12:00:00+03:00",
+    "end": "2026-01-16T14:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1005",
+    "description": "yatış yapıldı.\nanestezi ve onamlar tamam\nfoto onamı alındı."
+  },
+  {
+    "id": "qbu1bf90uhvfb7mm0bra0d2af8",
+    "title": "k2 melek kavak",
+    "start": "2026-01-16T14:00:00+03:00",
+    "end": "2026-01-16T14:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "7l8b9o4sloqv8u37hduo0gvsv3",
+    "title": "9m beyza Önkol",
+    "start": "2026-01-16T14:15:00+03:00",
+    "end": "2026-01-16T14:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1dcvjahru25v3vv21ho5loca9k",
+    "title": "🔪Furkan Duruk iy yaş 18 KOSTALI",
+    "start": "2026-01-16T15:00:00+03:00",
+    "end": "2026-01-16T18:20:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1123 ",
+    "description": "85k ödeme ibanla yapcak\n09.00 da hastanede olucak\nanestezi vs yapılmadı"
+  },
+  {
+    "id": "m7e3kv24brhh7isqkp2drsubvg",
+    "title": "anestezi sunay uçak",
+    "start": "2026-01-16T15:30:00+03:00",
+    "end": "2026-01-16T15:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "65h113lqkms2as1s5d7tpggp1h",
+    "title": "k1 Nuriye Yalçın",
+    "start": "2026-01-16T18:15:00+03:00",
+    "end": "2026-01-16T18:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "dlic28hljatksifesb4h1elmms",
+    "title": "1,5m sibel çetin",
+    "start": "2026-01-16T19:00:00+03:00",
+    "end": "2026-01-16T19:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4u1ofb35jkuaoa81agg0cim7cg",
+    "title": "18.30🔪 Sunay uçak (emre yıldır) yaş 23",
+    "start": "2026-01-16T19:15:00+03:00",
+    "end": "2026-01-16T21:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1001",
+    "description": "546 185 61 55\nhastanın 14.00 da hastanede olması söylendi \nanestezisi eksik"
+  },
+  {
+    "id": "ba5g1881esiru8ea4ehtrgbopg",
+    "title": "anestezi şevval soydan",
+    "start": "2026-01-17T08:00:00+03:00",
+    "end": "2026-01-17T08:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "nopp5ub1q8p958pmdi52gj661k",
+    "title": "anestezi kader şen",
+    "start": "2026-01-17T09:30:00+03:00",
+    "end": "2026-01-17T09:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "m23cnvmrhfnsekt10g1vjda274",
+    "title": "09.00🔪mehmet arda erdoğan iy yaş 17",
+    "start": "2026-01-17T10:00:00+03:00",
+    "end": "2026-01-17T12:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1316",
+    "description": "85k ödeme alındı\n--\nkan verdi anestezi muayenesi olacak.\nyatışta velayet belgesi şart\n06.00 da hastanede olsun denildi"
+  },
+  {
+    "id": "68uoqa1cked3oqicpj2lpp0l3k",
+    "title": "k1 azad uçar",
+    "start": "2026-01-17T12:30:00+03:00",
+    "end": "2026-01-17T12:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fh1uekjv3sgmuijqa5ui3mt7u0",
+    "title": "1m cansel eken",
+    "start": "2026-01-17T12:45:00+03:00",
+    "end": "2026-01-17T13:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2e75fjrhkh0j3ivbhd82eam2pt",
+    "title": "k sümeyra barışan",
+    "start": "2026-01-17T13:00:00+03:00",
+    "end": "2026-01-17T13:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "75dgludd1j77g3e84vtpfa7gok",
+    "title": "6m Elanur Yıldırım",
+    "start": "2026-01-17T13:15:00+03:00",
+    "end": "2026-01-17T13:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "45vl5qln2bstv11qj80sqa3aes",
+    "title": "11.30🔪şevval naz soydan (büşra) yaş 19",
+    "start": "2026-01-17T13:30:00+03:00",
+    "end": "2026-01-17T16:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1322",
+    "description": "+90 530 318 50 00\n\nHastanın oramları dosyada 13üncü kat\nHasta muhtemelen kan tetiklerini yaptırıyor"
+  },
+  {
+    "id": "09vhkmh5bhgj1hnpbul4nfhg6j",
+    "title": "k Şilan Akcan ",
+    "start": "2026-01-17T16:00:00+03:00",
+    "end": "2026-01-17T16:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9so9rkig4ctsf9h46cjjig8j0s",
+    "title": "6m kübra kuru",
+    "start": "2026-01-17T16:15:00+03:00",
+    "end": "2026-01-17T16:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6k34b6a4nc46lsm5bvrua4rbik",
+    "title": "m iy aleyna taşar 5431561334",
+    "start": "2026-01-17T16:30:00+03:00",
+    "end": "2026-01-17T16:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4mhb47k1rh7ssma44iqbe8vsmu",
+    "title": "k Figen Sürü",
+    "start": "2026-01-17T16:45:00+03:00",
+    "end": "2026-01-17T17:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "08277uahh6174du1md3eq0vvi0",
+    "title": "K2 adem cihan soylu",
+    "start": "2026-01-17T17:00:00+03:00",
+    "end": "2026-01-17T17:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "19kbqu8pknhb6iuk0odegvdgnr",
+    "title": "k ilayda bilgin ",
+    "start": "2026-01-17T17:15:00+03:00",
+    "end": "2026-01-17T17:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6o1lbf4tf0uet1sitc0orm7e1q",
+    "title": "k Cansu Demir",
+    "start": "2026-01-18T09:30:00+03:00",
+    "end": "2026-01-18T09:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "du1dcba249sbbep14f5tu9gu8c",
+    "title": "K online kardelen ayaz",
+    "start": "2026-01-18T14:00:00+03:00",
+    "end": "2026-01-18T14:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rjs7l8ii5bqagajfuv458v10kg",
+    "title": "Op Öznur bilgin",
+    "start": "2026-01-19T13:45:00+03:00",
+    "end": "2026-01-19T14:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "el4ufudf75k8e84or33rndvhr4",
+    "title": "🔪Enes koç iy KOSTALI yaş 25",
+    "start": "2026-01-19T14:15:00+03:00",
+    "end": "2026-01-19T17:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1323",
+    "description": "75k-ödeme yapıldı"
+  },
+  {
+    "id": "3f0lf1lof4j7dp3bfbi02lnb84",
+    "title": "m iy Lara Boybaşı",
+    "start": "2026-01-19T16:45:00+03:00",
+    "end": "2026-01-19T17:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "b186i03misd4rkd1tcl9865hng",
+    "title": "k nuriye yalçın",
+    "start": "2026-01-19T17:00:00+03:00",
+    "end": "2026-01-19T17:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "f31bla1gcunupa1m7aslrj89sk",
+    "title": "k1 gülşen ışıldar",
+    "start": "2026-01-19T17:30:00+03:00",
+    "end": "2026-01-19T17:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "b8n0ppj2veccdjomhpi52ti2h8",
+    "title": "11.00🔪kader Şen iy yaş 26",
+    "start": "2026-01-20T08:45:00+03:00",
+    "end": "2026-01-20T11:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1322",
+    "description": "70k-ödeme alındı\n5k daha alınacak\nher şeyi tam"
+  },
+  {
+    "id": "jj1nj54fo6quot1mth5t9fkp3g",
+    "title": "Anestezi Neval demir",
+    "start": "2026-01-20T09:00:00+03:00",
+    "end": "2026-01-20T09:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2edm8d1lvbmhuivambbe8vj8ec",
+    "title": "k1 serap şahan demir",
+    "start": "2026-01-20T11:15:00+03:00",
+    "end": "2026-01-20T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "tnnh2t604nfgn3fp9tvovrm96o",
+    "title": "k1 derya salih",
+    "start": "2026-01-20T11:30:00+03:00",
+    "end": "2026-01-20T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "52l27cigmvm4qdtjt2prvqs7rc",
+    "title": "k3 aysel bakırhan",
+    "start": "2026-01-20T11:45:00+03:00",
+    "end": "2026-01-20T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "u6m3u47avpaqhmjgoefcncs3bg",
+    "title": "08.00🔪Öznur bilgin iy yaş 23",
+    "start": "2026-01-20T12:20:00+03:00",
+    "end": "2026-01-20T15:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1317",
+    "description": "70k-30k ödeme yaptı\n40k ibanla ödicek"
+  },
+  {
+    "id": "00r7d63uttbs33onafl0rmdl10",
+    "title": "k ramazan çağlar",
+    "start": "2026-01-20T14:45:00+03:00",
+    "end": "2026-01-20T15:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1upg5bnp71a7a7sbu9vtieiid0",
+    "title": "Anestezi Sümeyye Akşahin",
+    "start": "2026-01-20T15:00:00+03:00",
+    "end": "2026-01-20T15:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "khti6kgeb86kf20l2fgpvrg7ss",
+    "title": "m iy ebru solak",
+    "start": "2026-01-20T15:00:00+03:00",
+    "end": "2026-01-20T15:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "e6rvrbs5ad549qsrjobg18i7rc",
+    "title": "1m sema nur güner",
+    "start": "2026-01-20T15:15:00+03:00",
+    "end": "2026-01-20T15:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jl47h6dhmvdgvqdr6j3of8vh20",
+    "title": "m iy beyza ertürk EMETİNİN KARDEŞİ",
+    "start": "2026-01-20T15:30:00+03:00",
+    "end": "2026-01-20T15:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2tro8iba50nb0f45c4vsqdp8l7",
+    "title": "m iy Kübra Keleş",
+    "start": "2026-01-20T15:45:00+03:00",
+    "end": "2026-01-20T16:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "61r8n7c5ib4bd9gr0q90h48l8o",
+    "title": "6m aleyna güneş",
+    "start": "2026-01-21T08:30:00+03:00",
+    "end": "2026-01-21T08:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5gigotccjs99op4ofeq8f7ctra",
+    "title": "k damla çilingir",
+    "start": "2026-01-21T09:00:00+03:00",
+    "end": "2026-01-21T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "26d9c59kjscotf68jjj737oh34",
+    "title": "k2 burak bolat",
+    "start": "2026-01-21T09:30:00+03:00",
+    "end": "2026-01-21T09:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "opv9ao6r6jhpk1plfiqve7u658",
+    "title": "k1 perihan gençaslan",
+    "start": "2026-01-21T09:45:00+03:00",
+    "end": "2026-01-21T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "go8vhmu78v3bmtuhnjhj09ng5o",
+    "title": "k1 Elisabeta Ivasiuc",
+    "start": "2026-01-21T10:00:00+03:00",
+    "end": "2026-01-21T10:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "73jl11temriha3upv9aim9tb14",
+    "title": "m iy yılmaz olur",
+    "start": "2026-01-21T10:45:00+03:00",
+    "end": "2026-01-21T11:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "09ql08c3urs4cu19b4b3k1t54o",
+    "title": "anestezi aleyna taşar",
+    "start": "2026-01-21T11:00:00+03:00",
+    "end": "2026-01-21T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2t9uj0ojoddmctbn2kj9rm86n0",
+    "title": "anestezi rojda akpolat",
+    "start": "2026-01-22T07:30:00+03:00",
+    "end": "2026-01-22T07:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "js1t2qj3ih92ucfilsqr654li0",
+    "title": "08.00🔪aleyna taşar iy yaş 20",
+    "start": "2026-01-22T08:30:00+03:00",
+    "end": "2026-01-22T10:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1208",
+    "description": "85k-ödeme alındı kk\ntetkikler yapıldı"
+  },
+  {
+    "id": "tmm38h5tib391ost51jcvl6hcg",
+    "title": "Op anestezi sara şebib",
+    "start": "2026-01-22T10:30:00+03:00",
+    "end": "2026-01-22T10:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "g49iisr37qa76uui42hvq38ngs",
+    "title": "m iy ışıl hüzmeli",
+    "start": "2026-01-22T10:45:00+03:00",
+    "end": "2026-01-22T11:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5l1k8geqc5t8oh518819h1ivtc",
+    "title": "op anestezi murat artun",
+    "start": "2026-01-22T11:00:00+03:00",
+    "end": "2026-01-22T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3cb0agsh40mcmmklj0c5idf2g8",
+    "title": "10.30🔪 Rojda Akpolat (büşra) yaş 19",
+    "start": "2026-01-22T11:30:00+03:00",
+    "end": "2026-01-22T13:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1321",
+    "description": "+90 541 554 43 66"
+  },
+  {
+    "id": "9th8dv4u8clv41haldblssm3fg",
+    "title": "k2 büşra ataman",
+    "start": "2026-01-22T13:30:00+03:00",
+    "end": "2026-01-22T13:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "7mq56jm6un01htu4k335g8ck34",
+    "title": "k1 safiye aslan",
+    "start": "2026-01-22T13:45:00+03:00",
+    "end": "2026-01-22T14:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "huk6nk3bqk7s9tiv7id2cvr6lk",
+    "title": "k1 sümeyra barışan",
+    "start": "2026-01-22T14:00:00+03:00",
+    "end": "2026-01-22T14:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "68f885ripf3eeg6d6f7rsedht4",
+    "title": "13.30🔪murat artun yaş 23 (emre yıldır)",
+    "start": "2026-01-22T14:30:00+03:00",
+    "end": "2026-01-22T17:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1318"
+  },
+  {
+    "id": "2523ojac7fgs0jp7ci4tab3orc",
+    "title": "1,5m Nazar polat",
+    "start": "2026-01-22T17:00:00+03:00",
+    "end": "2026-01-22T17:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "membhcmalfamo9ke8res4iasrg",
+    "title": "Online 2x",
+    "start": "2026-01-22T19:00:00+03:00",
+    "end": "2026-01-22T19:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "l4o14iqqm8ts25qtgd9upu24o0",
+    "title": "Online",
+    "start": "2026-01-22T19:30:00+03:00",
+    "end": "2026-01-22T19:45:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "3rgujme3sdhjti5hiucvbo52m8",
+    "title": "Op rahime Nur Şavklı",
+    "start": "2026-01-23T07:30:00+03:00",
+    "end": "2026-01-23T08:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4rqod989cirpndkcdim08rf9rc",
+    "title": "08.00🔪sara şebib (büşra) yaş 36",
+    "start": "2026-01-23T09:00:00+03:00",
+    "end": "2026-01-23T10:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1317",
+    "description": "+90 552 352 49 88"
+  },
+  {
+    "id": "nlf06fnvkjvcn8q5vqhse0v7kc",
+    "title": "Anestezi savaş akdeniz",
+    "start": "2026-01-23T10:45:00+03:00",
+    "end": "2026-01-23T11:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "i2stkglltvbiiiormbanmamn6o",
+    "title": "K saada hanım",
+    "start": "2026-01-23T11:00:00+03:00",
+    "end": "2026-01-23T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9diil2sp9r8opuqikqivnlv1cg",
+    "title": "K emine poşul",
+    "start": "2026-01-23T11:15:00+03:00",
+    "end": "2026-01-23T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "77iflbtctopvl5nfptjiq83m7s",
+    "title": "k1 furkan duruk",
+    "start": "2026-01-23T11:30:00+03:00",
+    "end": "2026-01-23T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "qri639n8vavg351s2ust4ibn00",
+    "title": "10.30🔪 rahime Nur şavklı (Büşra) yaş 27",
+    "start": "2026-01-23T12:15:00+03:00",
+    "end": "2026-01-23T14:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1324",
+    "description": "Tel no 05451918770\nPenisilin alerjisi"
+  },
+  {
+    "id": "3jtlco379ldbteo1ndlu8qpqqs",
+    "title": "k hacelya abi",
+    "start": "2026-01-23T14:45:00+03:00",
+    "end": "2026-01-23T15:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fp0pc3s8i8pnnpi0p7mtom34c4",
+    "title": "2,5m ilknur güler",
+    "start": "2026-01-23T15:00:00+03:00",
+    "end": "2026-01-23T15:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "gqlik65shru3cmfk2ivvs51d9c",
+    "title": "k1 sunay uçak",
+    "start": "2026-01-23T15:15:00+03:00",
+    "end": "2026-01-23T15:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "tvphljkc56gljks7519ubnb4sg",
+    "title": "1m sevda uluel",
+    "start": "2026-01-23T16:30:00+03:00",
+    "end": "2026-01-23T16:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "a7d3q6j87jf6s2aigue9e215vo",
+    "title": "m iy elanur uluel",
+    "start": "2026-01-23T16:45:00+03:00",
+    "end": "2026-01-23T17:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0kagiauu5h8ifneietphamahrg",
+    "title": "Online talha mersinlioğlu",
+    "start": "2026-01-23T18:00:00+03:00",
+    "end": "2026-01-23T18:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6iprcajv4g0ti3gitp10p3nas4",
+    "title": "k Deniz efe öztepe",
+    "start": "2026-01-24T08:00:00+03:00",
+    "end": "2026-01-24T08:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "j5j0ddkas0cti4somkcrg89ft0",
+    "title": "08.00🔪Neval demir iy yaş 17",
+    "start": "2026-01-24T09:00:00+03:00",
+    "end": "2026-01-24T11:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1023",
+    "description": "85k \ntetkikleri verdi her şeyi tam"
+  },
+  {
+    "id": "37j8jdp26gon6omnct4on3vigs",
+    "title": "k Rana şimşek",
+    "start": "2026-01-24T11:15:00+03:00",
+    "end": "2026-01-24T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fcdlvs3ijo31klsdjgo3b08rrg",
+    "title": "k1 şevval naz soydan",
+    "start": "2026-01-24T11:30:00+03:00",
+    "end": "2026-01-24T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "cpvoekh9175cq4d3ok3t816erg",
+    "title": "k2 selvi simay gündü",
+    "start": "2026-01-24T11:45:00+03:00",
+    "end": "2026-01-24T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2p6m8b6ehhc6knhqk7sbd6f93k",
+    "title": "k1 mehmet arda erdoğan",
+    "start": "2026-01-24T12:00:00+03:00",
+    "end": "2026-01-24T12:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "fs4r34c7ad40k03hv65f7bat14",
+    "title": "K Songül doğan",
+    "start": "2026-01-24T12:15:00+03:00",
+    "end": "2026-01-24T12:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2o45mts9tkhn89m13e5p4gj1s4",
+    "title": "M iy aleyna nur aksal",
+    "start": "2026-01-24T12:30:00+03:00",
+    "end": "2026-01-24T12:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "7p6jjh9n870hocinlt0hu3rc6o",
+    "title": "1,5m selman çürük",
+    "start": "2026-01-24T12:30:00+03:00",
+    "end": "2026-01-24T12:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "38n71nhlj5entom5cps1346568",
+    "title": "m iy mustafa güney tel no 05445299849",
+    "start": "2026-01-24T12:45:00+03:00",
+    "end": "2026-01-24T13:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6od8dcd5lbkca36ft37hfvn6gj",
+    "title": "1,5m Nimet Hasçelik",
+    "start": "2026-01-24T13:00:00+03:00",
+    "end": "2026-01-24T13:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "dukjnai1nl9sl7p4oqpkm8758c",
+    "title": "1m hülya köse",
+    "start": "2026-01-24T13:15:00+03:00",
+    "end": "2026-01-24T13:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "7c3sqi7u8qavbm80imqme8agt0",
+    "title": "M iy irem çağlayan",
+    "start": "2026-01-24T13:30:00+03:00",
+    "end": "2026-01-24T13:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "45rmsb9k9h4qnhd5mhd5nsvass",
+    "title": "M iy Reyhan çelik",
+    "start": "2026-01-24T13:45:00+03:00",
+    "end": "2026-01-24T14:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1g6foi9ibsjs4saa6j6vdev25o",
+    "title": "m iy zilan güleç REVİZYON tel 05393374288",
+    "start": "2026-01-24T14:00:00+03:00",
+    "end": "2026-01-24T14:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jdtmcc0co0i1rht1uf123o9sn0",
+    "title": "K musa yıldız",
+    "start": "2026-01-25T08:00:00+03:00",
+    "end": "2026-01-25T08:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2fdkg7dd78r7d0jep7ec5titsk",
+    "title": "K suna bayacar",
+    "start": "2026-01-25T08:15:00+03:00",
+    "end": "2026-01-25T08:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "uusvbajpp3oan29ji1qq8m7jho",
+    "title": "Anestezi büşranur yeşilşahin",
+    "start": "2026-01-26T05:45:00+03:00",
+    "end": "2026-01-26T06:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "f3l9kvrak5rpq4jol1jv5uii90",
+    "title": "06.00🔪Büşra nur Yeşilşahin iy KOSTALI Yaş 27",
+    "start": "2026-01-26T06:45:00+03:00",
+    "end": "2026-01-26T09:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1215",
+    "description": "85k-ödeme alındı\n--\nvaka start: 06:45"
+  },
+  {
+    "id": "o4i3sqjm3c50fu74r3a36qqa6g",
+    "title": "anestezi ebru karataş",
+    "start": "2026-01-26T10:00:00+03:00",
+    "end": "2026-01-26T10:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "a8s93mh7ggp6nsi7kkv65pdpeg",
+    "title": "Anestezi elanur uluel",
+    "start": "2026-01-26T10:15:00+03:00",
+    "end": "2026-01-26T10:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "mpio6d0v5sdnuvm7f1g7qin4js",
+    "title": "k1 enes koç",
+    "start": "2026-01-26T11:15:00+03:00",
+    "end": "2026-01-26T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0srl049t6dhoe5b6o73fnh37d0",
+    "title": "k2 derya salih",
+    "start": "2026-01-26T11:30:00+03:00",
+    "end": "2026-01-26T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "eum0muorehkt1rdepfi2udrih8",
+    "title": "1,5m yaren yurtseven",
+    "start": "2026-01-26T11:45:00+03:00",
+    "end": "2026-01-26T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "b9afg4p6nt3klpjvpm9ilr5qkg",
+    "title": "1,5m Faruk türkmen",
+    "start": "2026-01-26T12:00:00+03:00",
+    "end": "2026-01-26T12:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "27so0i2k72huo85b8npnufulio",
+    "title": "K2 azad uçar",
+    "start": "2026-01-26T12:15:00+03:00",
+    "end": "2026-01-26T12:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jiuki3ol4fd3qe15k46vfalol0",
+    "title": "Online",
+    "start": "2026-01-26T19:00:00+03:00",
+    "end": "2026-01-26T19:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "e4s435dmn53k17sgd8u0uoqq08",
+    "title": "06.00🔪Ebru Karataş iy yaş 25",
+    "start": "2026-01-27T06:50:00+03:00",
+    "end": "2026-01-27T09:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1315",
+    "description": "70k ödeme alındı\ntetkikler tamamlandı"
+  },
+  {
+    "id": "svbd1jr7lelekl1r6uhbro2q1s",
+    "title": "k1 kader şen",
+    "start": "2026-01-27T09:45:00+03:00",
+    "end": "2026-01-27T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "i88nv5dnfhpaqep3li9hb2l1a0",
+    "title": "k1 öznur bilgin",
+    "start": "2026-01-27T10:00:00+03:00",
+    "end": "2026-01-27T10:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2j4jt5sl58mp9rer6iqdm6dsqo",
+    "title": "m (medproper) moise crıvısın",
+    "start": "2026-01-27T10:15:00+03:00",
+    "end": "2026-01-27T10:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a",
+    "description": "Obezite cerrahisi olacak.\nhorlama abne vs de varmış.\n\nseptum deviye kaudal septal sorun yok.\nsmr için uygun konka rf de yapılır.\ndamak sarkık elonge, horlama cerrahisi kilo verme sonrası yapılabilir."
+  },
+  {
+    "id": "k56n37t4hehcdvlub13vj6cic0",
+    "title": "09.00🔪savaş Akdeniz iy yaş 37",
+    "start": "2026-01-27T11:00:00+03:00",
+    "end": "2026-01-27T12:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1306",
+    "description": "75k ödeme alındı\nHasta tetkiklerini yaptırdı"
+  },
+  {
+    "id": "k1fmn9fadjh69b8qrqt8gifc10",
+    "title": "K2 serap şahan demir",
+    "start": "2026-01-27T12:15:00+03:00",
+    "end": "2026-01-27T12:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kphg8jq6mr8mi7bl4edg0kkmb0",
+    "title": "M iy orhan şahinkuşu",
+    "start": "2026-01-27T12:30:00+03:00",
+    "end": "2026-01-27T12:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hgsa9ov5r31k7krgilo4mormg8",
+    "title": "12.30🔪Sümeyye Akşahin yaş 20 iy REVİZYON",
+    "start": "2026-01-27T13:30:00+03:00",
+    "end": "2026-01-27T17:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1323",
+    "description": "32k-2k ödeme alındı\ntetkikleri tam"
+  },
+  {
+    "id": "n4pkou65dapejesalsbcq8oefc",
+    "title": "K2 Gülşen ışıldar",
+    "start": "2026-01-27T16:15:00+03:00",
+    "end": "2026-01-27T16:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3da1h30mk1pekmhuci4nsk3m30",
+    "title": "m (büşra) şeyma kayhan",
+    "start": "2026-01-27T16:30:00+03:00",
+    "end": "2026-01-27T16:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vao628pp5dpkadv6m6u8jggi5o",
+    "title": "k irem sarısoy",
+    "start": "2026-01-27T17:00:00+03:00",
+    "end": "2026-01-27T17:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vfq0gfd2llb4rq6caqi6uq1lfs",
+    "title": "M iy tuğba mutlu döğer",
+    "start": "2026-01-27T17:15:00+03:00",
+    "end": "2026-01-27T17:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "m5fgilbhlo2hkdl0gdff1p1ebc",
+    "title": "online",
+    "start": "2026-01-27T19:00:00+03:00",
+    "end": "2026-01-27T19:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5c12jl44pnn61u1ptoqpb0msq4",
+    "title": "08.00🔪 Elanur uluel iy yaş 18",
+    "start": "2026-01-28T09:00:00+03:00",
+    "end": "2026-01-28T11:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1022",
+    "description": "85k\nTetkikleryapıldı"
+  },
+  {
+    "id": "m1lro7ni4f67l03eelugf7rl9o",
+    "title": "1,5m Tuğçe açabuğa",
+    "start": "2026-01-28T11:30:00+03:00",
+    "end": "2026-01-28T11:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "o8i71lbjgpdl3apsadvqtnfqso",
+    "title": "1m zelal bulut",
+    "start": "2026-01-28T11:45:00+03:00",
+    "end": "2026-01-28T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "g8jvt2bpida4lafef8f9m1ame0",
+    "title": "3x erdem çağlar kontrol",
+    "start": "2026-01-28T12:15:00+03:00",
+    "end": "2026-01-28T13:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kru5qtrtp7d62tfhuqf70e5jhc",
+    "title": "1m doğa naz öcal",
+    "start": "2026-01-28T13:00:00+03:00",
+    "end": "2026-01-28T13:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ncn6ljjg8b81r01keqcbgs7kjo",
+    "title": "2m damla çilingir",
+    "start": "2026-01-28T13:15:00+03:00",
+    "end": "2026-01-28T13:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ifa2fu54jnhl0i2qltf5fjdcbg",
+    "title": "1,5m Rüya uysal",
+    "start": "2026-01-28T13:30:00+03:00",
+    "end": "2026-01-28T13:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "itldo5uini992co3d388l9a7uk",
+    "title": "Anestezi beyza ertürk",
+    "start": "2026-01-28T13:45:00+03:00",
+    "end": "2026-01-28T14:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1n3oc16nhrth0h6fkmj7h3merk",
+    "title": "1,5m ayşe sümeyye kaya",
+    "start": "2026-01-29T08:30:00+03:00",
+    "end": "2026-01-29T08:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jc024c78v1q7mih5et185ot4r8",
+    "title": "K eda ekiz",
+    "start": "2026-01-29T08:45:00+03:00",
+    "end": "2026-01-29T09:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "2t424j1ubin6sgpo6vnpgh5emc",
+    "title": "op esra kayacan",
+    "start": "2026-01-29T09:00:00+03:00",
+    "end": "2026-01-29T09:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "lnopctp692s0blaje4s34ffu3s",
+    "title": "k1 murat artun",
+    "start": "2026-01-29T09:15:00+03:00",
+    "end": "2026-01-29T09:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jbudrbnh9rfcbi5fld6cj1o0gk",
+    "title": "K2 safiye aslan",
+    "start": "2026-01-29T09:30:00+03:00",
+    "end": "2026-01-29T09:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "b4s6qc01418d7c36s540sfptrs",
+    "title": "K2 Sümeyra koç",
+    "start": "2026-01-29T09:45:00+03:00",
+    "end": "2026-01-29T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "37ufs4p5a3kg2fhhgokt091jmg",
+    "title": "k1 rojda akpolat",
+    "start": "2026-01-29T10:00:00+03:00",
+    "end": "2026-01-29T10:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0vii48esvoe1hv0gl9rh14qu84",
+    "title": "k1 aleyna taşar",
+    "start": "2026-01-29T10:15:00+03:00",
+    "end": "2026-01-29T10:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "m52ora9eol36t8mo37l5qpn2ok",
+    "title": "11.00🔪esra kayacan (mesut) yaş 29",
+    "start": "2026-01-29T11:45:00+03:00",
+    "end": "2026-01-29T14:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1006",
+    "description": "aml ı geç istiyor"
+  },
+  {
+    "id": "vit502v8sct3ocv8qlsmab5vic",
+    "title": "k1 sara şebib",
+    "start": "2026-01-29T13:30:00+03:00",
+    "end": "2026-01-29T13:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "6q1222uclmngc6d87np8c51v1b",
+    "title": "k nur özdemir",
+    "start": "2026-01-29T13:45:00+03:00",
+    "end": "2026-01-29T14:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "opo9nm3ijop0eg5cdggjcs1n1o",
+    "title": "k gülümser gündoğdu",
+    "start": "2026-01-29T14:00:00+03:00",
+    "end": "2026-01-29T14:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kp3udg1pgq512v8ukajvrt9mnk",
+    "title": "k Hazal tanır",
+    "start": "2026-01-29T14:15:00+03:00",
+    "end": "2026-01-29T14:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "location": "Randevuyu biraz uzun tutalım.."
+  },
+  {
+    "id": "osb5rcbrh56d10tag22fm1t0ng",
+    "title": "m (büşra) şevval aksu atmaca REVİZYON",
+    "start": "2026-01-29T14:45:00+03:00",
+    "end": "2026-01-29T15:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "28if8jjq4mg20ou4ennptbsd2k",
+    "title": "5m Adnan çelik",
+    "start": "2026-01-29T15:00:00+03:00",
+    "end": "2026-01-29T15:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ugfo8cuna9m5k0ltehqufbif9k",
+    "title": "k2 saime adiyaman",
+    "start": "2026-01-29T15:15:00+03:00",
+    "end": "2026-01-29T15:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ibcjusl70t5m46rqn2a6nfb2r4",
+    "title": "3m ecrin naz atamer",
+    "start": "2026-01-29T15:30:00+03:00",
+    "end": "2026-01-29T15:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "b4n4rjiag1epa0j0nsodmhv754",
+    "title": "M iy fikriye yudum bildin",
+    "start": "2026-01-29T15:45:00+03:00",
+    "end": "2026-01-29T16:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "12sp8quq80dhevnni4i6v37hj0",
+    "title": "Online beyda kösem",
+    "start": "2026-01-29T18:00:00+03:00",
+    "end": "2026-01-29T18:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "86cv11cvtbrkske8v5cikdiafk",
+    "title": "online Ruben Mezzatesta",
+    "start": "2026-01-29T18:30:00+03:00",
+    "end": "2026-01-29T18:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kqbdh55tr38qu4gu44fba2r4v4",
+    "title": "K kader şen",
+    "start": "2026-01-30T08:00:00+03:00",
+    "end": "2026-01-30T08:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "knireh6uhv8j76nqhdnr2ku3hc",
+    "title": "k2 enes koç",
+    "start": "2026-01-31T07:45:00+03:00",
+    "end": "2026-01-31T08:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "43pkpokppm7b83tr8cqee9peto",
+    "title": "k1 sümeyye akşahin",
+    "start": "2026-01-31T08:00:00+03:00",
+    "end": "2026-01-31T08:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "95gnqaa869hs7i770v1eji2udg",
+    "title": "K1 neval demir",
+    "start": "2026-01-31T08:15:00+03:00",
+    "end": "2026-01-31T08:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hhs251tpls9m8210gd3ofeqqd8",
+    "title": "09.00🔪beyza ertürk iy yaş 24",
+    "start": "2026-01-31T10:15:00+03:00",
+    "end": "2026-01-31T12:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1004"
+  },
+  {
+    "id": "45pq28u6hkdiibgmchcvjkcc90",
+    "title": "1,5m sudenur öztürk",
+    "start": "2026-01-31T11:00:00+03:00",
+    "end": "2026-01-31T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jsb1na27i3q0af8ju6bh5doie4",
+    "title": "K2 şevval soydan",
+    "start": "2026-01-31T11:15:00+03:00",
+    "end": "2026-01-31T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "enf var, antb yazıldı, 4-5 gün sonra kontrol.\ncipro terramycin"
+  },
+  {
+    "id": "an0q8qq9vvjub5dule4qrncqdk",
+    "title": "K2 mehmet arda erdoğan",
+    "start": "2026-01-31T11:30:00+03:00",
+    "end": "2026-01-31T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "1m kontrol\nbantlama tarif edildi. alttan bantlama önerildi.\nburun ucu ödemli, enj ikle kontrol edildi gelen yok."
+  },
+  {
+    "id": "eoa7lqis8ek24qui4uvfgo4pe0",
+    "title": "1m melek kavak",
+    "start": "2026-01-31T11:45:00+03:00",
+    "end": "2026-01-31T12:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "bantlama devam 3m ye kadar\nnr 18/24 e düşüldü\n3m kontrol"
+  },
+  {
+    "id": "3m3fbau4jm8f3ls3cag9h6egc0",
+    "title": "k1 rahime nur şavklı",
+    "start": "2026-01-31T12:00:00+03:00",
+    "end": "2026-01-31T12:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "nihbqvrvg6ncfj3ucuj6bn9r4c",
+    "title": "K Elif avşar",
+    "start": "2026-01-31T12:15:00+03:00",
+    "end": "2026-01-31T12:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "tefa3a0f4jeijt23ldvgselvh0",
+    "title": "1m yağmur birsen",
+    "start": "2026-01-31T12:30:00+03:00",
+    "end": "2026-01-31T12:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "1m:\nNR: 18/24 devam\nbantlama max süre devam.\nkontrol: 3m"
+  },
+  {
+    "id": "8l948ibumfqt2ln6qg6jk99qm0",
+    "title": "1m hamza tuncel",
+    "start": "2026-01-31T12:45:00+03:00",
+    "end": "2026-01-31T13:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "1m:\nsorun yok.\nNR: 1 ay daha sürekli sonrasında 12/24\nbantlama tavsiye edildi.\n\nkontrol: 3m"
+  },
+  {
+    "id": "84s3vmt7om3vn23bpp1njufkq0",
+    "title": "K hülya köse",
+    "start": "2026-01-31T13:15:00+03:00",
+    "end": "2026-01-31T13:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "svsmthd6jh6ubr0salq7uqv80k",
+    "title": "k bahar şen",
+    "start": "2026-01-31T13:30:00+03:00",
+    "end": "2026-01-31T13:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "9m kontrol: aks k areadan biraz sağa deviye. \n3m ilen burnuna darbe almış, köpeği vurmuş.\ngünde 10 sefer 1,5 dk masaj öneridi.\nkontrol: 1-1,5 y"
+  },
+  {
+    "id": "ro70d2a1gtbe1b4gh8nb9j92fs",
+    "title": "6m Kardelen ayaz",
+    "start": "2026-01-31T13:45:00+03:00",
+    "end": "2026-01-31T14:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "12 ay olunca revizyon yapaacağı.z\naml ücreti 30 bin civarı.\nEkstention açısal olarak öne bükülmüş."
+  },
+  {
+    "id": "84fts19mslll9mh91mr60jn2vg",
+    "title": "K1 savaş akdeniz",
+    "start": "2026-01-31T14:00:00+03:00",
+    "end": "2026-01-31T14:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "pc1hlaj4k3c4ao6nf5cbmn59jo",
+    "title": "k1 büşra nur yeşilşahin",
+    "start": "2026-02-02T08:00:00+03:00",
+    "end": "2026-02-02T08:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "mordh2ufl5oqlinsv2onuvf2go",
+    "title": "op augustin moiso",
+    "start": "2026-02-02T08:30:00+03:00",
+    "end": "2026-02-02T09:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "0u02ghg7i62en602r7jgg52h30",
+    "title": "K neval demir",
+    "start": "2026-02-02T09:00:00+03:00",
+    "end": "2026-02-02T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ghoemk4flhb24coq1m6eeitd5k",
+    "title": "Online",
+    "start": "2026-02-02T12:00:00+03:00",
+    "end": "2026-02-02T12:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "tlsr3nd51d750rc38tkn2igc6c",
+    "title": "K2 sümeyye akşahin",
+    "start": "2026-02-03T08:15:00+03:00",
+    "end": "2026-02-03T08:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "vq25dr0ej5nogoi07gknu1a5qk",
+    "title": "k1 ebru karataş",
+    "start": "2026-02-03T09:15:00+03:00",
+    "end": "2026-02-03T09:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "38avtvlp0e6iahluc3t36m5rdk",
+    "title": "k1 savaş akdeniz",
+    "start": "2026-02-03T09:30:00+03:00",
+    "end": "2026-02-03T09:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "<u>Hastanın sadece tamponu alındı Cumartesi gün, alçı duruyor. alçı için salı gelsin.</u>"
+  },
+  {
+    "id": "9j41s9k5s883l1bsrb4668p308",
+    "title": "1m ayşegül oğar",
+    "start": "2026-02-03T09:45:00+03:00",
+    "end": "2026-02-03T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "q3nhrvvnq54e1adc4k024akmbo",
+    "title": "K2 öznur bilgin",
+    "start": "2026-02-03T10:00:00+03:00",
+    "end": "2026-02-03T10:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "rj1tfdht52piq8g37cn3pfurso",
+    "title": "9m Hayriye deniz",
+    "start": "2026-02-03T10:15:00+03:00",
+    "end": "2026-02-03T10:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "1rg3vlltkeepgbkg5s2flsbuec",
+    "title": "6m esma dila okumuş",
+    "start": "2026-02-03T10:45:00+03:00",
+    "end": "2026-02-03T11:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "s6gfj8dkj09osg29u9q3u97ldo",
+    "title": "K rabia savukduran",
+    "start": "2026-02-03T11:00:00+03:00",
+    "end": "2026-02-03T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "eoqdvcrsqmqmqivnb31v70v78g",
+    "title": "12.00🔪augustin moiso (medproper) yaş 38",
+    "start": "2026-02-03T12:00:00+03:00",
+    "end": "2026-02-03T14:30:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1011",
+    "description": "8 şubat dönüş 15.00\nhasta mua edildi tetkikler tam onam eksik\n\nitalyanca\n\niy: dönüş uçuşu pazar akşam 7 deymiş."
+  },
+  {
+    "id": "73d5uobs816q9i3s8optuqhb74",
+    "title": "K zehra bağra",
+    "start": "2026-02-03T14:00:00+03:00",
+    "end": "2026-02-03T14:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "İğne uygulanacak"
+  },
+  {
+    "id": "f1a072djm9msda4j8k4434bkmo",
+    "title": "Anestezi tuğba mutlu döğer",
+    "start": "2026-02-03T14:00:00+03:00",
+    "end": "2026-02-03T14:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "hkqg0umbnp4nvm0qomkvbg9v8s",
+    "title": "m iy furkan taş 5340610698",
+    "start": "2026-02-03T14:15:00+03:00",
+    "end": "2026-02-03T14:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "krrlvh00c34lkj3e2upjldvtfs",
+    "title": "1,5m ela nur ezer",
+    "start": "2026-02-03T14:30:00+03:00",
+    "end": "2026-02-03T14:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "h98r0pd4167e2nunudbt9h6r9o",
+    "title": "k1 elanur uluel",
+    "start": "2026-02-04T09:00:00+03:00",
+    "end": "2026-02-04T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "e197ifb98gko0baao6me6kg1v4",
+    "title": "3m Nisanur dümen",
+    "start": "2026-02-04T09:15:00+03:00",
+    "end": "2026-02-04T09:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "kl24befknvddi9is4bpripkefc",
+    "title": "6m yekbun kaya",
+    "start": "2026-02-04T09:45:00+03:00",
+    "end": "2026-02-04T10:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "bm7dku7oao3pqtn8qif3r45qt8",
+    "title": "M iy Melek baş",
+    "start": "2026-02-04T10:00:00+03:00",
+    "end": "2026-02-04T10:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "f6oe9ggsiv701hp39udf1inijk",
+    "title": "m iy merve aydın",
+    "start": "2026-02-04T10:15:00+03:00",
+    "end": "2026-02-04T10:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "n1ttqib7dm07ac9il1h3aearo8",
+    "title": "3m hilal arslan",
+    "start": "2026-02-04T10:30:00+03:00",
+    "end": "2026-02-04T10:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3h58k9ubccsovjnc6cgcvfgasc",
+    "title": "2m Gül tuncil",
+    "start": "2026-02-04T11:00:00+03:00",
+    "end": "2026-02-04T11:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "jc2389ch43jjk3m5mujcp1e8ks",
+    "title": "k2 şevval naz soydan",
+    "start": "2026-02-04T11:15:00+03:00",
+    "end": "2026-02-04T11:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a",
+    "description": "enf azalmış haftaya ct kontrol."
+  },
+  {
+    "id": "lo26tvafmt8vai6q6tc71h9nq8",
+    "title": "K2 rojda akpolat",
+    "start": "2026-02-04T11:30:00+03:00",
+    "end": "2026-02-04T11:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ptat2grju86lef7r4v32en7ev0",
+    "title": "K2 sara şebib",
+    "start": "2026-02-04T12:00:00+03:00",
+    "end": "2026-02-04T12:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "truo1k93en4mah5b7njfhtqdt4",
+    "title": "k2 aleyna taşar",
+    "start": "2026-02-04T12:15:00+03:00",
+    "end": "2026-02-04T12:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "i1rmvuvt7827lau94ncv0hanh4",
+    "title": "13.00🔪orhan şahinkuşu iy yaş 26",
+    "start": "2026-02-04T12:50:00+03:00",
+    "end": "2026-02-04T15:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1221",
+    "description": "85k"
+  },
+  {
+    "id": "6nrbc144th6j63b7tq6co0i6p4",
+    "title": "Op anestezi ayşegül uslu",
+    "start": "2026-02-05T07:30:00+03:00",
+    "end": "2026-02-05T07:45:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "dtc07iavhvrssgslbvlemdvecc",
+    "title": "K2 ebru karataş",
+    "start": "2026-02-05T08:00:00+03:00",
+    "end": "2026-02-05T08:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3b88abfn5iml2a6pm88mihqd3k",
+    "title": "08.00🔪tuğba mutlu döğer iy yaş 40 KOSTALI",
+    "start": "2026-02-05T09:00:00+03:00",
+    "end": "2026-02-05T11:45:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1013",
+    "description": "85k"
+  },
+  {
+    "id": "bq2cfj5stqu1h2kedj1i54cjvo",
+    "title": "Anestezi özge Yılmaz",
+    "start": "2026-02-05T10:15:00+03:00",
+    "end": "2026-02-05T10:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3f7re6l1ss0anm330890gikjo0",
+    "title": "Op-anestezi beydanur kösem",
+    "start": "2026-02-05T11:45:00+03:00",
+    "end": "2026-02-05T12:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "qq8i1rcqjqh1ogk384520oqes0",
+    "title": "k1 esra kayacan",
+    "start": "2026-02-05T12:00:00+03:00",
+    "end": "2026-02-05T12:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "8fuqe74ugo80037utn78kahgjg",
+    "title": "12.00🔪ayşegül uslu (emre yıldır)",
+    "start": "2026-02-05T13:00:00+03:00",
+    "end": "2026-02-05T15:15:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1009",
+    "description": "0553 941 94 86"
+  },
+  {
+    "id": "nt0mbgc8m5947ebs55f0ufo2no",
+    "title": "3m Berçem durmuş",
+    "start": "2026-02-05T15:00:00+03:00",
+    "end": "2026-02-05T15:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "3e9rq9o307ivagq7r32tlje5vg",
+    "title": "M iy metin akdağ",
+    "start": "2026-02-05T15:15:00+03:00",
+    "end": "2026-02-05T15:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "a6uaq479l6mdjjfq47qlb7km9g",
+    "title": "4m Mukadder dönmez",
+    "start": "2026-02-05T15:30:00+03:00",
+    "end": "2026-02-05T15:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "a9693n1kqjr0b5238aeinl61o8",
+    "title": "1,5m Kübra akca",
+    "start": "2026-02-05T15:45:00+03:00",
+    "end": "2026-02-05T16:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5occppcnhaksf5b38a1fkrdv5s",
+    "title": "m iy bahar kuşçi REVİZYON",
+    "start": "2026-02-05T16:00:00+03:00",
+    "end": "2026-02-05T16:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "5b151ljk4v0lk0ium63ep8tpmk",
+    "title": "online vitaliia darvai",
+    "start": "2026-02-05T20:30:00+03:00",
+    "end": "2026-02-05T20:45:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "4cg4binheoajg491u12rumsd4g",
+    "title": "08.00🔪özge Yılmaz iy yaş 31",
+    "start": "2026-02-06T08:30:00+03:00",
+    "end": "2026-02-06T11:00:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1303",
+    "description": "80k-ödeme alındı\nTetkikler tamamlamdı"
+  },
+  {
+    "id": "dp8scqt6fabdmvgv642amujplk",
+    "title": "1,5m Zeynep bilgiç",
+    "start": "2026-02-06T11:00:00+03:00",
+    "end": "2026-02-06T11:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "20ss0j9lbig6trn693u34dn65g",
+    "title": "10.30🔪beydanur kösem yaş 24 REVİZYON",
+    "start": "2026-02-06T11:45:00+03:00",
+    "end": "2026-02-06T15:25:00+03:00",
+    "category": "surgery",
+    "color": "#ff887c",
+    "location": "1308",
+    "description": "Vandan geliyor\n100k"
+  },
+  {
+    "id": "702igad1vvv73cjs2adqvl0p4g",
+    "title": "K sunay uçak",
+    "start": "2026-02-06T15:00:00+03:00",
+    "end": "2026-02-06T15:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "9gma4944qbf8fpehbtmtu412is",
+    "title": "m iy sıla arslanca",
+    "start": "2026-02-06T15:15:00+03:00",
+    "end": "2026-02-06T15:30:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "eoikcovukjfn27bbff3julqkno",
+    "title": "k tuğba üstündağ",
+    "start": "2026-02-06T15:30:00+03:00",
+    "end": "2026-02-06T15:45:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "ja6vpbccds2sv83tjjt5r0a8ng",
+    "title": "m iy sudenur talay",
+    "start": "2026-02-06T15:45:00+03:00",
+    "end": "2026-02-06T16:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "o7a782cj6vcn1fgbgupqpa2ab0",
+    "title": "m iy emine arslanca",
+    "start": "2026-02-06T16:00:00+03:00",
+    "end": "2026-02-06T16:15:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "gsjpp8e4p0svlgptqbue13g5u4",
+    "title": "K Enes koç",
+    "start": "2026-02-07T08:15:00+03:00",
+    "end": "2026-02-07T08:30:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "979agvgh334rcodvrej2k283vs",
+    "title": "K Ebru karataş",
+    "start": "2026-02-07T08:45:00+03:00",
+    "end": "2026-02-07T09:00:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "qpnrm3i9c6ifh6v2mj7ndcatk0",
+    "title": "k1 beyza ertürk",
+    "start": "2026-02-07T09:00:00+03:00",
+    "end": "2026-02-07T09:15:00+03:00",
+    "category": "checkup",
+    "color": "#46a67a"
+  },
+  {
+    "id": "62256uidl06r8i22211iilhgeg",
+    "title": "anestezi merve aydın",
+    "start": "2026-02-07T09:45:00+03:00",
+    "end": "2026-02-07T10:00:00+03:00",
+    "category": "appointment",
+    "color": "#46a67a"
+  },
+  {
+    "id": "4obef1qb8rq6rfbp2u0hhm8pqe",
+    "title": "Tampon hastasını 11:00 de göreyim.",
+    "start": "2026-02-08T07:00:00+03:00",
+    "end": "2026-02-08T11:00:00+03:00",
+    "category": "surgery",
+    "color": "#fbd75b"
+  },
+  {
+    "id": "3315a3hrok2qhs352bkf1o8fa8",
+    "title": "K1 augustin moiso",
+    "start": "2026-02-08T11:00:00+03:00",
+    "end": "2026-02-08T11:15:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "7tsjlj9ctvn17eh73mc1rn20bo",
+    "title": "3m Esma nur külçür",
+    "start": "2026-02-09T09:00:00+03:00",
+    "end": "2026-02-09T09:15:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "n6t641bvp229lmf5gb6ebun7g8",
+    "title": "op abderrahim afli",
+    "start": "2026-02-09T09:30:00+03:00",
+    "end": "2026-02-09T10:00:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "c951hhugb1b7fpfq4707gc4ero",
+    "title": "3m Nazmiye ortaoğlan",
+    "start": "2026-02-09T10:45:00+03:00",
+    "end": "2026-02-09T11:00:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "lr7c844bvl96gatvo22h9urvig",
+    "title": "m (büşra) irem altıparmak",
+    "start": "2026-02-09T11:00:00+03:00",
+    "end": "2026-02-09T11:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "kcgc6pg88e27flp3g62p2a1r0c",
+    "title": "11.30🔪merve aydın iy yaş 20",
+    "start": "2026-02-09T11:30:00+03:00",
+    "end": "2026-02-09T14:00:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "85k-ödeme alındı nakit\nSadece kan verdi\ntetkikler tamamlandı onamlar tam"
+  },
+  {
+    "id": "70ee7j79u0hgq5m3v9c2s93i04",
+    "title": "Anestezi sıla arslanca",
+    "start": "2026-02-09T13:15:00+03:00",
+    "end": "2026-02-09T13:30:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "igk6lsc9uiccobr0ahh3f9eed0",
+    "title": "m iy kenan baran",
+    "start": "2026-02-09T14:00:00+03:00",
+    "end": "2026-02-09T14:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "gcaipp6pc7iju5vuoc553d92rc",
+    "title": "14.00🔪abderrahim afli (medproper) yaş 31",
+    "start": "2026-02-09T14:15:00+03:00",
+    "end": "2026-02-09T16:45:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "arapça\nsabiha havalimanı \ngeliş: 8 şubat iniş 19.10\ndönüş: 14 şubat saat 11.35"
+  },
+  {
+    "id": "14f6j552tad4obqi9hdh4c4ov8",
+    "title": "Op hanife al",
+    "start": "2026-02-10T07:00:00+03:00",
+    "end": "2026-02-10T07:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "7dkhigjlqbem4h47ctp0b89u6k",
+    "title": "🔪sıla arslanca iy yaş 19",
+    "start": "2026-02-10T08:00:00+03:00",
+    "end": "2026-02-10T10:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "85k"
+  },
+  {
+    "id": "f2u8lkjlspm2h9prkth0v3bgho",
+    "title": "K2 savaş akdeniz",
+    "start": "2026-02-10T10:00:00+03:00",
+    "end": "2026-02-10T10:15:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "8iqglq1885tfd1tes659fi5uq8",
+    "title": "K Azra öykü deniz",
+    "start": "2026-02-10T10:45:00+03:00",
+    "end": "2026-02-10T11:00:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "a63atkj7nfj4e155l87bl8ibb8",
+    "title": "K hatice nur ışık",
+    "start": "2026-02-10T11:00:00+03:00",
+    "end": "2026-02-10T11:15:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "t916n5nf49cvsh1h1o1epqhot8",
+    "title": "🔪hanife al (büşra) yaş 21",
+    "start": "2026-02-10T11:15:00+03:00",
+    "end": "2026-02-10T13:45:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "Tel 5444252140"
+  },
+  {
+    "id": "v5obaqone5f2v1jhd7eul4r74o",
+    "title": "Anestezi sudenur talay",
+    "start": "2026-02-10T14:00:00+03:00",
+    "end": "2026-02-10T14:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "5o34keki5iloe50b19tte41acs",
+    "title": "k1 orhan şahinkuşu",
+    "start": "2026-02-11T08:00:00+03:00",
+    "end": "2026-02-11T08:15:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "ut3apobue48t4u75vo4dkbnrn0",
+    "title": "M iy züleyha gökmen",
+    "start": "2026-02-11T08:15:00+03:00",
+    "end": "2026-02-11T08:30:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "90gdigf9uc5tgt2r4ad4ciim24",
+    "title": "Op asena buket taşdemir",
+    "start": "2026-02-12T07:00:00+03:00",
+    "end": "2026-02-12T07:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "331m748r5so93804s0eadmfm1k",
+    "title": "1m öznur bilgin",
+    "start": "2026-02-12T08:00:00+03:00",
+    "end": "2026-02-12T08:15:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "u4o2oeglggvud5pg1qtr719h2o",
+    "title": "🔪asena buket taşdemir (büşra) yaş 28",
+    "start": "2026-02-12T08:00:00+03:00",
+    "end": "2026-02-12T10:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "10 da hastanede olabilir\n05019337300"
+  },
+  {
+    "id": "eq1edb33a2rs3o3vcnjih6ibuc",
+    "title": "4m Aycan bayraktar",
+    "start": "2026-02-12T11:00:00+03:00",
+    "end": "2026-02-12T11:15:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "img3eafovohpks4v9q42geluq0",
+    "title": "k1 tuğba mutlu döğer",
+    "start": "2026-02-12T11:15:00+03:00",
+    "end": "2026-02-12T11:30:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "dci7nduovo6cbe4edqcfpnp2uo",
+    "title": "k1 ayşegül uslu",
+    "start": "2026-02-12T11:30:00+03:00",
+    "end": "2026-02-12T11:45:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "t086fvudk85gls6adqb8o4j1pk",
+    "title": "🔪aleyna nur aksal iy yaş 24",
+    "start": "2026-02-13T08:00:00+03:00",
+    "end": "2026-02-13T10:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "85k"
+  },
+  {
+    "id": "4qrefmsisie9n4o6rstpu2p7jo",
+    "title": "m beyza acar (büşra) (+anestezi)",
+    "start": "2026-02-13T10:30:00+03:00",
+    "end": "2026-02-13T10:45:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "n46qrjvf7tgolm98rurudut8fc",
+    "title": "M (büşra) meryem kıroğlu",
+    "start": "2026-02-13T10:45:00+03:00",
+    "end": "2026-02-13T11:00:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "q1ir1jr7af7olqr0rd4sfe3rbo",
+    "title": "K1 özge yılmaz",
+    "start": "2026-02-13T11:00:00+03:00",
+    "end": "2026-02-13T11:15:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "a7u671q8cm6pqbithul90jrv44",
+    "title": "K1 beydanur kösem",
+    "start": "2026-02-13T11:15:00+03:00",
+    "end": "2026-02-13T11:30:00+03:00",
+    "category": "checkup"
+  },
+  {
+    "id": "l5v4n32dbaj98gc8mdvc0ilc3g",
+    "title": "🔪sudenur talay iy yaş 20",
+    "start": "2026-02-13T12:00:00+03:00",
+    "end": "2026-02-13T14:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "85k"
+  },
+  {
+    "id": "bue32huc2d3eepbkh4lbsoe8h8",
+    "title": "op monica hernandez rodriguez",
+    "start": "2026-02-14T07:00:00+03:00",
+    "end": "2026-02-14T07:30:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "k6qcpm2cob1dcsklrer6as2h50",
+    "title": "🔪monica hernandez rodriguez (medproper)",
+    "start": "2026-02-14T08:00:00+03:00",
+    "end": "2026-02-14T10:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "ispanyolca"
+  },
+  {
+    "id": "ngj6i0n8cg887358v2skgsph0o",
+    "title": "🔪ceren özen şeker iy yaş 20",
+    "start": "2026-02-16T08:00:00+03:00",
+    "end": "2026-02-16T10:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "85k"
+  },
+  {
+    "id": "1b16fb4r63tpdcjgnlb26pfp5s",
+    "title": "anestezi lara boybaşı",
+    "start": "2026-02-16T10:00:00+03:00",
+    "end": "2026-02-16T10:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "n0j5qmqcc5331vegcmcaje1988",
+    "title": "🔪beyza acar (büşra) yaş 19",
+    "start": "2026-02-16T11:00:00+03:00",
+    "end": "2026-02-16T13:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "+90 501 575 38 37"
+  },
+  {
+    "id": "t8tbhd2vsvcp5ev0chqbqanlck",
+    "title": "1,5m melek kavak",
+    "start": "2026-02-16T14:00:00+03:00",
+    "end": "2026-02-16T14:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "92i8i699lvejt83dtmkdp69tss",
+    "title": "🔪lara boybaşı iy yaş 21",
+    "start": "2026-02-17T08:00:00+03:00",
+    "end": "2026-02-17T10:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "85k"
+  },
+  {
+    "id": "8amflke27sgts4f049oqcsvjr8",
+    "title": "Anestezi melek baş",
+    "start": "2026-02-17T10:00:00+03:00",
+    "end": "2026-02-17T10:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "0nu5jak8bfb9mthvmi8cf9vd8k",
+    "title": "Anestezi ışıl hüzmeli",
+    "start": "2026-02-17T11:00:00+03:00",
+    "end": "2026-02-17T11:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "8ir7a01j6hmkvftid7svsduv5k",
+    "title": "🔪ışıl hüzmeli iy yaş 32",
+    "start": "2026-02-20T08:00:00+03:00",
+    "end": "2026-02-20T10:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "85k"
+  },
+  {
+    "id": "s27ss1v3i1ik56jtqovsqav06o",
+    "title": "Anestezi Reyhan çelik",
+    "start": "2026-02-20T10:00:00+03:00",
+    "end": "2026-02-20T10:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "j6al45ksmjirnc28kg00s56e7s",
+    "title": "🔪melek baş iy yaş 20",
+    "start": "2026-02-20T11:00:00+03:00",
+    "end": "2026-02-20T13:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "85k"
+  },
+  {
+    "id": "hf0ig52792eevurgsblambj4ac",
+    "title": "op miss freya ındia trinity sanger",
+    "start": "2026-02-21T07:00:00+03:00",
+    "end": "2026-02-21T07:30:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "38cg8p85she5kcmnak5amk5olc",
+    "title": "🔪miss freya ındia trinity sanger (medproper)",
+    "start": "2026-02-21T08:00:00+03:00",
+    "end": "2026-02-21T10:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "ingilizce"
+  },
+  {
+    "id": "lfgdo188djc7mabo719d2lntq8",
+    "title": "🔪reyhan çelik iy yaş 18",
+    "start": "2026-02-23T08:00:00+03:00",
+    "end": "2026-02-23T10:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "85k"
+  },
+  {
+    "id": "49qm72uhmoa07squ1n8ina4k4k",
+    "title": "op adelina elena savu",
+    "start": "2026-02-27T07:00:00+03:00",
+    "end": "2026-02-27T07:30:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "1t85qubnkumediurdvjqr3aen4",
+    "title": "🔪adelina elena savu (medproper)",
+    "start": "2026-02-27T08:00:00+03:00",
+    "end": "2026-02-27T10:30:00+03:00",
+    "category": "surgery",
+    "color": "#46a67a",
+    "description": "romence"
+  },
+  {
+    "id": "oh3792mdf9c06fh2v30l9pdtao",
+    "title": "🔪mafalda cardıllo(medproper) yaş 22",
+    "start": "2026-03-02T08:00:00+03:00",
+    "end": "2026-03-02T10:30:00+03:00",
+    "category": "surgery",
+    "description": "13.40 geliş\nistanbul havalimanı\ndönüş 7 mart 18.05\nitalyanca"
+  },
+  {
+    "id": "2qh73q9vanb30bbs7drlhmd74c",
+    "title": "op Arturo Sebastian Palomino Zegarra",
+    "start": "2026-03-06T07:00:00+03:00",
+    "end": "2026-03-06T07:30:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "mihd6631a7bvoieeunprg5orfo",
+    "title": "🔪Arturo Sebastian Palomino Zegarra (medproper) yaş 27",
+    "start": "2026-03-06T08:00:00+03:00",
+    "end": "2026-03-06T10:30:00+03:00",
+    "category": "surgery",
+    "description": "ispanyolca\ndönüş 11 mart\nkontrolü 9 martta yapılıcak"
+  },
+  {
+    "id": "9k7i9q4cj6220qf8uo1gjek2d0",
+    "title": "anestezi fikriye yudum bilgin",
+    "start": "2026-03-06T11:15:00+03:00",
+    "end": "2026-03-06T11:30:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "u60kscbgf7fb7nco2r6rbc0fj4",
+    "title": "anestezi ebru solak",
+    "start": "2026-03-13T10:00:00+03:00",
+    "end": "2026-03-13T10:15:00+03:00",
+    "category": "appointment"
+  },
+  {
+    "id": "jgpbn9arnvrci1gd5pm39kn53k",
+    "title": "🔪fikriye yudum bildin iy yaş 20",
+    "start": "2026-03-13T11:00:00+03:00",
+    "end": "2026-03-13T13:30:00+03:00",
+    "category": "surgery",
+    "description": "85k"
+  },
+  {
+    "id": "qc7jkjjisfcmhk0adhpb74b3mk",
+    "title": "🔪ebru solak iy yaş 26",
+    "start": "2026-03-13T14:00:00+03:00",
+    "end": "2026-03-13T16:30:00+03:00",
+    "category": "surgery",
+    "description": "85k"
+  },
+  {
+    "id": "d62gk0dn34o7q8hae03g5cq7j8",
+    "title": "🔪özer aykaç yaş 21 (yeşim)",
+    "start": "2026-03-16T08:00:00+03:00",
+    "end": "2026-03-16T10:30:00+03:00",
+    "category": "surgery",
+    "description": "85k\n\n05455993926"
+  }
+]
