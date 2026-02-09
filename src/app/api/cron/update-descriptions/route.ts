@@ -112,6 +112,8 @@ export async function GET(request: Request) {
         const trtNow = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Istanbul' }));
         const targetDateStr = format(trtNow, 'yyyy-MM-dd');
 
+        console.log(`Current Time (UTC): ${now.toISOString()}`);
+        console.log(`Current Time (TRT): ${trtNow.toISOString()}`);
         console.log(`Target Date (TRT): ${targetDateStr}`);
 
         const targetEvents = events.filter((e: any) => {
