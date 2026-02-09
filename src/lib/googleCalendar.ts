@@ -117,12 +117,16 @@ export async function fetchCalendarEvents() {
             timestamp: now
         };
 
-        // Save to Backup File
+        // Save to Backup File (Skip if read-only filesystem like Vercel)
         try {
             fs.writeFileSync(BACKUP_FILE_PATH, JSON.stringify(processedEvents, null, 2));
             console.log(`Backup saved to ${BACKUP_FILE_PATH}`);
-        } catch (backupError) {
-            console.error('Failed to save backup:', backupError);
+        } catch (backupError: any) {
+            if (backupError.code === 'EROFS') {
+                console.warn('Backup skipped: Read-only filesystem detected (Vercel).');
+            } else {
+                console.error('Failed to save backup:', backupError);
+            }
         }
 
         console.log(`Fetched and cached ${processedEvents.length} events.`);
