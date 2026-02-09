@@ -12,6 +12,24 @@ interface PatientRecord {
 }
 
 // --- Helper Functions ---
+// --- Constants ---
+const START_MARKER = "--- ℹ️ OTOMASYON BAŞLANGICI ---";
+const END_MARKER = "--- ℹ️ OTOMASYON BİTİŞİ ---";
+
+// --- Helper Functions ---
+function stripAutomationBlock(description: string): string {
+    if (!description) return "";
+    const startIndex = description.indexOf(START_MARKER);
+    const endIndex = description.indexOf(END_MARKER);
+
+    if (startIndex !== -1 && endIndex !== -1) {
+        const before = description.substring(0, startIndex).trim();
+        const after = description.substring(endIndex + END_MARKER.length).trim();
+        return (before + "\n\n" + after).trim();
+    }
+    return description;
+}
+
 async function fetchPatientDB(): Promise<{ data: PatientRecord[], source: string }> {
     const panelUrl = process.env.PANEL_APP_URL || 'http://localhost:3005';
     console.log(`Fetching patient DB from: ${panelUrl}/api/patient-db`);
@@ -71,14 +89,6 @@ function findPatients(name: string, db: PatientRecord[]): PatientRecord[] {
 }
 
 export async function GET(request: Request) {
-    // Security Check: Verify CRON_SECRET if present (Strictly recommended for Prod)
-    // if (process.env.CRON_SECRET) {
-    //     const authHeader = request.headers.get('authorization');
-    //     if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
-    //         return new NextResponse('Unauthorized', { status: 401 });
-    //     }
-    // }
-
     console.log("Starting Daily Calendar Description Update...");
 
     try {
@@ -137,7 +147,7 @@ export async function GET(request: Request) {
                 }
 
                 if (matches.length === 1) {
-                    // --- Single Match Logic (Original) ---
+                    // --- Single Match Logic ---
                     const patientRecord = matches[0];
                     const surgeryDate = parseISO(patientRecord.date);
                     const eventDate = parseISO(event.start.split('T')[0]);
@@ -153,7 +163,6 @@ export async function GET(request: Request) {
                     let prevControlDateStr = 'Yok';
                     let prevControlDurationStr = '';
 
-                    // Search existing events for previous controls
                     const pastEvents = events.filter((e: any) => {
                         if (e.id === event.id) return false;
                         const eDateStr = e.start.split('T')[0];
@@ -170,7 +179,7 @@ export async function GET(request: Request) {
 
                     if (pastEvents.length > 0) {
                         const prevEvent = pastEvents[0];
-                        const prevDate = parseISO(prevEvent.start.split('T')[0]); // Use exact date from event
+                        const prevDate = parseISO(prevEvent.start.split('T')[0]);
                         const prevMonths = differenceInMonths(prevDate, surgeryDate);
                         const prevDays = differenceInDays(prevDate, surgeryDate);
 
@@ -184,32 +193,26 @@ export async function GET(request: Request) {
 
                     const surgeryDateFormatted = format(surgeryDate, 'dd MMMM yyyy', { locale: tr });
 
-                    const newDescriptionBlock = `ℹ️ <b>Dosya Taraması Sonucu:</b>
+                    const automationContent = `ℹ️ <b>Dosya Taraması Sonucu:</b>
 👉🏻 Hastanın ameliyat tarihi: ${surgeryDateFormatted}
 👉🏻 Kontrol süresi: ${durationStr}
 👉🏻 bir önceki kontrol zamanı: ${prevControlDateStr} ${prevControlDurationStr}
 
 Bu bilgiler Gemini tarafından otomasyon şeklinde oluşturulmuştur.`;
 
-                    // Check if already exists to avoid duplication
-                    let finalDescription = event.description || '';
+                    const newDescriptionBlock = `${START_MARKER}
+${automationContent}
+${END_MARKER}`;
 
-                    if (finalDescription.includes("Bu bilgiler Gemini tarafından otomasyon şeklinde oluşturulmuştur")) {
-                        // Already updated, maybe update the content but keep the structure? 
-                        // For simplicity, let's replace the old block if it exists
-                        const splitDesc = finalDescription.split("ℹ️ <b>Dosya Taraması Sonucu:</b>");
-                        if (splitDesc.length > 1) {
-                            finalDescription = splitDesc[0].trim() + "\n\n" + newDescriptionBlock;
-                        } else {
-                            finalDescription = finalDescription + "\n\n" + newDescriptionBlock;
-                        }
+                    // --- Replacement Logic ---
+                    let originalDescription = event.description || '';
+                    let cleanedDescription = stripAutomationBlock(originalDescription);
+
+                    let finalDescription = cleanedDescription;
+                    if (finalDescription) {
+                        finalDescription += "\n\n" + newDescriptionBlock;
                     } else {
-                        // Append
-                        if (finalDescription) {
-                            finalDescription += "\n\n" + newDescriptionBlock;
-                        } else {
-                            finalDescription = newDescriptionBlock;
-                        }
+                        finalDescription = newDescriptionBlock;
                     }
 
                     await updateEventDescription(event.id, finalDescription);
@@ -224,14 +227,29 @@ Bu bilgiler Gemini tarafından otomasyon şeklinde oluşturulmuştur.`;
                         return `• ${dateFormatted} tarihinde ameliyat edilen ${m.name}`;
                     }).join('\n');
 
-                    const description = `⚠️ Bu kontrol randevusu aşağıdaki kişilerden biri olabilir:
+                    const automationContent = `⚠️ Bu kontrol randevusu aşağıdaki kişilerden biri olabilir:
 ${candidatesList}
 
 Hangisi olduğunu kesin olarak bilmediğimden detay veremiyorum.
 
 imza: gemini`;
 
-                    await updateEventDescription(event.id, description);
+                    const newDescriptionBlock = `${START_MARKER}
+${automationContent}
+${END_MARKER}`;
+
+                    // --- Replacement Logic ---
+                    let originalDescription = event.description || '';
+                    let cleanedDescription = stripAutomationBlock(originalDescription);
+
+                    let finalDescription = cleanedDescription;
+                    if (finalDescription) {
+                        finalDescription += "\n\n" + newDescriptionBlock;
+                    } else {
+                        finalDescription = newDescriptionBlock;
+                    }
+
+                    await updateEventDescription(event.id, finalDescription);
                     updates.push({ event: title, status: 'Ambiguous', matches: matches.length });
                 }
             }
