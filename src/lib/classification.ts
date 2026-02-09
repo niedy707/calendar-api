@@ -24,9 +24,9 @@ export function categorizeEvent(
         return 'blocked';
     }
 
-    // IGNORE: Red events, or explicit ignore keywords
+    // IGNORE: Red events (Color 11) are explicitly ignored per user rule.
+    // They are NOT surgeries.
     // Priority 2: Check Ignore criteria
-    // Criteria: red color, or starts with prefixes, OR contains specific ignored phrases
     if (color === '#dc2127' || color === '#DC2127' || color === '11') {
         return 'ignore';
     }

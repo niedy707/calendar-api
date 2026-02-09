@@ -42,12 +42,19 @@ function processEvents(rawEvents: any[]) {
 }
 
 export async function GET(request: NextRequest) {
-    const BACKUP_DIR = path.join(process.cwd(), 'src', 'data', 'backups');
+    // Use /tmp for writeable ops in Vercel, or standard path locally
+    const isVercel = process.env.VERCEL === '1';
+    const BACKUP_DIR = isVercel ? '/tmp/backups' : path.join(process.cwd(), 'src', 'data', 'backups');
     const ARCHIVE_FILE = path.join(process.cwd(), 'src', 'data', 'archived_events.json');
 
-    // Ensure backup dir exists
-    if (!fs.existsSync(BACKUP_DIR)) {
-        fs.mkdirSync(BACKUP_DIR, { recursive: true });
+    // Ensure backup dir exists (safe-guarded)
+    try {
+        if (!fs.existsSync(BACKUP_DIR)) {
+            fs.mkdirSync(BACKUP_DIR, { recursive: true });
+        }
+    } catch (err) {
+        console.error("Failed to create backup directory:", err);
+        // Do not crash, just continue without backup capability
     }
 
     try {
@@ -70,16 +77,28 @@ export async function GET(request: NextRequest) {
         // User said "google daki tüm verileri localhosta çekerek".
         // Let's fetch from Jan 1 2025 to catch everything relevant for this year.
 
-        const response = await calendar.events.list({
-            calendarId: CALENDAR_CONFIG.calendarId,
-            timeMin: '2025-01-01T00:00:00Z',
-            maxResults: 2500,
-            singleEvents: true,
-            orderBy: 'startTime',
-        });
+        // Fetch Live Data
+        // Start from Jan 1, 2024 to cover historical data for discrepancy check
+        const allEvents: any[] = [];
+        let pageToken: string | undefined = undefined;
 
-        const liveEventsRaw = response.data.items || [];
-        const liveProcessed = processEvents(liveEventsRaw);
+        do {
+            const response: any = await calendar.events.list({
+                calendarId: CALENDAR_CONFIG.calendarId,
+                timeMin: '2024-01-01T00:00:00Z',
+                maxResults: 2500, // Max per page
+                singleEvents: true,
+                orderBy: 'startTime',
+                pageToken: pageToken,
+            });
+
+            if (response.data.items) {
+                allEvents.push(...response.data.items);
+            }
+            pageToken = response.data.nextPageToken;
+        } while (pageToken);
+
+        const liveProcessed = processEvents(allEvents);
 
         // 2. BACKUP LOGIC (Automatic)
         const now = new Date();
@@ -124,32 +143,26 @@ export async function GET(request: NextRequest) {
         console.error('Google API Error (Offline Mode?):', googleError.message);
 
         // 3. FALLBACK LOGIC
-        // Try to load 'latest.json' first, then look for other backups
-        const latestFile = path.join(BACKUP_DIR, 'latest.json');
+        // Try to load 'latest.json' first
+        try {
+            const latestFile = path.join(BACKUP_DIR, 'latest.json');
+            if (fs.existsSync(latestFile)) {
+                console.log('Serving from latest backup');
+                const data = JSON.parse(fs.readFileSync(latestFile, 'utf-8'));
+                return NextResponse.json(data);
+            }
+        } catch (e) { console.error("Fallback read failed:", e); }
 
-        if (fs.existsSync(latestFile)) {
-            console.log('Serving from latest backup');
-            const data = JSON.parse(fs.readFileSync(latestFile, 'utf-8'));
-            return NextResponse.json(data);
-        }
-
-        // Search for any json file in backups
-        const files = fs.readdirSync(BACKUP_DIR).filter(f => f.endsWith('.json')).sort().reverse(); // Newest first
-        if (files.length > 0) {
-            console.log(`Serving from backup: ${files[0]}`);
-            const data = JSON.parse(fs.readFileSync(path.join(BACKUP_DIR, files[0]), 'utf-8'));
-            return NextResponse.json(data);
-        }
-
-        // Last resort: Static archive
+        // Last resort: Static archive (if exists in repo)
         if (fs.existsSync(ARCHIVE_FILE)) {
             console.log('Serving from static archive');
-            // Archive is raw, need process
             try {
                 const raw = JSON.parse(fs.readFileSync(ARCHIVE_FILE, 'utf-8'));
-                const processed = processEvents(raw);
-                return NextResponse.json(processed);
-            } catch (e) { /* ignore */ }
+                if (Array.isArray(raw)) { // Check if valid array
+                    const processed = processEvents(raw);
+                    return NextResponse.json(processed);
+                }
+            } catch (e) { console.error("Archive read failed:", e); }
         }
 
         throw googleError; // No backup found -> Die
