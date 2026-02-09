@@ -184,15 +184,35 @@ export async function GET(request: Request) {
 
                     const surgeryDateFormatted = format(surgeryDate, 'dd MMMM yyyy', { locale: tr });
 
-                    const description = `👉🏻 Hastanın ameliyat tarihi: ${surgeryDateFormatted}
+                    const newDescriptionBlock = `ℹ️ <b>Dosya Taraması Sonucu:</b>
+👉🏻 Hastanın ameliyat tarihi: ${surgeryDateFormatted}
 👉🏻 Kontrol süresi: ${durationStr}
 👉🏻 bir önceki kontrol zamanı: ${prevControlDateStr} ${prevControlDurationStr}
 
-Bu bilgiler gemini tarafından oluşturulmuştur`;
+Bu bilgiler Gemini tarafından otomasyon şeklinde oluşturulmuştur.`;
 
-                    // Simple check to avoid redundant API calls if desc already matches?
-                    // Skipping for simplicity and robustness.
-                    await updateEventDescription(event.id, description);
+                    // Check if already exists to avoid duplication
+                    let finalDescription = event.description || '';
+
+                    if (finalDescription.includes("Bu bilgiler Gemini tarafından otomasyon şeklinde oluşturulmuştur")) {
+                        // Already updated, maybe update the content but keep the structure? 
+                        // For simplicity, let's replace the old block if it exists
+                        const splitDesc = finalDescription.split("ℹ️ <b>Dosya Taraması Sonucu:</b>");
+                        if (splitDesc.length > 1) {
+                            finalDescription = splitDesc[0].trim() + "\n\n" + newDescriptionBlock;
+                        } else {
+                            finalDescription = finalDescription + "\n\n" + newDescriptionBlock;
+                        }
+                    } else {
+                        // Append
+                        if (finalDescription) {
+                            finalDescription += "\n\n" + newDescriptionBlock;
+                        } else {
+                            finalDescription = newDescriptionBlock;
+                        }
+                    }
+
+                    await updateEventDescription(event.id, finalDescription);
                     updates.push({ event: title, status: 'Updated', patient: patientRecord.name });
 
                 } else {
