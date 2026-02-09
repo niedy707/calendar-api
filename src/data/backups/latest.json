@@ -19513,7 +19513,8 @@
     "start": "2025-02-01T07:00:00+03:00",
     "end": "2025-02-01T07:15:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 18 Ocak 2025\n👉🏻 Kontrol süresi: 14 gün\n👉🏻 bir önceki kontrol zamanı: 25 Ocak 2025 (7 gün)\n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "ddog5kr685cai0h4ndur5f3oc0",
@@ -19538,7 +19539,8 @@
     "start": "2025-02-01T11:00:00+03:00",
     "end": "2025-02-01T11:15:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 25 Ocak 2025\n👉🏻 Kontrol süresi: 7 gün\n👉🏻 bir önceki kontrol zamanı: Yok \n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "02f9i52qnrneo0e1j6dakrp5q0",
@@ -19546,7 +19548,8 @@
     "start": "2025-02-01T11:15:00+03:00",
     "end": "2025-02-01T11:30:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 25 Ocak 2025\n👉🏻 Kontrol süresi: 7 gün\n👉🏻 bir önceki kontrol zamanı: Yok \n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "lgvc10dke3os3annjlcti45vf8",
@@ -19554,7 +19557,8 @@
     "start": "2025-02-01T11:30:00+03:00",
     "end": "2025-02-01T11:45:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 29 Ekim 2024\n👉🏻 Kontrol süresi: 3 ay\n👉🏻 bir önceki kontrol zamanı: 14 Aralık 2024 (1 ay)\n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "hfhgf99n3d648b8ueras0iqpag",
@@ -19570,7 +19574,8 @@
     "start": "2025-02-01T12:00:00+03:00",
     "end": "2025-02-01T12:15:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 19 Ocak 2025\n👉🏻 Kontrol süresi: 13 gün\n👉🏻 bir önceki kontrol zamanı: 25 Ocak 2025 (6 gün)\n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "ierj05l606oifrksbev5e1e0rs",
@@ -19578,7 +19583,8 @@
     "start": "2025-02-01T12:30:00+03:00",
     "end": "2025-02-01T12:45:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 18 Ocak 2025\n👉🏻 Kontrol süresi: 14 gün\n👉🏻 bir önceki kontrol zamanı: 25 Ocak 2025 (7 gün)\n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "1oue4l4e4ujm490cdaq4oofnhc",
@@ -19586,7 +19592,8 @@
     "start": "2025-02-01T12:45:00+03:00",
     "end": "2025-02-01T13:00:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 20 Temmuz 2024\n👉🏻 Kontrol süresi: 6 ay\n👉🏻 bir önceki kontrol zamanı: 31 Ağustos 2024 (1 ay)\n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "lormf04215tmifvf9493pj5f90",
@@ -19604,7 +19611,8 @@
     "start": "2025-02-01T16:15:00+03:00",
     "end": "2025-02-01T16:30:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 26 Ocak 2025\n👉🏻 Kontrol süresi: 6 gün\n👉🏻 bir önceki kontrol zamanı: Yok \n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "0t47jlompqsjgl6v11igcjlp6c",
@@ -43260,7 +43268,8 @@
     "start": "2026-02-09T09:00:00+03:00",
     "end": "2026-02-09T09:15:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 08 Kasım 2025\n👉🏻 Kontrol süresi: 3 ay\n👉🏻 bir önceki kontrol zamanı: 21 Kasım 2025 (13 gün)\n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "n6t641bvp229lmf5gb6ebun7g8",
@@ -43276,7 +43285,8 @@
     "start": "2026-02-09T10:00:00+03:00",
     "end": "2026-02-09T10:15:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 27 Ekim 2025\n👉🏻 Kontrol süresi: 3 ay\n👉🏻 bir önceki kontrol zamanı: 22 Aralık 2025 (1 ay)\n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "c951hhugb1b7fpfq4707gc4ero",
@@ -43284,7 +43294,8 @@
     "start": "2026-02-09T10:15:00+03:00",
     "end": "2026-02-09T10:30:00+03:00",
     "category": "checkup",
-    "color": "#46a67a"
+    "color": "#46a67a",
+    "description": "👉🏻 Hastanın ameliyat tarihi: 05 Kasım 2025\n👉🏻 Kontrol süresi: 3 ay\n👉🏻 bir önceki kontrol zamanı: 19 Kasım 2025 (14 gün)\n\nBu bilgiler gemini tarafından oluşturulmuştur"
   },
   {
     "id": "igk6lsc9uiccobr0ahh3f9eed0",
@@ -43811,7 +43822,7 @@
   },
   {
     "id": "272a4aos3knc65dugi2lktpa3b",
-    "title": "izin",
+    "title": "ℹ️ İZİN",
     "start": "2026-03-09T14:30:00+03:00",
     "end": "2026-03-10T00:00:00+03:00",
     "category": "blocked",
@@ -43820,7 +43831,7 @@
   },
   {
     "id": "45jihaid68t4geejumpgmo1f6v",
-    "title": "izin",
+    "title": "ℹ️ İZİN",
     "start": "2026-03-10T03:00:00+03:00",
     "end": "2026-03-10T22:00:00+03:00",
     "category": "blocked",
@@ -43828,7 +43839,7 @@
   },
   {
     "id": "7dhub2pg7dq2mvj4oskpeco5ru",
-    "title": "izin",
+    "title": "ℹ️ İZİN",
     "start": "2026-03-11T03:00:00+03:00",
     "end": "2026-03-11T22:00:00+03:00",
     "category": "blocked",
@@ -43836,7 +43847,7 @@
   },
   {
     "id": "7gkji6j0eem08b8hcu9iniu1o9",
-    "title": "izin",
+    "title": "ℹ️ İZİN",
     "start": "2026-03-12T00:00:00+03:00",
     "end": "2026-03-12T22:00:00+03:00",
     "category": "blocked",
@@ -43844,7 +43855,7 @@
   },
   {
     "id": "69hv0ujkcs88pa1ohu738ovm3k",
-    "title": "izin",
+    "title": "ℹ️ İZİN",
     "start": "2026-03-13T00:00:00+03:00",
     "end": "2026-03-13T10:00:00+03:00",
     "category": "blocked",

@@ -91,6 +91,14 @@ function findPatients(name: string, db: PatientRecord[]): PatientRecord[] {
 export async function GET(request: Request) {
     console.log("Starting Daily Calendar Description Update...");
 
+    const authHeader = request.headers.get('authorization');
+    if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+        console.error('Unauthorized Cron Attempt');
+        return new Response('Unauthorized', {
+            status: 401,
+        });
+    }
+
     try {
         // 0. Fetch Latest Patient DB (with Fallback)
         const { data: patientDB, source: dbSource } = await fetchPatientDB();
