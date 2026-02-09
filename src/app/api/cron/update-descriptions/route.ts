@@ -1,6 +1,6 @@
-
 import { NextResponse } from 'next/server';
 import { fetchCalendarEvents, updateEventDescription } from '@/lib/googleCalendar';
+import { PATIENT_HOSPITAL_DB as LOCAL_DB } from '@/lib/patientHospitalDB'; // Import local DB as fallback
 import { format, differenceInMonths, differenceInDays, parseISO } from 'date-fns';
 import { tr } from 'date-fns/locale';
 
@@ -12,8 +12,7 @@ interface PatientRecord {
 }
 
 // --- Helper Functions ---
-async function fetchPatientDB(): Promise<PatientRecord[]> {
-    // Default to localhost for dev, but in Prod this env var must be set to the Panel's Prod URL
+async function fetchPatientDB(): Promise<{ data: PatientRecord[], source: string }> {
     const panelUrl = process.env.PANEL_APP_URL || 'http://localhost:3005';
     console.log(`Fetching patient DB from: ${panelUrl}/api/patient-db`);
 
@@ -25,10 +24,11 @@ async function fetchPatientDB(): Promise<PatientRecord[]> {
         if (!res.ok) {
             throw new Error(`Failed to fetch: ${res.status} ${res.statusText}`);
         }
-        return await res.json();
+        const data = await res.json();
+        return { data, source: 'Remote API' };
     } catch (error) {
-        console.error("Error fetching patient DB:", error);
-        return [];
+        console.error("Error fetching remote patient DB, falling back to local:", error);
+        return { data: LOCAL_DB, source: 'Local Fallback' };
     }
 }
 
@@ -49,26 +49,25 @@ function levenshtein(a: string, b: string): number {
     return matrix[b.length][a.length];
 }
 
-function findPatient(name: string, db: PatientRecord[]) {
+function findPatients(name: string, db: PatientRecord[]): PatientRecord[] {
     const cleanName = name.toLowerCase().trim();
 
-    // Exact match first
-    const exact = db.find(p => p.name.toLowerCase().trim() === cleanName);
-    if (exact) return exact;
+    // 1. Exact matches
+    const exactMatches = db.filter(p => p.name.toLowerCase().trim() === cleanName);
+    if (exactMatches.length > 0) return exactMatches;
 
-    // Fuzzy match
-    let bestMatch = null;
-    let minDistance = 4;
+    // 2. Fuzzy matches
+    const matches: PatientRecord[] = [];
+    const threshold = 3;
 
     for (const p of db) {
         const pName = p.name.toLowerCase().trim();
         const dist = levenshtein(cleanName, pName);
-        if (dist <= 3 && dist < minDistance) {
-            minDistance = dist;
-            bestMatch = p;
+        if (dist <= threshold) {
+            matches.push(p);
         }
     }
-    return bestMatch;
+    return matches;
 }
 
 export async function GET(request: Request) {
@@ -83,16 +82,14 @@ export async function GET(request: Request) {
     console.log("Starting Daily Calendar Description Update...");
 
     try {
-        // 0. Fetch Latest Patient DB from Panel
-        const patientDB = await fetchPatientDB();
+        // 0. Fetch Latest Patient DB (with Fallback)
+        const { data: patientDB, source: dbSource } = await fetchPatientDB();
 
-        let dbSource = 'Remote API';
         if (!patientDB || patientDB.length === 0) {
-            console.error("Remote Patient DB is empty or failed. Attempting fallback if needed, or aborting.");
-            // Ideally we shouldn't proceed if we can't identify patients
-            return NextResponse.json({ success: false, error: "Failed to load patient database from Panel" }, { status: 500 });
+            console.error("Patient DB is empty even after fallback. Aborting.");
+            return NextResponse.json({ success: false, error: "Failed to load patient database" }, { status: 500 });
         }
-        console.log(`Loaded ${patientDB.length} patient records from ${dbSource}.`);
+        console.log(`Loaded ${patientDB.length} records from ${dbSource}.`);
 
         // 1. Fetch Calendar Events
         const events = await fetchCalendarEvents();
@@ -127,11 +124,21 @@ export async function GET(request: Request) {
             const match = title.match(controlRegex);
 
             if (match) {
-                const prefix = match[1];
-                const patientName = match[2];
-                const patientRecord = findPatient(patientName, patientDB);
+                const prefix = match[1]; // e.g., "1m"
+                const patientName = match[2]; // e.g., "Ahmet"
 
-                if (patientRecord) {
+                // Find potential matches
+                const matches = findPatients(patientName, patientDB);
+
+                if (matches.length === 0) {
+                    console.log(`No match found for: ${patientName}`);
+                    updates.push({ event: title, status: 'No Match', patient: patientName });
+                    continue;
+                }
+
+                if (matches.length === 1) {
+                    // --- Single Match Logic (Original) ---
+                    const patientRecord = matches[0];
                     const surgeryDate = parseISO(patientRecord.date);
                     const eventDate = parseISO(event.start.split('T')[0]);
 
@@ -163,10 +170,10 @@ export async function GET(request: Request) {
 
                     if (pastEvents.length > 0) {
                         const prevEvent = pastEvents[0];
-                        const prevDate = parseISO(prevEvent.start.split('T')[0]);
-
+                        const prevDate = parseISO(prevEvent.start.split('T')[0]); // Use exact date from event
                         const prevMonths = differenceInMonths(prevDate, surgeryDate);
                         const prevDays = differenceInDays(prevDate, surgeryDate);
+
                         let prevDur = '';
                         if (prevMonths > 0) prevDur = `${prevMonths} ay`;
                         else prevDur = `${prevDays} gün`;
@@ -187,6 +194,25 @@ Bu bilgiler gemini tarafından oluşturulmuştur`;
                     // Skipping for simplicity and robustness.
                     await updateEventDescription(event.id, description);
                     updates.push({ event: title, status: 'Updated', patient: patientRecord.name });
+
+                } else {
+                    // --- Ambiguity Handling (Multiple Matches) ---
+                    console.log(`Ambiguity for ${patientName}: Found ${matches.length} matches.`);
+
+                    const candidatesList = matches.map(m => {
+                        const dateFormatted = format(parseISO(m.date), 'dd.MM.yyyy');
+                        return `• ${dateFormatted} tarihinde ameliyat edilen ${m.name}`;
+                    }).join('\n');
+
+                    const description = `⚠️ Bu kontrol randevusu aşağıdaki kişilerden biri olabilir:
+${candidatesList}
+
+Hangisi olduğunu kesin olarak bilmediğimden detay veremiyorum.
+
+imza: gemini`;
+
+                    await updateEventDescription(event.id, description);
+                    updates.push({ event: title, status: 'Ambiguous', matches: matches.length });
                 }
             }
         }
@@ -196,7 +222,6 @@ Bu bilgiler gemini tarafından oluşturulmuştur`;
             date: targetDateStr,
             source: dbSource,
             processed: targetEvents.length,
-            patientDBSize: patientDB.length,
             updates: updates
         });
 
