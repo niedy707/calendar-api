@@ -1,8 +1,7 @@
 {
     "crons": [
         {
-            "path": "/api/cron/update-descriptions",
-            "schedule": "0 21 * * *"
+            "schedule": "15 21 * * *"
         }
     ]
 }

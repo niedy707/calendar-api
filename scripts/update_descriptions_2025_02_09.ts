@@ -57,7 +57,7 @@ async function main() {
     }
 
     // 2. Filter for Target Date (Feb 9, 2026)
-    const targetDateStr = '2026-02-09';
+    let targetDateStr = '2026-02-09';
 
     console.log(`Filtering for events starting with: ${targetDateStr}`);
 
