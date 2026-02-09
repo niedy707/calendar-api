@@ -76,7 +76,7 @@ export async function fetchCalendarEvents() {
 
     try {
         // 2. Authenticate
-        const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
+        const SCOPES = ['https://www.googleapis.com/auth/calendar.events']; // Updated for write access
         const privateKey = CALENDAR_CONFIG.key.replace(/\\n/g, '\n');
 
         const auth = new google.auth.GoogleAuth({
@@ -148,6 +148,36 @@ export async function fetchCalendarEvents() {
             }
         }
 
+        throw error;
+    }
+}
+
+export async function updateEventDescription(eventId: string, description: string) {
+    try {
+        const SCOPES = ['https://www.googleapis.com/auth/calendar.events']; // Changed scope to allow writing
+        const privateKey = CALENDAR_CONFIG.key.replace(/\\n/g, '\n');
+
+        const auth = new google.auth.GoogleAuth({
+            credentials: {
+                client_email: CALENDAR_CONFIG.email,
+                private_key: privateKey,
+            },
+            scopes: SCOPES,
+        });
+        const calendar = google.calendar({ version: 'v3', auth });
+
+        const res = await calendar.events.patch({
+            calendarId: CALENDAR_CONFIG.calendarId,
+            eventId: eventId,
+            requestBody: {
+                description: description
+            }
+        });
+
+        console.log(`Updated event ${eventId} description successfully.`);
+        return res.data;
+    } catch (error) {
+        console.error(`Failed to update event ${eventId}:`, error);
         throw error;
     }
 }
