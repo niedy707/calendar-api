@@ -48592,6 +48592,7 @@
     "start": "2026-02-10T09:00:00+03:00",
     "end": "2026-02-10T09:15:00+03:00",
     "category": "checkup",
+    "description": "ℹ️ <b>Dosya Taraması Sonucu:</b>\n👉🏻 Hastanın ameliyat tarihi: 29 Ağustos 2025\n👉🏻 Kontrol süresi: 5 ay\n👉🏻 bir önceki kontrol zamanı: 25 Ekim 2025 (1 ay)\n\nBu bilgiler Gemini tarafından otomasyon şeklinde oluşturulmuştur.",
     "type": "google"
   },
   {
@@ -48608,6 +48609,7 @@
     "start": "2026-02-10T10:00:00+03:00",
     "end": "2026-02-10T10:15:00+03:00",
     "category": "checkup",
+    "description": "ℹ️ <b>Dosya Taraması Sonucu:</b>\n👉🏻 Hastanın ameliyat tarihi: 27 Ocak 2026\n👉🏻 Kontrol süresi: 14 gün\n👉🏻 bir önceki kontrol zamanı: 03 Şubat 2026 (7 gün)\n\nBu bilgiler Gemini tarafından otomasyon şeklinde oluşturulmuştur.",
     "type": "google"
   },
   {
@@ -48616,6 +48618,7 @@
     "start": "2026-02-10T10:15:00+03:00",
     "end": "2026-02-10T10:30:00+03:00",
     "category": "checkup",
+    "description": "ℹ️ <b>Dosya Taraması Sonucu:</b>\n👉🏻 Hastanın ameliyat tarihi: 24 Ocak 2026\n👉🏻 Kontrol süresi: 17 gün\n👉🏻 bir önceki kontrol zamanı: 31 Ocak 2026 (7 gün)\n\nBu bilgiler Gemini tarafından otomasyon şeklinde oluşturulmuştur.",
     "type": "google"
   },
   {
@@ -48674,6 +48677,7 @@
     "start": "2026-02-10T14:15:00+03:00",
     "end": "2026-02-10T14:30:00+03:00",
     "category": "checkup",
+    "description": "ℹ️ <b>Dosya Taraması Sonucu:</b>\n👉🏻 Hastanın ameliyat tarihi: 21 Ekim 2025\n👉🏻 Kontrol süresi: 3 ay\n👉🏻 bir önceki kontrol zamanı: 20 Aralık 2025 (1 ay)\n\nBu bilgiler Gemini tarafından otomasyon şeklinde oluşturulmuştur.",
     "type": "google"
   },
   {

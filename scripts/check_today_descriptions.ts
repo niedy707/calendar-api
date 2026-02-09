@@ -23,9 +23,12 @@ async function main() {
         for (const event of targetEvents) {
             const title = event.title || '';
             // Check if it's a control event roughly
-            const controlRegex = /^([kK]\d+|\d+[mM])\s+(.*)$/;
-            if (controlRegex.test(title)) {
-                console.log(`\nEvent: ${title}`);
+            // Matches: k1, K2, K, 1m, 1,5m, 1.5m
+            const controlRegex = /^([kK]\d*|\d+([,.]\d+)?[mM])\s+(.*)$/i;
+            const match = title.match(controlRegex);
+            if (match) {
+                const patientName = match[3];
+                console.log(`\nEvent: ${title} (Matched Patient: ${patientName})`);
                 const desc = event.description || '';
 
                 if (desc.includes('Bu bilgiler Gemini tarafından otomasyon şeklinde oluşturulmuştur')) {

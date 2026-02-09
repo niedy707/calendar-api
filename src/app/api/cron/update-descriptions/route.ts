@@ -129,13 +129,16 @@ export async function GET(request: Request) {
             // Skip surgery/first exam
             if (lowerTitle.includes('ameliyat') || lowerTitle.includes('ilk muayene')) continue;
 
-            // Check Control Pattern
-            const controlRegex = /^([kK]\d+|\d+[mM])\s+(.*)$/;
+            // Check Control Pattern (Matches: k1, K2, K, 1m, 1,5m, 1.5m)
+            const controlRegex = /^([kK]\d*|\d+([,.]\d+)?[mM])\s+(.*)$/i;
             const match = title.match(controlRegex);
+            console.log(`Processing event: "${title}". Regex match: ${match ? 'Yes' : 'No'}`);
+
 
             if (match) {
                 const prefix = match[1]; // e.g., "1m"
-                const patientName = match[2]; // e.g., "Ahmet"
+                const patientName = match[3]; // e.g., "Ahmet" (Changed from match[2] to match[3] to correctly capture patient name)
+                console.log(`  - Matched prefix: "${prefix}", Patient name candidate: "${patientName}"`);
 
                 // Find potential matches
                 const matches = findPatients(patientName, patientDB);
@@ -171,8 +174,8 @@ export async function GET(request: Request) {
                         const t = e.title || '';
                         const m = t.match(controlRegex);
                         if (m) {
-                            const pName = m[2];
-                            if (levenshtein(pName.toLowerCase().trim(), patientName.toLowerCase().trim()) <= 2) return true;
+                            const pName = m[3];
+                            if (pName && levenshtein(pName.toLowerCase().trim(), patientName.toLowerCase().trim()) <= 2) return true;
                         }
                         return false;
                     }).sort((a: any, b: any) => new Date(b.start).getTime() - new Date(a.start).getTime());
@@ -263,8 +266,12 @@ ${END_MARKER}`;
             updates: updates
         });
 
-    } catch (error) {
+    } catch (error: any) {
         console.error("Cron Job Failed:", error);
-        return NextResponse.json({ success: false, error: 'Internal Server Error' }, { status: 500 });
+        return NextResponse.json({
+            success: false,
+            error: error.message || 'Internal Server Error',
+            details: error.toString()
+        }, { status: 500 });
     }
 }
