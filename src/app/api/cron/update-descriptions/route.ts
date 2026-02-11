@@ -67,25 +67,45 @@ function levenshtein(a: string, b: string): number {
     return matrix[b.length][a.length];
 }
 
-function findPatients(name: string, db: PatientRecord[]): PatientRecord[] {
-    const cleanName = name.toLowerCase().trim();
+function normalizeName(name: string): string {
+    return name
+        .replace(/İ/g, 'i')
+        .replace(/I/g, 'ı')
+        .toLowerCase()
+        .replace(/ı/g, 'i')
+        .replace(/ğ/g, 'g')
+        .replace(/ü/g, 'u')
+        .replace(/ş/g, 's')
+        .replace(/ö/g, 'o')
+        .replace(/ç/g, 'c')
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Remove remaining accents
+        .trim();
+}
 
-    // 1. Exact matches
-    const exactMatches = db.filter(p => p.name.toLowerCase().trim() === cleanName);
-    if (exactMatches.length > 0) return exactMatches;
+function findPatients(name: string, db: PatientRecord[]): { match: PatientRecord, dist: number }[] {
+    const cleanName = normalizeName(name);
+
+    // 1. Exact matches (Filtered by normalized name)
+    const exactMatches = db.filter(p => normalizeName(p.name) === cleanName);
+    if (exactMatches.length > 0) {
+        // Return exact matches with distance 0
+        return exactMatches.map(p => ({ match: p, dist: 0 }));
+    }
 
     // 2. Fuzzy matches
-    const matches: PatientRecord[] = [];
+    const matches: { match: PatientRecord, dist: number }[] = [];
     const threshold = 3;
 
     for (const p of db) {
-        const pName = p.name.toLowerCase().trim();
+        const pName = normalizeName(p.name);
         const dist = levenshtein(cleanName, pName);
         if (dist <= threshold) {
-            matches.push(p);
+            matches.push({ match: p, dist });
         }
     }
-    return matches;
+
+    // Sort by distance (closest first)
+    return matches.sort((a, b) => a.dist - b.dist);
 }
 
 export async function GET(request: Request) {
@@ -159,9 +179,23 @@ export async function GET(request: Request) {
                     continue;
                 }
 
+                // Determine if we have a winner
+                let winner: PatientRecord | null = null;
+
                 if (matches.length === 1) {
+                    winner = matches[0].match;
+                } else {
+                    // Multiple matches. Check if the top one is strictly better.
+                    // Since matches are sorted by distance:
+                    if (matches[0].dist < matches[1].dist) {
+                        winner = matches[0].match;
+                        console.log(`Auto-selected best match: ${winner.name} (Dist: ${matches[0].dist}) over ${matches[1].match.name} (Dist: ${matches[1].dist})`);
+                    }
+                }
+
+                if (winner) {
                     // --- Single Match Logic ---
-                    const patientRecord = matches[0];
+                    const patientRecord = winner;
                     const surgeryDate = parseISO(patientRecord.date);
                     const eventDate = parseISO(event.start.split('T')[0]);
 
@@ -185,7 +219,8 @@ export async function GET(request: Request) {
                         const m = t.match(controlRegex);
                         if (m) {
                             const pName = m[3];
-                            if (pName && levenshtein(pName.toLowerCase().trim(), patientName.toLowerCase().trim()) <= 2) return true;
+                            // Use same normalization for verifying past events
+                            if (pName && levenshtein(normalizeName(pName), normalizeName(patientName)) <= 2) return true;
                         }
                         return false;
                     }).sort((a: any, b: any) => new Date(b.start).getTime() - new Date(a.start).getTime());
@@ -232,12 +267,12 @@ ${END_MARKER}`;
                     updates.push({ event: title, status: 'Updated', patient: patientRecord.name });
 
                 } else {
-                    // --- Ambiguity Handling (Multiple Matches) ---
+                    // --- Ambiguity Handling (Multiple Matches with SAME distance) ---
                     console.log(`Ambiguity for ${patientName}: Found ${matches.length} matches.`);
 
                     const candidatesList = matches.map(m => {
-                        const dateFormatted = format(parseISO(m.date), 'dd.MM.yyyy');
-                        return `• ${dateFormatted} tarihinde ameliyat edilen ${m.name}`;
+                        const dateFormatted = format(parseISO(m.match.date), 'dd.MM.yyyy');
+                        return `• ${dateFormatted} tarihinde ameliyat edilen ${m.match.name}`;
                     }).join('\n');
 
                     const automationContent = `⚠️ Bu kontrol randevusu aşağıdaki kişilerden biri olabilir:
