@@ -1,0 +1,667 @@
+[
+  {
+    "kind": "calendar#event",
+    "etag": "\"3541127876082622\"",
+    "id": "4ql6g09eja0453t159can3mj5m",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NHFsNmcwOWVqYTA0NTN0MTU5Y2FuM21qNW0gMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-01T05:56:57.000Z",
+    "updated": "2026-02-08T15:18:58.041Z",
+    "summary": "ℹ️ Yılbaşı: BUGÜNE AMELİYAT YAZILMASIN",
+    "location": "Ameliyat, muayene ve kontrol YOK.",
+    "colorId": "11",
+    "creator": {
+      "email": "ibrahimyagcimd@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-01T08:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-01T20:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "4ql6g09eja0453t159can3mj5m@google.com",
+    "sequence": 1,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471586920408000\"",
+    "id": "n2e0jnoma9fs4o0308c2vtji84",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=bjJlMGpub21hOWZzNG8wMzA4YzJ2dGppODQgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-26T14:15:59.000Z",
+    "updated": "2025-01-02T04:51:00.204Z",
+    "summary": "K1 nehir Esma küçük",
+    "colorId": "2",
+    "creator": {
+      "email": "ibrahimyagciasistan2@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T07:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T08:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "n2e0jnoma9fs4o0308c2vtji84@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471587114912000\"",
+    "id": "1hekcq5gkciep5novbanpgt4bg",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MWhla2NxNWdrY2llcDVub3ZiYW5wZ3Q0YmcgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-26T14:14:27.000Z",
+    "updated": "2025-01-02T04:52:37.456Z",
+    "summary": "K1 Adem Aslan - foto ister",
+    "colorId": "2",
+    "creator": {
+      "email": "ibrahimyagciasistan2@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T08:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T08:15:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "1hekcq5gkciep5novbanpgt4bg@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471516528568000\"",
+    "id": "cee6d1gf9bqhgumd5qdl1heaqc",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=Y2VlNmQxZ2Y5YnFoZ3VtZDVxZGwxaGVhcWMgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-26T14:15:04.000Z",
+    "updated": "2025-01-01T19:04:24.284Z",
+    "summary": "K1 lübeyne Efsa nur erikli",
+    "colorId": "11",
+    "creator": {
+      "email": "ibrahimyagciasistan2@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T08:15:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T08:30:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "cee6d1gf9bqhgumd5qdl1heaqc@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471649197638000\"",
+    "id": "1fkv9kh6virm9muup3lhap1qqs",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MWZrdjlraDZ2aXJtOW11dXAzbGhhcDFxcXMgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-16T10:44:31.000Z",
+    "updated": "2025-01-02T13:29:58.819Z",
+    "summary": "08.00 🔪bünyamin yılmaz iy",
+    "description": "<p><b>Bünyamin Yılmaz (iy)</b></p><p>552-611-1361</p>",
+    "location": "210",
+    "colorId": "4",
+    "creator": {
+      "email": "ezginurkurtt@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T08:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T11:30:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "1fkv9kh6virm9muup3lhap1qqs@google.com",
+    "sequence": 2,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471614679120000\"",
+    "id": "9vt54a53fs8iu38n3e0o5acph4",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=OXZ0NTRhNTNmczhpdTM4bjNlMG81YWNwaDQgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-30T18:33:01.000Z",
+    "updated": "2025-01-02T08:42:19.560Z",
+    "summary": "k2 ahmet bakır",
+    "colorId": "2",
+    "creator": {
+      "email": "ezginurkurtt@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T11:30:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T11:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "9vt54a53fs8iu38n3e0o5acph4@google.com",
+    "sequence": 3,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3475920588668000\"",
+    "id": "17rah1k1do13u10qj1s6jlqou4",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MTdyYWgxazFkbzEzdTEwcWoxczZqbHFvdTQgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2025-01-02T08:16:59.000Z",
+    "updated": "2025-01-27T06:44:54.334Z",
+    "summary": "m | mustafa can uğur ma",
+    "colorId": "2",
+    "creator": {
+      "email": "iremleifarp@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T11:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T12:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "17rah1k1do13u10qj1s6jlqou4@google.com",
+    "sequence": 2,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471649118224000\"",
+    "id": "d4cq6vjpbl1sjtd4i8cep280fc",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=ZDRjcTZ2anBibDFzanRkNGk4Y2VwMjgwZmMgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-16T10:44:57.000Z",
+    "updated": "2025-01-02T13:29:19.112Z",
+    "summary": "11.00 🔪sait tokgün iy",
+    "description": "<p><b>Sait Tokgün (iy)</b></p><p>554-166-2577</p>",
+    "location": "kosta onamı - 206",
+    "colorId": "4",
+    "creator": {
+      "email": "ezginurkurtt@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T12:30:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T15:30:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "d4cq6vjpbl1sjtd4i8cep280fc@google.com",
+    "sequence": 5,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471642268626000\"",
+    "id": "ogg7cvr93foj8754ugjudbo9vg",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=b2dnN2N2cjkzZm9qODc1NHVnanVkYm85dmcgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-29T11:04:47.000Z",
+    "updated": "2025-01-02T12:32:14.313Z",
+    "summary": "K2 Yusuf yamaç",
+    "colorId": "2",
+    "creator": {
+      "email": "ibrahimyagciasistan@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T15:30:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T15:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "ogg7cvr93foj8754ugjudbo9vg@google.com",
+    "sequence": 1,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471643524362000\"",
+    "id": "2uahreakh33f7jfmk2s4da8oi8",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MnVhaHJlYWtoMzNmN2pmbWsyczRkYThvaTggMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-29T11:08:36.000Z",
+    "updated": "2025-01-02T12:42:42.181Z",
+    "summary": "k liv ismail gençtürk",
+    "colorId": "2",
+    "creator": {
+      "email": "ezginurkurtt@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T15:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T16:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "2uahreakh33f7jfmk2s4da8oi8@google.com",
+    "sequence": 1,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471644147964000\"",
+    "id": "4h3aqc01cneu15qhe6gb1caovc",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NGgzYXFjMDFjbmV1MTVxaGU2Z2IxY2FvdmMgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-31T09:50:12.000Z",
+    "updated": "2025-01-02T12:47:53.982Z",
+    "summary": "dr turgay tampon duygu kütük ab",
+    "colorId": "2",
+    "creator": {
+      "email": "iremleifarp@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T16:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T16:15:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "4h3aqc01cneu15qhe6gb1caovc@google.com",
+    "sequence": 4,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471778611142000\"",
+    "id": "adjuuue31kmua0hqndpuqo0mgc",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=YWRqdXV1ZTMxa211YTBocW5kcHVxbzBtZ2MgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2025-01-02T09:24:11.000Z",
+    "updated": "2025-01-03T07:28:25.571Z",
+    "summary": "m ea zeynep sude fersan tel no 5333424196",
+    "colorId": "2",
+    "creator": {
+      "email": "ezginurkurtt@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T16:15:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T16:30:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "adjuuue31kmua0hqndpuqo0mgc@google.com",
+    "sequence": 1,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471631117600000\"",
+    "id": "cttsk3rc3kh5fv3rivj22ubn0k",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=Y3R0c2szcmMza2g1ZnYzcml2ajIydWJuMGsgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-31T09:18:21.000Z",
+    "updated": "2025-01-02T10:59:18.800Z",
+    "summary": "m | zehra taşkıran sk",
+    "colorId": "11",
+    "creator": {
+      "email": "iremleifarp@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T16:15:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T16:30:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "cttsk3rc3kh5fv3rivj22ubn0k@google.com",
+    "sequence": 1,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471648870066000\"",
+    "id": "viladb3gf189gdla87lssbgnv8",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=dmlsYWRiM2dmMTg5Z2RsYTg3bHNzYmdudjggMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-24T14:11:21.000Z",
+    "updated": "2025-01-02T13:27:15.033Z",
+    "summary": "k1 zilan gümüştekin",
+    "colorId": "2",
+    "creator": {
+      "email": "iremleifarp@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T16:30:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T16:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "viladb3gf189gdla87lssbgnv8@google.com",
+    "sequence": 6,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471650331288000\"",
+    "id": "561tg5n2clmhomnlp67844lmdg",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NTYxdGc1bjJjbG1ob21ubHA2Nzg0NGxtZGcgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2025-01-02T08:13:04.000Z",
+    "updated": "2025-01-02T13:39:25.644Z",
+    "summary": "dr turgay tampon bir kisi gülsüm",
+    "colorId": "2",
+    "creator": {
+      "email": "iremleifarp@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T16:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T17:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "561tg5n2clmhomnlp67844lmdg@google.com",
+    "sequence": 2,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471645182774000\"",
+    "id": "6pir16m08bvvq3so32p8asbpqc",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NnBpcjE2bTA4YnZ2cTNzbzMycDhhc2JwcWMgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2025-01-02T11:38:14.000Z",
+    "updated": "2025-01-02T12:56:31.387Z",
+    "summary": "m | serdal sağlam ma",
+    "colorId": "2",
+    "creator": {
+      "email": "iremleifarp@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T16:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T17:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "6pir16m08bvvq3so32p8asbpqc@google.com",
+    "sequence": 1,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471629833678000\"",
+    "id": "ec558ed1vt453ct54i8g5t9ag0",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=ZWM1NThlZDF2dDQ1M2N0NTRpOGc1dDlhZzAgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-31T10:07:54.000Z",
+    "updated": "2025-01-02T10:48:36.839Z",
+    "summary": "m | otoplasti çiğdem bektaş",
+    "colorId": "11",
+    "creator": {
+      "email": "iremleifarp@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T16:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T17:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "ec558ed1vt453ct54i8g5t9ag0@google.com",
+    "sequence": 1,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471652436960000\"",
+    "id": "9acmn154dh7o2ad48vk6oc0tu8",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=OWFjbW4xNTRkaDdvMmFkNDh2azZvYzB0dTggMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2025-01-02T10:02:53.000Z",
+    "updated": "2025-01-02T13:56:58.480Z",
+    "summary": "livanur zelal yılmaz geniz eti 9 yaş iy",
+    "colorId": "2",
+    "creator": {
+      "email": "iremleifarp@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T17:00:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T17:15:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "9acmn154dh7o2ad48vk6oc0tu8@google.com",
+    "sequence": 4,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471652436640000\"",
+    "id": "74sbmg1u9n7r60o5j4jdqqte8k",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NzRzYm1nMXU5bjdyNjBvNWo0amRxcXRlOGsgMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2025-01-01T08:32:22.000Z",
+    "updated": "2025-01-02T13:56:58.320Z",
+    "summary": "op Neeraj Mall",
+    "colorId": "2",
+    "creator": {
+      "email": "ezginurkurtt@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T17:15:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T17:30:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "74sbmg1u9n7r60o5j4jdqqte8k@google.com",
+    "sequence": 6,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"3471650262998000\"",
+    "id": "7dh46l8g5eveadcfbtbo7lkqsj",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=N2RoNDZsOGc1ZXZlYWRjZmJ0Ym83bGtxc2ogMWE5OWNjNThlYzdiY2RkMmQxYWFiMzA0ZmYzZDU5YTE4YzJhYTAxZTU0MGRhZDMzZWFkOTFmNDkxNzI3YWEwY0Bn",
+    "created": "2024-12-31T06:33:37.000Z",
+    "updated": "2025-01-02T13:38:51.499Z",
+    "summary": "Meryem elma (dr ece nin hastası) rino",
+    "colorId": "4",
+    "creator": {
+      "email": "ibrahimyagcimd@gmail.com"
+    },
+    "organizer": {
+      "email": "1a99cc58ec7bcdd2d1aab304ff3d59a18c2aa01e540dad33ead91f491727aa0c@group.calendar.google.com",
+      "displayName": "Rinoplasti ASYA [iy]",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2025-01-02T17:45:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "end": {
+      "dateTime": "2025-01-02T19:15:00+03:00",
+      "timeZone": "Europe/Istanbul"
+    },
+    "iCalUID": "7dh46l8g5eveadcfbtbo7lkqsj@google.com",
+    "sequence": 7,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  }
+]
