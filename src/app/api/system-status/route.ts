@@ -53,7 +53,7 @@ export async function GET() {
 
         // LIVE CHECK (HTTP)
         const liveEndpoints = [
-            { name: 'calendar-api (LIVE)', url: 'https://calendar.ibrahimyagci.com/api/version' },
+            { name: 'calendar-api (LIVE)', url: 'https://calendar-api-six-jade.vercel.app/api/version' },
             { name: 'rinoapp-panel (LIVE)', url: 'https://panel.ibrahimyagci.com/api/version' },
             { name: 'takvim (LIVE)', url: 'https://takvim.ibrahimyagci.com/api/version' }
         ];
