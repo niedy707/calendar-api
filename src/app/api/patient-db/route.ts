@@ -59,7 +59,46 @@ function calculateControlLabel(surgeryDateStr: string, controlDateStr: string): 
 
 export async function GET(request: NextRequest) {
     try {
-        // 1. Authenticate
+        // 1. Fetch Hospital DB (Patient List) from External API
+        // This is the source of truth for "Who is a patient" and "When was surgery"
+        const HOSPITAL_DB_API = 'https://panel.ibrahimyagci.com/api/patient-db';
+
+        let hospitalPatients: any[] = [];
+        try {
+            const hopitalRes = await fetch(HOSPITAL_DB_API, { next: { revalidate: 0 } });
+            if (hopitalRes.ok) {
+                hospitalPatients = await hopitalRes.json();
+            } else {
+                console.error(`Failed to fetch external patient DB: ${hopitalRes.status}`);
+                // fallback or empty? Let's proceed with empty if failed, but log it.
+            }
+        } catch (e) {
+            console.error('Network error fetching external patient DB:', e);
+        }
+
+        // Initialize Map with Hospital Data
+        const patientsMap = new Map<string, Patient>();
+
+        hospitalPatients.forEach((p: any) => {
+            // Validate minimal data
+            const surgeryDate = p.date || p.surgeryDate;
+            if (!surgeryDate) return;
+
+            const name = p.name || '';
+            const formattedName = normalizeName(name);
+
+            if (!formattedName || formattedName.length < 2) return;
+
+            patientsMap.set(formattedName, {
+                name: formattedName,
+                surgeryDate: surgeryDate,
+                hospital: p.hospital, // Trust the external DB for hospital name
+                controls: []
+            });
+        });
+
+        // 2. Fetch ALL Events from Google Calendar to find Controls
+        // We still need the raw events to find "Control" appointments
         const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
         const privateKey = CALENDAR_CONFIG.key.replace(/\\n/g, '\n');
         const auth = new google.auth.GoogleAuth({
@@ -71,17 +110,15 @@ export async function GET(request: NextRequest) {
         });
         const calendar = google.calendar({ version: 'v3', auth });
 
-        // 2. Fetch ALL Events (e.g. from Jan 1, 2024 to present/future)
-        // We need a wide range to catch past surgeries and future controls
         const allEvents: any[] = [];
         let pageToken: string | undefined = undefined;
 
-        // Fetching...
+        // Fetch wide range
         do {
             const response: any = await calendar.events.list({
                 calendarId: CALENDAR_CONFIG.calendarId,
                 timeMin: '2024-01-01T00:00:00Z',
-                maxResults: 2500,
+                maxResults: 2500, // Large batch
                 singleEvents: true,
                 orderBy: 'startTime',
                 pageToken: pageToken,
@@ -93,83 +130,10 @@ export async function GET(request: NextRequest) {
             pageToken = response.data.nextPageToken;
         } while (pageToken);
 
-        // 3. Process Events to Build Patient Database
-        const patientsMap = new Map<string, Patient>();
+
+        // 3. Process Events to Find Controls
         const now = new Date();
 
-        // Pass 1: Identify Surgeries
-        // We look for events with specific colors or keywords if we had them, OR we treat the first event of a person as surgery?
-        // Actually, the user's "rinoapp" logic usually distinguished surgeries by a category or calendar ID.
-        // In `events/route.ts` logic (which I saw earlier but didn't memorize fully), it categorized events.
-        // Let's look for "Ameliyat" or assumption based: Surgery is usually a long block or has specific keywords.
-        // But simplifying: Let's assume ANY event that looks like "Name Surname / SurgeryType" is a surgery if it matches known patterns.
-        // Or simpler: We don't know surgery vs control from just title easily without the "categorizeEvent" logic.
-        // Let's use `categorizeEvent` from lib if possible, or just build a robust heuristic here.
-
-        // Let's TRY to find surgeries. 
-        // Heuristic: Surgeries usually have "Rino", "Revizyon", "Otoplasti" in title OR are marked with specific colors.
-        // In the previous `events` route, I saw `categorizeEvent` import. Let's rely on event structure.
-
-        // Pass 1: Identify Surgeries
-        allEvents.forEach((event: any) => {
-            const title = event.summary || '';
-
-            // Refined Surgery Detection Logic
-            // 1. ColorId 4 (Flamingo) is consistently used for surgeries in the sample
-            // 2. 🔪 emoji is a strong indicator
-            // 3. Keywords: rino, revizyon, otoplasti, blef, tiplasti, septorin, septum, op 
-            // 4. Exclude if title starts with 'm |' (Muayene?) or 'k' (Kontrol?) unless it has surgery keywords
-
-            const isSurgeryColor = event.colorId === '4';
-            const hasSurgeryEmoji = title.includes('🔪');
-            const hasSurgeryKeyword = /rino|revizyon|otoplasti|blef|tiplasti|septorin|septum|^op\s/i.test(title);
-
-            // Strong signals override weak excludes
-            const isSurgery = isSurgeryColor || hasSurgeryEmoji || hasSurgeryKeyword;
-
-            // Double check to exclude obvious controls/examinations if they accidentally match
-            if (isSurgery) {
-                if (/^k\d|^kontrol|botoks|dolgu/i.test(title) && !hasSurgeryEmoji) return;
-            }
-
-            if (isSurgery) {
-                // Normalize Name
-                // Remove prefixes like "08.00 🔪", "op ", etc.
-                let cleanTitle = title
-                    .replace(/^\d{2}[:.]\d{2}\s*🔪?/g, '') // Remove time + emoji prefix
-                    .replace(/^op\s+/i, '') // Remove 'op ' prefix
-                    .trim();
-
-                const namePart = cleanTitle.split('/')[0].split('|')[0].trim();
-                const formattedName = normalizeName(namePart);
-
-                if (formattedName.split(' ').length < 2) return; // Skip single names
-
-                const date = event.start.dateTime?.split('T')[0] || event.start.date;
-                if (!date) return;
-
-                // Hospital Detection
-                // Default to 'Asya' based on calendar name "Rinoplasti ASYA"
-                let hospital = 'Asya';
-
-                // Override if other hospital keywords found
-                if (/bht/i.test(event.location) || /bht/i.test(title)) hospital = 'BHT';
-                else if (/bağcılar|medipol/i.test(event.location) || /bağcılar/i.test(title)) hospital = 'Bağcılar';
-                else if (/ich/i.test(event.location) || /ich/i.test(title)) hospital = 'ICH';
-                else if (/medistanbul/i.test(event.location) || /medistanbul/i.test(title)) hospital = 'Medistanbul';
-
-                if (!patientsMap.has(formattedName)) {
-                    patientsMap.set(formattedName, {
-                        name: formattedName,
-                        surgeryDate: date,
-                        hospital,
-                        controls: []
-                    });
-                }
-            }
-        });
-
-        // Pass 2: Identify Controls for these patients
         allEvents.forEach((event: any) => {
             const title = event.summary || '';
             const lowerTitle = title.toLocaleLowerCase('tr-TR');
@@ -177,28 +141,35 @@ export async function GET(request: NextRequest) {
 
             if (!date) return;
 
+            // Check against our Known Patients Map
             patientsMap.forEach((patient, name) => {
                 const lowerName = name.toLocaleLowerCase('tr-TR');
 
                 // Check if event title contains patient name
+                // Simple inclusion check is usually enough given we have normalized names
                 if (lowerTitle.includes(lowerName)) {
-                    // Check if it's NOT the surgery itself
+
+                    // Exclude if it's the surgery itself (same date)
                     if (date === patient.surgeryDate) return;
 
-                    // Check if date is AFTER surgery
+                    // Exclude pre-op (date <= surgery date)
+                    // (Some controls might be same day but let's assume not for simplicity or > check)
                     if (new Date(date) <= new Date(patient.surgeryDate)) return;
 
                     // It's a control!
                     const label = calculateControlLabel(patient.surgeryDate, date);
 
-                    // Status
+                    // Determine Status
                     let status: 'attended' | 'cancelled' | 'planned' = 'attended';
-                    if (event.colorId === '11') status = 'cancelled'; // Red
+
+                    // Check cancellation colors (Flamingo/Red usually for surgery but red also used for cancelled sometimes? 
+                    // Classification.ts said #dc2127 or '11' is IGNORE/Cancelled
+                    if (event.colorId === '11') status = 'cancelled';
                     else if (new Date(date) > now) status = 'planned';
 
                     if (!patient.controls) patient.controls = [];
 
-                    // Avoid duplicates
+                    // Avoid duplicates (same date)
                     if (!patient.controls.some(c => c.date === date)) {
                         patient.controls.push({
                             date,
@@ -211,13 +182,15 @@ export async function GET(request: NextRequest) {
             });
         });
 
-        // Sort Control Arrays and Patient List
+        // 4. Sort and Return
         const patientList = Array.from(patientsMap.values());
 
+        // Sort controls
         patientList.forEach(p => {
             p.controls?.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
         });
 
+        // Sort patients by surgery date desc
         patientList.sort((a, b) => new Date(b.surgeryDate).getTime() - new Date(a.surgeryDate).getTime());
 
         return NextResponse.json(patientList);
