@@ -144,12 +144,14 @@ export default function SystemStatus() {
                 {/* Header */}
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-slate-900 p-6 rounded-2xl shadow-xl border border-slate-800">
                     <div>
-                        <h2 className="text-2xl font-bold text-white flex items-center gap-3">
-                            <Activity className="w-7 h-7 text-indigo-500" />
-                            Sistem Durumu Merkezi
-                        </h2>
-                        <p className="text-slate-400 mt-1">
-                            Tüm projelerdeki senkronizasyon ve deploy durumu.
+                        <div className="flex items-center gap-3 mb-1">
+                            <Activity className="w-8 h-8 text-indigo-500" />
+                            <h1 className="text-3xl font-black text-white tracking-tight">
+                                Classification.ts Senkronizasyon Kontrolü
+                            </h1>
+                        </div>
+                        <p className="text-slate-400 font-medium text-lg ml-11">
+                            Tüm projelerdeki sınıflandırma kurallarının (classification.ts) eşzamanlılık durumu.
                         </p>
                     </div>
                     <div className="text-right flex items-center gap-4">
