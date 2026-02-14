@@ -89,3 +89,36 @@ export function categorizeEvent(
     // Default to appointment
     return 'appointment';
 }
+
+/**
+ * Calculates the control label based on time difference between surgery and event.
+ * Rules:
+ * - < 7 days: returns days (e.g. "3d")
+ * - 7-25 days: returns weeks, rounded to nearest integer (e.g. "2w")
+ * - > 25 days: returns months, rounded to nearest 0.5 (e.g. "1m", "1.5m", "2m")
+ * 
+ * @param surgeryDateStr - Surgery Date (YYYY-MM-DD or comparable)
+ * @param eventDateStr - Event Date (YYYY-MM-DD or comparable)
+ */
+export function calculateControlLabel(surgeryDateStr: string | Date, eventDateStr: string | Date): string {
+    const surgeryDate = new Date(surgeryDateStr);
+    const eventDate = new Date(eventDateStr);
+
+    // Calculate difference in days
+    const diffTime = eventDate.getTime() - surgeryDate.getTime();
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+    if (diffDays < 0) return '?';
+
+    if (diffDays < 7) {
+        return `${diffDays}d`;
+    } else if (diffDays <= 25) {
+        const weeks = Math.round(diffDays / 7);
+        return `${weeks}w`;
+    } else {
+        const months = diffDays / 30; // Approximation
+        // Round to nearest 0.5
+        const roundedMonths = Math.round(months * 2) / 2;
+        return `${roundedMonths}m`;
+    }
+}

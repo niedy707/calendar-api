@@ -37,25 +37,7 @@ function normalizeName(name: string): string {
         .join(' ');
 }
 
-/**
- * Calculates control label
- */
-function calculateControlLabel(surgeryDateStr: string, controlDateStr: string): string {
-    const surgeryDate = new Date(surgeryDateStr);
-    const controlDate = new Date(controlDateStr);
-    const diffTime = controlDate.getTime() - surgeryDate.getTime();
-    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-
-    if (diffDays < 0) return '?';
-
-    if (diffDays < 7) {
-        return `${diffDays}d`;
-    } else if (diffDays <= 25) {
-        return `${Math.round(diffDays / 7)}w`;
-    } else {
-        return `${Math.round(diffDays / 30)}m`;
-    }
-}
+import { calculateControlLabel } from '@/lib/classification';
 
 export async function GET(request: NextRequest) {
     try {
